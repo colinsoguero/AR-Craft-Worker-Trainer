@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VuforiaUnityInfo version="7.0">
+    <TargetSet version="5.0" toolVersion="2.8.0">
+        <CylinderTarget name="3DPipe" version="3.0" targetId="f1e32cb988914b6ca6a1d82ea6809179" sideLength="4.850000" topDiameter="2.600000" bottomDiameter="2.600000" sideImage="3DPipe.Body_scaled.jpg"/>
+    </TargetSet>
+</VuforiaUnityInfo>
