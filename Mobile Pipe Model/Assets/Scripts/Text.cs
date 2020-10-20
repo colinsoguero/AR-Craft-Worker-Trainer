@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Text : MonoBehaviour
 {
-    GameObject textPrefab;
+    public GameObject textPrefab;
     GameObject target;
     Transform cam;
     public GameObject lengthText;
@@ -17,7 +17,7 @@ public class Text : MonoBehaviour
 
         cam = GameObject.Find("ARCamera").GetComponent<Transform>();
 
-        textPrefab = GameObject.Find("TextPrefab");
+        //textPrefab = GameObject.Find("TextPrefab");
 
         // Instantiate text prefab for length, step number, and part name
         lengthText = Instantiate(textPrefab, transform.position, Quaternion.Euler(0, 0, 0)); 

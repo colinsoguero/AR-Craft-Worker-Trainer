@@ -5,20 +5,20 @@ using UnityEngine;
 public class StepByStep : MonoBehaviour
 {
     public GameObject[] parts;
-    public int i = 0;
+    public int i = 0;                                     
     // Start is called before the first frame update
     void Start()
     {
         foreach(GameObject go in parts)
         {
-            go.SetActive(false);
+            go.SetActive(true);                             //CHANGED
         }
         //Debug.Log("width: " + width.ToString("F5"));
     }
 
     void Update()
     {
-        for(int j = 0; j<=parts.Length; j++)
+/*        for(int j = 0; j<=parts.Length; j++)
         {
             if(j<i) //for every object up to i in the parts array, make visible
             {
@@ -46,7 +46,7 @@ public class StepByStep : MonoBehaviour
             {
                 parts[j].SetActive(false);
             }
-        }
+        }*/
 
     }
 
