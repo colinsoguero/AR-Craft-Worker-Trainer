@@ -11,33 +11,33 @@ public class StepByStep : MonoBehaviour
     {
         foreach(GameObject go in parts)
         {
-            go.SetActive(true);                             //CHANGED
+            go.SetActive(false);                             
         }
         //Debug.Log("width: " + width.ToString("F5"));
     }
 
     void Update()
     {
-/*        for(int j = 0; j<=parts.Length; j++)
+        for (int j = 0; j <= parts.Length; j++)
         {
-            if(j<i) //for every object up to i in the parts array, make visible
+            if (j < i) //for every object up to i in the parts array, make visible
             {
                 parts[j].SetActive(true);
-                foreach(MeshRenderer m in parts[j].GetComponentsInChildren<MeshRenderer>())
+                foreach (MeshRenderer m in parts[j].GetComponentsInChildren<MeshRenderer>())
                 {
                     Color color = m.material.color;
-                    m.material.shader = Shader.Find( "Standard" );
+                    m.material.shader = Shader.Find("Standard");
                     color.a = 1.0f;
                     m.material.color = color;
                 }
             }
-            else if(j==i) //Displays the next step as transparent
+            else if (j == i) //Displays the next step as transparent
             {
                 parts[j].SetActive(true);
-                foreach(MeshRenderer m in parts[i].GetComponentsInChildren<MeshRenderer>())
-                { 
+                foreach (MeshRenderer m in parts[i].GetComponentsInChildren<MeshRenderer>())
+                {
                     Color color = m.material.color;
-                    m.material.shader = Shader.Find( "Transparent/Diffuse" );
+                    m.material.shader = Shader.Find("Transparent/Diffuse");
                     color.a = 0.4f;
                     m.material.color = color;
                 }
@@ -46,7 +46,7 @@ public class StepByStep : MonoBehaviour
             {
                 parts[j].SetActive(false);
             }
-        }*/
+        }
 
     }
 

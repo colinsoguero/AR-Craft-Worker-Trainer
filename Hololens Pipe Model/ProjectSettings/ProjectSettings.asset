@@ -177,7 +177,7 @@ PlayerSettings:
   CreateWallpaper: 0
   APKExpansionFiles: 0
   keepLoadedShadersAlive: 0
-  StripUnusedMeshComponents: 1
+  StripUnusedMeshComponents: 0
   VertexChannelCompressionMask: 4054
   iPhoneSdkVersion: 988
   iOSTargetOSVersionString: 11.0
@@ -588,6 +588,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLWasmStreaming: 0
   scriptingDefineSymbols:
+    1: 
     4: VUFORIA_IOS_SETTINGS
     7: VUFORIA_ANDROID_SETTINGS
     14: release;VUFORIA_WSA_SETTINGS
@@ -605,7 +606,7 @@ PlayerSettings:
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: Vuforia.Engine.VuforiaHoloLensMRTK
-  metroPackageVersion: 9.3.22.0
+  metroPackageVersion: 9.3.23.0
   metroCertificatePath: Assets/WSATestCertificate.pfx
   metroCertificatePassword: '=>?89:'
   metroCertificateSubject: PTC Inc.
