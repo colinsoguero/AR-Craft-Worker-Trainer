@@ -28,27 +28,27 @@ public class InfoDisplay : MonoBehaviour
 
     void Update()
     { 
-        foreach(GameObject go in target.GetComponent<StepByStep>().parts)
+        foreach(GameObject go in target.GetComponent<StepThrough>().parts)
         {
             if(go.activeSelf && lengthDisplayed)
-                go.GetComponent<Text>().lengthText.SetActive(true);
+                go.GetComponent<Part>().lengthText.SetActive(true);
             else
-                go.GetComponent<Text>().lengthText.SetActive(false);
+                go.GetComponent<Part>().lengthText.SetActive(false);
 
             if(go.activeSelf && stepDisplayed)
-                go.GetComponent<Text>().stepText.SetActive(true);
+                go.GetComponent<Part>().stepText.SetActive(true);
             else
-                go.GetComponent<Text>().stepText.SetActive(false);
+                go.GetComponent<Part>().stepText.SetActive(false);
 
             if(go.activeSelf && nameDisplayed)
-                go.GetComponent<Text>().nameText.SetActive(true);
+                go.GetComponent<Part>().nameText.SetActive(true);
             else
-                go.GetComponent<Text>().nameText.SetActive(false);
+                go.GetComponent<Part>().nameText.SetActive(false);
         }
 
         if(waterDisplayed)
         {
-            foreach(GameObject go in target.GetComponent<StepByStep>().parts)
+            foreach(GameObject go in target.GetComponent<StepThrough>().parts)
             {
                 foreach(MeshRenderer m in go.GetComponentsInChildren<MeshRenderer>())
                 { 

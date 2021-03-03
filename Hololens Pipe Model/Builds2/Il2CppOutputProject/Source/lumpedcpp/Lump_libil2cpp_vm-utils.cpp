@@ -1,0 +1,6 @@
+#include "il2cpp-config.h"
+#include "D:\Github Repos\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\Il2CppOutputProject\IL2CPP\libil2cpp\vm-utils\BlobReader.cpp"
+#include "D:\Github Repos\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\Il2CppOutputProject\IL2CPP\libil2cpp\vm-utils\Debugger.cpp"
+#include "D:\Github Repos\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\Il2CppOutputProject\IL2CPP\libil2cpp\vm-utils\NativeDelegateMethodCache.cpp"
+#include "D:\Github Repos\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\Il2CppOutputProject\IL2CPP\libil2cpp\vm-utils\NativeSymbol.cpp"
+#include "D:\Github Repos\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\Il2CppOutputProject\IL2CPP\libil2cpp\vm-utils\VmStringUtils.cpp"

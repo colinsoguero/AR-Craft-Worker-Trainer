@@ -1,0 +1,10 @@
+﻿  pch.cpp
+  App.cpp
+  Main.cpp
+  UnityGenerated.cpp
+D:\Github Repos\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\Hololens Pipe Model\App.cpp(26,1): warning C4973: 'Windows::UI::ViewManagement::IApplicationView2::SuppressSystemOverlays::set': marked as deprecated
+D:\Github Repos\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\Hololens Pipe Model\App.cpp(26,1): message : Message: 'Use the TryEnterFullScreen method and IsFullScreenMode property instead of SuppressSystemOverlays. For more info, see MSDN.'
+  Generating code
+  Finished generating code
+  Hololens Pipe Model.vcxproj -> D:\Github Repos\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\build\bin\ARM\Release\Hololens Pipe Model.exe
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VisualStudio\v16.0\AppxPackage\Microsoft.AppXPackage.Targets(2718,5): warning : Publisher name (CN=PTC Inc.) does not match signing certificate subject: CN=DefaultCompany. Updating Publisher name.
