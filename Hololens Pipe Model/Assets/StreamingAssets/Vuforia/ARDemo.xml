@@ -2,6 +2,5 @@
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
     <ImageTarget name="NSF_Logo" size="0.203000 0.204061" />
-    <CylinderTarget name="Collider" sideLength="0.123190"/>
   </Tracking>
 </QCARConfig>

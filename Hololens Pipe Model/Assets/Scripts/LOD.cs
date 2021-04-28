@@ -5,29 +5,17 @@ using UnityEngine;
 public class LOD : MonoBehaviour
 {
     public GameObject[] models;
-    
-    public void Display200()
+
+    public void Display300()
     {
         ResetModels();
         models[0].SetActive(true);
     }
 
-    public void Display300()
-    {
-        ResetModels();
-        models[1].SetActive(true);
-    }
-
-    public void Display350()
-    {
-        ResetModels();
-        models[2].SetActive(true);
-    }
-
     public void Display400()
     {
         ResetModels();
-        models[3].SetActive(true);
+        models[1].SetActive(true);
     }
 
     private void ResetModels()

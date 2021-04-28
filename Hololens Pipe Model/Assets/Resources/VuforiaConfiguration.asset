@@ -23,7 +23,7 @@ MonoBehaviour:
     useDelayedLoadingObjectTargets: 0
     modelTargetRecoWhileExtendedTracked: 1
     version: 9.1.7
-    eulaAcceptedVersions: '{"Values":["","0.0","9.0","8.0","8.3","9.1","9.3","8.5","9.4"]}'
+    eulaAcceptedVersions: '{"Values":["","0.0","9.0","8.0","8.3","9.1","9.3","8.5","9.4","9.7"]}'
     modelTargetMode: 0
   database:
     disableModelExtraction: 0
@@ -37,6 +37,6 @@ MonoBehaviour:
     arcoreRequirement: 0
     autoImportArcore: 0
   playmode:
-    playModeType: 1
+    playModeType: 0
   webcam:
     renderTextureLayer: 30
