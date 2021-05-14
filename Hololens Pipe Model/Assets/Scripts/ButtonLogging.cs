@@ -69,4 +69,11 @@ public class ButtonLogging : MonoBehaviour
             file.AddToLog(message);     
         }
     }
+
+    public void ObjectLookedAt()
+    {
+        string time = System.DateTime.Now.ToString();
+        string message = "object looked at: " + time;
+        file.AddToLog(message);
+    }
 }
