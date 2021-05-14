@@ -391,7 +391,7 @@ struct Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1;
 // System.Func`2<System.Object,System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken>
 struct Func_2_t80700DE803AC202B9E949DB51E593F052DD8B5CB;
 // System.Func`2<Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>,System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken>
-struct Func_2_tD5E957875DC77E7C0675066916DCB2B954E58383;
+struct Func_2_t63C6433E4BD65B2D3A3E7111DFD2A8CAE1DBFAAD;
 // System.IAsyncResult
 struct IAsyncResult_t8E194308510B375B42432981AE5E7488C458D598;
 // System.Int32[]
@@ -669,15 +669,15 @@ struct WorldAnchorU5BU5D_t8FF7D9A45565A11A23D48201681989EF6B4199FB;
 // Windows.Foundation.TypedEventHandler`2<System.Object,System.Object>
 struct TypedEventHandler_2_t6C7A7811426A9D4F993A89876C162DF171CF14CA;
 // Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>
-struct TypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544;
+struct TypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07;
 // Windows.UI.ViewManagement.IInputPaneStatics
 struct IInputPaneStatics_tA2D7453D23A2D5BF72A422066DA431171EB635D1;
 // Windows.UI.ViewManagement.IInputPaneStatics2
 struct IInputPaneStatics2_tCA4EE898807021208537A9D383D79B386101DD13;
 // Windows.UI.ViewManagement.InputPane
-struct InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7;
+struct InputPane_tF641607371837413F8F3D16C71A021541F5E107C;
 // Windows.UI.ViewManagement.InputPaneVisibilityEventArgs
-struct InputPaneVisibilityEventArgs_tECB6C1124F9BEF39299FC5E8DED8C1127D24E6EA;
+struct InputPaneVisibilityEventArgs_t81F033A373C01E20052FF7CCDCE6574CE1896942;
 
 IL2CPP_EXTERN_C RuntimeClass* Action_1_t32A9EECF5D4397CC1B9A7C7079870875411B06D0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_1_t737D06EDDDE823485B1F86C90BD108E5C29C7679_il2cpp_TypeInfo_var;
@@ -696,7 +696,7 @@ IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_tB917211DA126597937FC7D5AF12A9E1B7A76
 IL2CPP_EXTERN_C RuntimeClass* EventArgs_t8E6CA180BE0E56674C6407011A94BAF7C757352E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EventHandler_t2B84E745E28BA26C49C4E99A387FC3B534D1110C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Func_1_t4ABD6DAD480574F152452DD6B9C9A55F4F6655F1_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Func_2_tD5E957875DC77E7C0675066916DCB2B954E58383_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_t63C6433E4BD65B2D3A3E7111DFD2A8CAE1DBFAAD_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* GetAsyncDelegate_t243E451DDFA40F30023A031E71AA0BDC9D9865EF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IDisposable_t7218B22548186B208D65EA5B7870503810A2D15A_il2cpp_TypeInfo_var;
@@ -735,7 +735,7 @@ IL2CPP_EXTERN_C RuntimeClass* String_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TMP_InputField_tC3C57E697A57232E8A855D39600CF06CFDA8F6CB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* TypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CAnimateToU3Ed__150_tC73854B74E98FA657ACBD76FAC8641903328FCE5_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CBlinkCaretU3Ed__20_t5CB2F3AD5C6004A44137C3C48E6296AB2ABDF31C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CFadeOutHintU3Ed__49_tCC3936BE32BBEF12A56D9D69C93675B9414E2420_il2cpp_TypeInfo_var;
@@ -850,7 +850,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m7A97C565208E0E033D2
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_mDEC78B54C39E60B6BE6854152C4867772B046E4E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Func_1_Invoke_mFA91B93A5C91290D4A3C475C4117CA05B43419E6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Func_1__ctor_m479BA9DCBE3F496111BD05CC90CB1044C5FFD552_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Func_2__ctor_m541703AC2DE75816B36460D949736BCAADA59DBE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Func_2__ctor_m287416F7CF3B4D377418E5140BA352C3DB139105_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisAudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C_mF8E45BF814846E1641335B8471A4AEAA2AD83E8F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisClippingBox_tA66B48D206252C319F0D5C08EC095CD27A85CDBA_m175BD55E96D407EBAFC84A8A09D52A9C3253AF57_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponentInChildren_TisText_tE9317B57477F4B50AA4C16F460DE6F82DAD6D030_mCA8E2D4D3F45BEBE5BF1DFA221CBB794D1D6A4E4_RuntimeMethod_var;
@@ -896,8 +896,8 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mB9D869619B30FC5432E5F514D1
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mC0C3FB3C18DB4780063C2073D4460AB5D6014B3F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mCFB8D6F3DFD153283A3171BF7363F96C69232A5C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_set_Item_m65A08E4D7E8EB43B4CA806D0429804B1C8160DF9_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MixedRealityKeyboardBase_OnInputPaneHiding_m87E7912A135097D3124FB9C8E582EF901180F127_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MixedRealityKeyboardBase_OnInputPaneShowing_m5FE6B5A3EDA84024553A5DFD7F34DF1E9B54FC69_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MixedRealityKeyboardBase_OnInputPaneHiding_m1D433BEE9D60249F8F5839B0866CA7CB2417D4B1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MixedRealityKeyboardBase_OnInputPaneShowing_m92D9B57E7031D9BAA0FF58973734EFF1CA15A048_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* MixedRealityKeyboardBase_U3CHideKeyboardU3Eb__33_0_mD7564B100FBEDEAB0A2596111431D6C1A28AA050_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* MixedRealityKeyboardBase_U3COnDestroyU3Eb__27_0_m3AD2560D7445E4A8050882C5FBBE9676AF7012F2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* MixedRealityKeyboardBase_U3CShowKeyboardU3Eb__34_0_mEC64FEF6510A1A7D4FD9CCFD1F469CCC9359E892_RuntimeMethod_var;
@@ -924,7 +924,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* Queue_1__ctor_mD3690311155BBAAF6A6F4C25EFF0
 IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_get_Count_mCD376AF14DA4017DF76C07767BC40AA5F813DFE1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ScrollingObjectCollection_OnCameraPreRender_mB3C9F135447F5F751B4975CEB116B197E2FE71EE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ScrollingObjectCollection_U3CUpdateU3Eb__139_0_m0C4460D24161E3D6665A52969E37EA71ECE0EC66_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TypedEventHandler_2__ctor_m3CE37E1E61EFA6EBA2F9603A2758EEBC1FAA14A3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TypedEventHandler_2__ctor_m4BEAE8BBD8108EEB5320FB9B8B238F70BE91CD9D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CAnimateToU3Ed__150_System_Collections_IEnumerator_Reset_m28353BBA6B53C58FF30C9A25A15FC558F3AA6FB9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CBlinkCaretU3Ed__20_System_Collections_IEnumerator_Reset_mC1D6255D28D8A8C6F8CC657F184AD7637A743262_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CFadeOutHintU3Ed__49_System_Collections_IEnumerator_Reset_m6CED9DCCB1177AE6D651B79F43ECD8CA41F3846D_RuntimeMethod_var;
@@ -947,8 +947,8 @@ IL2CPP_EXTERN_C const RuntimeMethod* UnityAction_1__ctor_mC8304AF0B9A17F66EDD93F
 IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_AddListener_mF8752EB96C09C7D6AB6A0AA65529377C53AABFAF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_Invoke_mE2971A1FC349C8E2BC481610E2C687CEDEAC81CB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1__ctor_m021D2DAC1A929ED12D2822854303E6D848CB30AA_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* WindowsRuntimeMarshal_AddEventHandler_TisTypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544_m67312B4A589A1FD2F25C36B50ACA026D6E7CC7F5_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* WindowsRuntimeMarshal_RemoveEventHandler_TisTypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544_m473E1D3AB5E44D4B0244DF58C25D35B3A566CABB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* WindowsRuntimeMarshal_AddEventHandler_TisTypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07_m0B42B6E3469356466E7E9BE3A0F5A311D4B602A0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* WindowsRuntimeMarshal_RemoveEventHandler_TisTypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07_mA598C97AB304176C314C47B04E033E2EBC7CBEC5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* WorldAnchorManager_AnchorStoreReady_m31D076E08E2CD6786A6705BA525A001A4C5A8E69_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* WorldAnchorManager_Anchor_OnTrackingChanged_mB77B4AB470015BFB908EEAC792B12DB1D807C883_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* WorldAnchorManager_DoAnchorOperation_m77A640A6A79D5B58FCD8EC0108B638F1C347EA9E_RuntimeMethod_var;
@@ -1191,7 +1191,7 @@ IL2CPP_EXTERN_C_END
 struct NOVTABLE IInputPaneStatics_tA2D7453D23A2D5BF72A422066DA431171EB635D1 : Il2CppIInspectable
 {
 	static const Il2CppGuid IID;
-	virtual il2cpp_hresult_t STDCALL IInputPaneStatics_GetForCurrentView_mB1A38B9DB3CA4E465D2E7B3244A52430DDF6A42B(IInputPane_t523C480EC29F85B1ABD6FB73C30B736447E8E1A4** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IInputPaneStatics_GetForCurrentView_m1D70509F91580881A52B33DCA645C80C48B39AF7(IInputPane_t523C480EC29F85B1ABD6FB73C30B736447E8E1A4** comReturnValue) = 0;
 };
 // Windows.UI.ViewManagement.IInputPaneStatics2
 struct NOVTABLE IInputPaneStatics2_tCA4EE898807021208537A9D383D79B386101DD13 : Il2CppIInspectable
@@ -4281,14 +4281,14 @@ struct WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8_marshaled_com : 
 };
 
 // Windows.UI.ViewManagement.InputPane
-struct  InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7  : public Il2CppComObject
+struct  InputPane_tF641607371837413F8F3D16C71A021541F5E107C  : public Il2CppComObject
 {
 public:
 
 public:
 };
 
-struct InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7_StaticFields
+struct InputPane_tF641607371837413F8F3D16C71A021541F5E107C_StaticFields
 {
 public:
 	// Cached pointer to IActivationFactory
@@ -4353,7 +4353,7 @@ public:
 
 
 // Windows.UI.ViewManagement.InputPaneVisibilityEventArgs
-struct  InputPaneVisibilityEventArgs_tECB6C1124F9BEF39299FC5E8DED8C1127D24E6EA  : public Il2CppComObject
+struct  InputPaneVisibilityEventArgs_t81F033A373C01E20052FF7CCDCE6574CE1896942  : public Il2CppComObject
 {
 public:
 
@@ -8929,7 +8929,7 @@ public:
 
 
 // System.Func`2<Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>,System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken>
-struct  Func_2_tD5E957875DC77E7C0675066916DCB2B954E58383  : public MulticastDelegate_t
+struct  Func_2_t63C6433E4BD65B2D3A3E7111DFD2A8CAE1DBFAAD  : public MulticastDelegate_t
 {
 public:
 
@@ -9782,7 +9782,7 @@ public:
 
 
 // Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>
-struct  TypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544  : public MulticastDelegate_t
+struct  TypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07  : public MulticastDelegate_t
 {
 public:
 
@@ -9790,7 +9790,7 @@ public:
 };
 
 // COM Callable Wrapper interface definition for Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>
-struct ITypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544_ComCallableWrapper : Il2CppIUnknown
+struct ITypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07_ComCallableWrapper : Il2CppIUnknown
 {
 	static const Il2CppGuid IID;
 	virtual il2cpp_hresult_t STDCALL Invoke(IInputPane_t523C480EC29F85B1ABD6FB73C30B736447E8E1A4* ___sender0, IInputPaneVisibilityEventArgs_t5808002BBD73EB40213812EE59DB0022CA66FE19* ___args1) = 0;
@@ -10599,7 +10599,7 @@ public:
 	// Microsoft.MixedReality.Toolkit.Experimental.UI.MixedRealityKeyboardBase_KeyboardState Microsoft.MixedReality.Toolkit.Experimental.UI.MixedRealityKeyboardBase::state
 	int32_t ___state_8;
 	// Windows.UI.ViewManagement.InputPane Microsoft.MixedReality.Toolkit.Experimental.UI.MixedRealityKeyboardBase::inputPane
-	InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * ___inputPane_9;
+	InputPane_tF641607371837413F8F3D16C71A021541F5E107C * ___inputPane_9;
 	// UnityEngine.TouchScreenKeyboard Microsoft.MixedReality.Toolkit.Experimental.UI.MixedRealityKeyboardBase::keyboard
 	TouchScreenKeyboard_t2A69F85698E9780470181532D3F2BC903623FD90 * ___keyboard_10;
 	// UnityEngine.Coroutine Microsoft.MixedReality.Toolkit.Experimental.UI.MixedRealityKeyboardBase::stateUpdate
@@ -10652,9 +10652,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_inputPane_9() { return static_cast<int32_t>(offsetof(MixedRealityKeyboardBase_tDE0AB2B8EC8A0F280215BB0CC270A3FEE13349EF, ___inputPane_9)); }
-	inline InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * get_inputPane_9() const { return ___inputPane_9; }
-	inline InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 ** get_address_of_inputPane_9() { return &___inputPane_9; }
-	inline void set_inputPane_9(InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * value)
+	inline InputPane_tF641607371837413F8F3D16C71A021541F5E107C * get_inputPane_9() const { return ___inputPane_9; }
+	inline InputPane_tF641607371837413F8F3D16C71A021541F5E107C ** get_address_of_inputPane_9() { return &___inputPane_9; }
+	inline void set_inputPane_9(InputPane_tF641607371837413F8F3D16C71A021541F5E107C * value)
 	{
 		___inputPane_9 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___inputPane_9), (void*)value);
@@ -20536,11 +20536,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_mE1EA15D719BF2F632741D42D
 // System.Void UnityEngine.Events.UnityEvent::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent__ctor_m2F8C02F28E289CA65598FF4FA8EAB84D955FF028 (UnityEvent_t5C6DDC2FCDF7F5C1808F1DDFBAD27A383F5FE65F * __this, const RuntimeMethod* method);
 // Windows.UI.ViewManagement.InputPane Windows.UI.ViewManagement.InputPane::GetForCurrentView()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * InputPane_GetForCurrentView_mC70FE8BAFBC2F91A3166DD901A44DB0709538EC2 (const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputPane_tF641607371837413F8F3D16C71A021541F5E107C * InputPane_GetForCurrentView_m29E88C1A59994BE7F869D035FA901F219295A115 (const RuntimeMethod* method);
 // System.Void System.Func`2<Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>,System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken>::.ctor(System.Object,System.IntPtr)
-inline void Func_2__ctor_m541703AC2DE75816B36460D949736BCAADA59DBE (Func_2_tD5E957875DC77E7C0675066916DCB2B954E58383 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Func_2__ctor_m287416F7CF3B4D377418E5140BA352C3DB139105 (Func_2_t63C6433E4BD65B2D3A3E7111DFD2A8CAE1DBFAAD * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
-	((  void (*) (Func_2_tD5E957875DC77E7C0675066916DCB2B954E58383 *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_2__ctor_m629EDBD1F6267E25327CD490F00AAABBD3D6EA2F_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Func_2_t63C6433E4BD65B2D3A3E7111DFD2A8CAE1DBFAAD *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_2__ctor_m629EDBD1F6267E25327CD490F00AAABBD3D6EA2F_gshared)(__this, ___object0, ___method1, method);
 }
 // System.Void System.Action`1<System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken>::.ctor(System.Object,System.IntPtr)
 inline void Action_1__ctor_m56AD597EB796EA2BDD8B17C48C9CA0F0C83EEFC9 (Action_1_tA9B13087386E8D960F2E4CE727FD58EB0670C6FD * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
@@ -20548,24 +20548,24 @@ inline void Action_1__ctor_m56AD597EB796EA2BDD8B17C48C9CA0F0C83EEFC9 (Action_1_t
 	((  void (*) (Action_1_tA9B13087386E8D960F2E4CE727FD58EB0670C6FD *, RuntimeObject *, intptr_t, const RuntimeMethod*))Action_1__ctor_m56AD597EB796EA2BDD8B17C48C9CA0F0C83EEFC9_gshared)(__this, ___object0, ___method1, method);
 }
 // System.Void Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>::.ctor(System.Object,System.IntPtr)
-inline void TypedEventHandler_2__ctor_m3CE37E1E61EFA6EBA2F9603A2758EEBC1FAA14A3 (TypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void TypedEventHandler_2__ctor_m4BEAE8BBD8108EEB5320FB9B8B238F70BE91CD9D (TypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
-	((  void (*) (TypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544 *, RuntimeObject *, intptr_t, const RuntimeMethod*))TypedEventHandler_2__ctor_m85032F233E9CD404100BF0E1F486F562DF83EF10_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (TypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07 *, RuntimeObject *, intptr_t, const RuntimeMethod*))TypedEventHandler_2__ctor_m85032F233E9CD404100BF0E1F486F562DF83EF10_gshared)(__this, ___object0, ___method1, method);
 }
 // System.Void System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMarshal::AddEventHandler<Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>>(System.Func`2<!!0,System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken>,System.Action`1<System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken>,!!0)
-inline void WindowsRuntimeMarshal_AddEventHandler_TisTypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544_m67312B4A589A1FD2F25C36B50ACA026D6E7CC7F5 (Func_2_tD5E957875DC77E7C0675066916DCB2B954E58383 * ___addMethod0, Action_1_tA9B13087386E8D960F2E4CE727FD58EB0670C6FD * ___removeMethod1, TypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544 * ___handler2, const RuntimeMethod* method)
+inline void WindowsRuntimeMarshal_AddEventHandler_TisTypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07_m0B42B6E3469356466E7E9BE3A0F5A311D4B602A0 (Func_2_t63C6433E4BD65B2D3A3E7111DFD2A8CAE1DBFAAD * ___addMethod0, Action_1_tA9B13087386E8D960F2E4CE727FD58EB0670C6FD * ___removeMethod1, TypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07 * ___handler2, const RuntimeMethod* method)
 {
-	((  void (*) (Func_2_tD5E957875DC77E7C0675066916DCB2B954E58383 *, Action_1_tA9B13087386E8D960F2E4CE727FD58EB0670C6FD *, TypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544 *, const RuntimeMethod*))WindowsRuntimeMarshal_AddEventHandler_TisRuntimeObject_m279675146D7066276702CCA95B259A69DD2F451C_gshared)(___addMethod0, ___removeMethod1, ___handler2, method);
+	((  void (*) (Func_2_t63C6433E4BD65B2D3A3E7111DFD2A8CAE1DBFAAD *, Action_1_tA9B13087386E8D960F2E4CE727FD58EB0670C6FD *, TypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07 *, const RuntimeMethod*))WindowsRuntimeMarshal_AddEventHandler_TisRuntimeObject_m279675146D7066276702CCA95B259A69DD2F451C_gshared)(___addMethod0, ___removeMethod1, ___handler2, method);
 }
 // System.Void System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMarshal::RemoveEventHandler<Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>>(System.Action`1<System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken>,!!0)
-inline void WindowsRuntimeMarshal_RemoveEventHandler_TisTypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544_m473E1D3AB5E44D4B0244DF58C25D35B3A566CABB (Action_1_tA9B13087386E8D960F2E4CE727FD58EB0670C6FD * ___removeMethod0, TypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544 * ___handler1, const RuntimeMethod* method)
+inline void WindowsRuntimeMarshal_RemoveEventHandler_TisTypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07_mA598C97AB304176C314C47B04E033E2EBC7CBEC5 (Action_1_tA9B13087386E8D960F2E4CE727FD58EB0670C6FD * ___removeMethod0, TypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07 * ___handler1, const RuntimeMethod* method)
 {
-	((  void (*) (Action_1_tA9B13087386E8D960F2E4CE727FD58EB0670C6FD *, TypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544 *, const RuntimeMethod*))WindowsRuntimeMarshal_RemoveEventHandler_TisRuntimeObject_m726401B9FE955FA8FC8E1FCE32DE932178D43982_gshared)(___removeMethod0, ___handler1, method);
+	((  void (*) (Action_1_tA9B13087386E8D960F2E4CE727FD58EB0670C6FD *, TypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07 *, const RuntimeMethod*))WindowsRuntimeMarshal_RemoveEventHandler_TisRuntimeObject_m726401B9FE955FA8FC8E1FCE32DE932178D43982_gshared)(___removeMethod0, ___handler1, method);
 }
 // System.Boolean Windows.UI.ViewManagement.InputPane::TryHide()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputPane_TryHide_m018BE2BC1BC3B0FDEAD949DB5CBDD84C2EC37E54 (InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputPane_TryHide_m018BE2BC1BC3B0FDEAD949DB5CBDD84C2EC37E54 (InputPane_tF641607371837413F8F3D16C71A021541F5E107C * __this, const RuntimeMethod* method);
 // System.Boolean Windows.UI.ViewManagement.InputPane::TryShow()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputPane_TryShow_mC49C9A2569A559E0EDBF0C32C391CB53128119F3 (InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputPane_TryShow_mC49C9A2569A559E0EDBF0C32C391CB53128119F3 (InputPane_tF641607371837413F8F3D16C71A021541F5E107C * __this, const RuntimeMethod* method);
 // System.Void Microsoft.MixedReality.Toolkit.Experimental.UI.MixedRealityKeyboardBase::UpdateText()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MixedRealityKeyboardBase_UpdateText_m8C52D29A266DB69B180EF509CF37EAE4632702AA (MixedRealityKeyboardBase_tDE0AB2B8EC8A0F280215BB0CC270A3FEE13349EF * __this, const RuntimeMethod* method);
 // System.String Microsoft.MixedReality.Toolkit.Experimental.UI.MixedRealityKeyboardPreview::get_Text()
@@ -24800,7 +24800,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MixedRealityKeyboardBase_Start_m7ECB785E
 	}
 }
 // System.Void Microsoft.MixedReality.Toolkit.Experimental.UI.MixedRealityKeyboardBase::OnInputPaneHiding(Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MixedRealityKeyboardBase_OnInputPaneHiding_m87E7912A135097D3124FB9C8E582EF901180F127 (MixedRealityKeyboardBase_tDE0AB2B8EC8A0F280215BB0CC270A3FEE13349EF * __this, InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * ___inputPane0, InputPaneVisibilityEventArgs_tECB6C1124F9BEF39299FC5E8DED8C1127D24E6EA * ___args1, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MixedRealityKeyboardBase_OnInputPaneHiding_m1D433BEE9D60249F8F5839B0866CA7CB2417D4B1 (MixedRealityKeyboardBase_tDE0AB2B8EC8A0F280215BB0CC270A3FEE13349EF * __this, InputPane_tF641607371837413F8F3D16C71A021541F5E107C * ___inputPane0, InputPaneVisibilityEventArgs_t81F033A373C01E20052FF7CCDCE6574CE1896942 * ___args1, const RuntimeMethod* method)
 {
 	{
 		// OnKeyboardHiding();
@@ -24810,7 +24810,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MixedRealityKeyboardBase_OnInputPaneHidi
 	}
 }
 // System.Void Microsoft.MixedReality.Toolkit.Experimental.UI.MixedRealityKeyboardBase::OnInputPaneShowing(Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MixedRealityKeyboardBase_OnInputPaneShowing_m5FE6B5A3EDA84024553A5DFD7F34DF1E9B54FC69 (MixedRealityKeyboardBase_tDE0AB2B8EC8A0F280215BB0CC270A3FEE13349EF * __this, InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * ___inputPane0, InputPaneVisibilityEventArgs_tECB6C1124F9BEF39299FC5E8DED8C1127D24E6EA * ___args1, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MixedRealityKeyboardBase_OnInputPaneShowing_m92D9B57E7031D9BAA0FF58973734EFF1CA15A048 (MixedRealityKeyboardBase_tDE0AB2B8EC8A0F280215BB0CC270A3FEE13349EF * __this, InputPane_tF641607371837413F8F3D16C71A021541F5E107C * ___inputPane0, InputPaneVisibilityEventArgs_t81F033A373C01E20052FF7CCDCE6574CE1896942 * ___args1, const RuntimeMethod* method)
 {
 	{
 		// OnKeyboardShowing();
@@ -25409,40 +25409,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MixedRealityKeyboardBase_U3CStartU3Eb__2
 		il2cpp_codegen_initialize_method (MixedRealityKeyboardBase_U3CStartU3Eb__24_0_mF077607C3CBD765448D397DE86045F3E59628156_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * V_0 = NULL;
+	InputPane_tF641607371837413F8F3D16C71A021541F5E107C * V_0 = NULL;
 	{
 		// inputPane = InputPane.GetForCurrentView();
-		InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * L_0 = InputPane_GetForCurrentView_mC70FE8BAFBC2F91A3166DD901A44DB0709538EC2(/*hidden argument*/NULL);
+		InputPane_tF641607371837413F8F3D16C71A021541F5E107C * L_0 = InputPane_GetForCurrentView_m29E88C1A59994BE7F869D035FA901F219295A115(/*hidden argument*/NULL);
 		__this->set_inputPane_9(L_0);
 		// inputPane.Hiding += OnInputPaneHiding;
-		InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * L_1 = __this->get_inputPane_9();
+		InputPane_tF641607371837413F8F3D16C71A021541F5E107C * L_1 = __this->get_inputPane_9();
 		V_0 = L_1;
-		InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * L_2 = V_0;
-		InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * L_3 = L_2;
-		Func_2_tD5E957875DC77E7C0675066916DCB2B954E58383 * L_4 = (Func_2_tD5E957875DC77E7C0675066916DCB2B954E58383 *)il2cpp_codegen_object_new(Func_2_tD5E957875DC77E7C0675066916DCB2B954E58383_il2cpp_TypeInfo_var);
-		Func_2__ctor_m541703AC2DE75816B36460D949736BCAADA59DBE(L_4, L_3, (intptr_t)((intptr_t)GetVirtualMethodInfo(L_3, 6)), /*hidden argument*/Func_2__ctor_m541703AC2DE75816B36460D949736BCAADA59DBE_RuntimeMethod_var);
-		InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * L_5 = V_0;
-		InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * L_6 = L_5;
+		InputPane_tF641607371837413F8F3D16C71A021541F5E107C * L_2 = V_0;
+		InputPane_tF641607371837413F8F3D16C71A021541F5E107C * L_3 = L_2;
+		Func_2_t63C6433E4BD65B2D3A3E7111DFD2A8CAE1DBFAAD * L_4 = (Func_2_t63C6433E4BD65B2D3A3E7111DFD2A8CAE1DBFAAD *)il2cpp_codegen_object_new(Func_2_t63C6433E4BD65B2D3A3E7111DFD2A8CAE1DBFAAD_il2cpp_TypeInfo_var);
+		Func_2__ctor_m287416F7CF3B4D377418E5140BA352C3DB139105(L_4, L_3, (intptr_t)((intptr_t)GetVirtualMethodInfo(L_3, 6)), /*hidden argument*/Func_2__ctor_m287416F7CF3B4D377418E5140BA352C3DB139105_RuntimeMethod_var);
+		InputPane_tF641607371837413F8F3D16C71A021541F5E107C * L_5 = V_0;
+		InputPane_tF641607371837413F8F3D16C71A021541F5E107C * L_6 = L_5;
 		Action_1_tA9B13087386E8D960F2E4CE727FD58EB0670C6FD * L_7 = (Action_1_tA9B13087386E8D960F2E4CE727FD58EB0670C6FD *)il2cpp_codegen_object_new(Action_1_tA9B13087386E8D960F2E4CE727FD58EB0670C6FD_il2cpp_TypeInfo_var);
 		Action_1__ctor_m56AD597EB796EA2BDD8B17C48C9CA0F0C83EEFC9(L_7, L_6, (intptr_t)((intptr_t)GetVirtualMethodInfo(L_6, 7)), /*hidden argument*/Action_1__ctor_m56AD597EB796EA2BDD8B17C48C9CA0F0C83EEFC9_RuntimeMethod_var);
-		TypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544 * L_8 = (TypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544 *)il2cpp_codegen_object_new(TypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544_il2cpp_TypeInfo_var);
-		TypedEventHandler_2__ctor_m3CE37E1E61EFA6EBA2F9603A2758EEBC1FAA14A3(L_8, __this, (intptr_t)((intptr_t)MixedRealityKeyboardBase_OnInputPaneHiding_m87E7912A135097D3124FB9C8E582EF901180F127_RuntimeMethod_var), /*hidden argument*/TypedEventHandler_2__ctor_m3CE37E1E61EFA6EBA2F9603A2758EEBC1FAA14A3_RuntimeMethod_var);
+		TypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07 * L_8 = (TypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07 *)il2cpp_codegen_object_new(TypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07_il2cpp_TypeInfo_var);
+		TypedEventHandler_2__ctor_m4BEAE8BBD8108EEB5320FB9B8B238F70BE91CD9D(L_8, __this, (intptr_t)((intptr_t)MixedRealityKeyboardBase_OnInputPaneHiding_m1D433BEE9D60249F8F5839B0866CA7CB2417D4B1_RuntimeMethod_var), /*hidden argument*/TypedEventHandler_2__ctor_m4BEAE8BBD8108EEB5320FB9B8B238F70BE91CD9D_RuntimeMethod_var);
 		IL2CPP_RUNTIME_CLASS_INIT(WindowsRuntimeMarshal_t8DB7D711F5E1664A9F354E466348F46AF5BC029C_il2cpp_TypeInfo_var);
-		WindowsRuntimeMarshal_AddEventHandler_TisTypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544_m67312B4A589A1FD2F25C36B50ACA026D6E7CC7F5(L_4, L_7, L_8, /*hidden argument*/WindowsRuntimeMarshal_AddEventHandler_TisTypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544_m67312B4A589A1FD2F25C36B50ACA026D6E7CC7F5_RuntimeMethod_var);
+		WindowsRuntimeMarshal_AddEventHandler_TisTypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07_m0B42B6E3469356466E7E9BE3A0F5A311D4B602A0(L_4, L_7, L_8, /*hidden argument*/WindowsRuntimeMarshal_AddEventHandler_TisTypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07_m0B42B6E3469356466E7E9BE3A0F5A311D4B602A0_RuntimeMethod_var);
 		// inputPane.Showing += OnInputPaneShowing;
-		InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * L_9 = __this->get_inputPane_9();
+		InputPane_tF641607371837413F8F3D16C71A021541F5E107C * L_9 = __this->get_inputPane_9();
 		V_0 = L_9;
-		InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * L_10 = V_0;
-		InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * L_11 = L_10;
-		Func_2_tD5E957875DC77E7C0675066916DCB2B954E58383 * L_12 = (Func_2_tD5E957875DC77E7C0675066916DCB2B954E58383 *)il2cpp_codegen_object_new(Func_2_tD5E957875DC77E7C0675066916DCB2B954E58383_il2cpp_TypeInfo_var);
-		Func_2__ctor_m541703AC2DE75816B36460D949736BCAADA59DBE(L_12, L_11, (intptr_t)((intptr_t)GetVirtualMethodInfo(L_11, 4)), /*hidden argument*/Func_2__ctor_m541703AC2DE75816B36460D949736BCAADA59DBE_RuntimeMethod_var);
-		InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * L_13 = V_0;
-		InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * L_14 = L_13;
+		InputPane_tF641607371837413F8F3D16C71A021541F5E107C * L_10 = V_0;
+		InputPane_tF641607371837413F8F3D16C71A021541F5E107C * L_11 = L_10;
+		Func_2_t63C6433E4BD65B2D3A3E7111DFD2A8CAE1DBFAAD * L_12 = (Func_2_t63C6433E4BD65B2D3A3E7111DFD2A8CAE1DBFAAD *)il2cpp_codegen_object_new(Func_2_t63C6433E4BD65B2D3A3E7111DFD2A8CAE1DBFAAD_il2cpp_TypeInfo_var);
+		Func_2__ctor_m287416F7CF3B4D377418E5140BA352C3DB139105(L_12, L_11, (intptr_t)((intptr_t)GetVirtualMethodInfo(L_11, 4)), /*hidden argument*/Func_2__ctor_m287416F7CF3B4D377418E5140BA352C3DB139105_RuntimeMethod_var);
+		InputPane_tF641607371837413F8F3D16C71A021541F5E107C * L_13 = V_0;
+		InputPane_tF641607371837413F8F3D16C71A021541F5E107C * L_14 = L_13;
 		Action_1_tA9B13087386E8D960F2E4CE727FD58EB0670C6FD * L_15 = (Action_1_tA9B13087386E8D960F2E4CE727FD58EB0670C6FD *)il2cpp_codegen_object_new(Action_1_tA9B13087386E8D960F2E4CE727FD58EB0670C6FD_il2cpp_TypeInfo_var);
 		Action_1__ctor_m56AD597EB796EA2BDD8B17C48C9CA0F0C83EEFC9(L_15, L_14, (intptr_t)((intptr_t)GetVirtualMethodInfo(L_14, 5)), /*hidden argument*/Action_1__ctor_m56AD597EB796EA2BDD8B17C48C9CA0F0C83EEFC9_RuntimeMethod_var);
-		TypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544 * L_16 = (TypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544 *)il2cpp_codegen_object_new(TypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544_il2cpp_TypeInfo_var);
-		TypedEventHandler_2__ctor_m3CE37E1E61EFA6EBA2F9603A2758EEBC1FAA14A3(L_16, __this, (intptr_t)((intptr_t)MixedRealityKeyboardBase_OnInputPaneShowing_m5FE6B5A3EDA84024553A5DFD7F34DF1E9B54FC69_RuntimeMethod_var), /*hidden argument*/TypedEventHandler_2__ctor_m3CE37E1E61EFA6EBA2F9603A2758EEBC1FAA14A3_RuntimeMethod_var);
-		WindowsRuntimeMarshal_AddEventHandler_TisTypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544_m67312B4A589A1FD2F25C36B50ACA026D6E7CC7F5(L_12, L_15, L_16, /*hidden argument*/WindowsRuntimeMarshal_AddEventHandler_TisTypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544_m67312B4A589A1FD2F25C36B50ACA026D6E7CC7F5_RuntimeMethod_var);
+		TypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07 * L_16 = (TypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07 *)il2cpp_codegen_object_new(TypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07_il2cpp_TypeInfo_var);
+		TypedEventHandler_2__ctor_m4BEAE8BBD8108EEB5320FB9B8B238F70BE91CD9D(L_16, __this, (intptr_t)((intptr_t)MixedRealityKeyboardBase_OnInputPaneShowing_m92D9B57E7031D9BAA0FF58973734EFF1CA15A048_RuntimeMethod_var), /*hidden argument*/TypedEventHandler_2__ctor_m4BEAE8BBD8108EEB5320FB9B8B238F70BE91CD9D_RuntimeMethod_var);
+		WindowsRuntimeMarshal_AddEventHandler_TisTypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07_m0B42B6E3469356466E7E9BE3A0F5A311D4B602A0(L_12, L_15, L_16, /*hidden argument*/WindowsRuntimeMarshal_AddEventHandler_TisTypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07_m0B42B6E3469356466E7E9BE3A0F5A311D4B602A0_RuntimeMethod_var);
 		// }, false);
 		return;
 	}
@@ -25458,25 +25458,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MixedRealityKeyboardBase_U3COnDestroyU3E
 	}
 	{
 		// inputPane = InputPane.GetForCurrentView();
-		InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * L_0 = InputPane_GetForCurrentView_mC70FE8BAFBC2F91A3166DD901A44DB0709538EC2(/*hidden argument*/NULL);
+		InputPane_tF641607371837413F8F3D16C71A021541F5E107C * L_0 = InputPane_GetForCurrentView_m29E88C1A59994BE7F869D035FA901F219295A115(/*hidden argument*/NULL);
 		__this->set_inputPane_9(L_0);
 		// inputPane.Hiding -= OnInputPaneHiding;
-		InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * L_1 = __this->get_inputPane_9();
-		InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * L_2 = L_1;
+		InputPane_tF641607371837413F8F3D16C71A021541F5E107C * L_1 = __this->get_inputPane_9();
+		InputPane_tF641607371837413F8F3D16C71A021541F5E107C * L_2 = L_1;
 		Action_1_tA9B13087386E8D960F2E4CE727FD58EB0670C6FD * L_3 = (Action_1_tA9B13087386E8D960F2E4CE727FD58EB0670C6FD *)il2cpp_codegen_object_new(Action_1_tA9B13087386E8D960F2E4CE727FD58EB0670C6FD_il2cpp_TypeInfo_var);
 		Action_1__ctor_m56AD597EB796EA2BDD8B17C48C9CA0F0C83EEFC9(L_3, L_2, (intptr_t)((intptr_t)GetVirtualMethodInfo(L_2, 7)), /*hidden argument*/Action_1__ctor_m56AD597EB796EA2BDD8B17C48C9CA0F0C83EEFC9_RuntimeMethod_var);
-		TypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544 * L_4 = (TypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544 *)il2cpp_codegen_object_new(TypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544_il2cpp_TypeInfo_var);
-		TypedEventHandler_2__ctor_m3CE37E1E61EFA6EBA2F9603A2758EEBC1FAA14A3(L_4, __this, (intptr_t)((intptr_t)MixedRealityKeyboardBase_OnInputPaneHiding_m87E7912A135097D3124FB9C8E582EF901180F127_RuntimeMethod_var), /*hidden argument*/TypedEventHandler_2__ctor_m3CE37E1E61EFA6EBA2F9603A2758EEBC1FAA14A3_RuntimeMethod_var);
+		TypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07 * L_4 = (TypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07 *)il2cpp_codegen_object_new(TypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07_il2cpp_TypeInfo_var);
+		TypedEventHandler_2__ctor_m4BEAE8BBD8108EEB5320FB9B8B238F70BE91CD9D(L_4, __this, (intptr_t)((intptr_t)MixedRealityKeyboardBase_OnInputPaneHiding_m1D433BEE9D60249F8F5839B0866CA7CB2417D4B1_RuntimeMethod_var), /*hidden argument*/TypedEventHandler_2__ctor_m4BEAE8BBD8108EEB5320FB9B8B238F70BE91CD9D_RuntimeMethod_var);
 		IL2CPP_RUNTIME_CLASS_INIT(WindowsRuntimeMarshal_t8DB7D711F5E1664A9F354E466348F46AF5BC029C_il2cpp_TypeInfo_var);
-		WindowsRuntimeMarshal_RemoveEventHandler_TisTypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544_m473E1D3AB5E44D4B0244DF58C25D35B3A566CABB(L_3, L_4, /*hidden argument*/WindowsRuntimeMarshal_RemoveEventHandler_TisTypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544_m473E1D3AB5E44D4B0244DF58C25D35B3A566CABB_RuntimeMethod_var);
+		WindowsRuntimeMarshal_RemoveEventHandler_TisTypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07_mA598C97AB304176C314C47B04E033E2EBC7CBEC5(L_3, L_4, /*hidden argument*/WindowsRuntimeMarshal_RemoveEventHandler_TisTypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07_mA598C97AB304176C314C47B04E033E2EBC7CBEC5_RuntimeMethod_var);
 		// inputPane.Showing -= OnInputPaneShowing;
-		InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * L_5 = __this->get_inputPane_9();
-		InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * L_6 = L_5;
+		InputPane_tF641607371837413F8F3D16C71A021541F5E107C * L_5 = __this->get_inputPane_9();
+		InputPane_tF641607371837413F8F3D16C71A021541F5E107C * L_6 = L_5;
 		Action_1_tA9B13087386E8D960F2E4CE727FD58EB0670C6FD * L_7 = (Action_1_tA9B13087386E8D960F2E4CE727FD58EB0670C6FD *)il2cpp_codegen_object_new(Action_1_tA9B13087386E8D960F2E4CE727FD58EB0670C6FD_il2cpp_TypeInfo_var);
 		Action_1__ctor_m56AD597EB796EA2BDD8B17C48C9CA0F0C83EEFC9(L_7, L_6, (intptr_t)((intptr_t)GetVirtualMethodInfo(L_6, 5)), /*hidden argument*/Action_1__ctor_m56AD597EB796EA2BDD8B17C48C9CA0F0C83EEFC9_RuntimeMethod_var);
-		TypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544 * L_8 = (TypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544 *)il2cpp_codegen_object_new(TypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544_il2cpp_TypeInfo_var);
-		TypedEventHandler_2__ctor_m3CE37E1E61EFA6EBA2F9603A2758EEBC1FAA14A3(L_8, __this, (intptr_t)((intptr_t)MixedRealityKeyboardBase_OnInputPaneShowing_m5FE6B5A3EDA84024553A5DFD7F34DF1E9B54FC69_RuntimeMethod_var), /*hidden argument*/TypedEventHandler_2__ctor_m3CE37E1E61EFA6EBA2F9603A2758EEBC1FAA14A3_RuntimeMethod_var);
-		WindowsRuntimeMarshal_RemoveEventHandler_TisTypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544_m473E1D3AB5E44D4B0244DF58C25D35B3A566CABB(L_7, L_8, /*hidden argument*/WindowsRuntimeMarshal_RemoveEventHandler_TisTypedEventHandler_2_tB4DF8A298CE33D916A68D8311D52815F7A79A544_m473E1D3AB5E44D4B0244DF58C25D35B3A566CABB_RuntimeMethod_var);
+		TypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07 * L_8 = (TypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07 *)il2cpp_codegen_object_new(TypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07_il2cpp_TypeInfo_var);
+		TypedEventHandler_2__ctor_m4BEAE8BBD8108EEB5320FB9B8B238F70BE91CD9D(L_8, __this, (intptr_t)((intptr_t)MixedRealityKeyboardBase_OnInputPaneShowing_m92D9B57E7031D9BAA0FF58973734EFF1CA15A048_RuntimeMethod_var), /*hidden argument*/TypedEventHandler_2__ctor_m4BEAE8BBD8108EEB5320FB9B8B238F70BE91CD9D_RuntimeMethod_var);
+		WindowsRuntimeMarshal_RemoveEventHandler_TisTypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07_mA598C97AB304176C314C47B04E033E2EBC7CBEC5(L_7, L_8, /*hidden argument*/WindowsRuntimeMarshal_RemoveEventHandler_TisTypedEventHandler_2_t357D0B6C811811240A72AA46352760C1AE874E07_mA598C97AB304176C314C47B04E033E2EBC7CBEC5_RuntimeMethod_var);
 		// }, false);
 		return;
 	}
@@ -25484,12 +25484,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MixedRealityKeyboardBase_U3COnDestroyU3E
 // System.Void Microsoft.MixedReality.Toolkit.Experimental.UI.MixedRealityKeyboardBase::<HideKeyboard>b__33_0()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MixedRealityKeyboardBase_U3CHideKeyboardU3Eb__33_0_mD7564B100FBEDEAB0A2596111431D6C1A28AA050 (MixedRealityKeyboardBase_tDE0AB2B8EC8A0F280215BB0CC270A3FEE13349EF * __this, const RuntimeMethod* method)
 {
-	InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * G_B2_0 = NULL;
-	InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * G_B1_0 = NULL;
+	InputPane_tF641607371837413F8F3D16C71A021541F5E107C * G_B2_0 = NULL;
+	InputPane_tF641607371837413F8F3D16C71A021541F5E107C * G_B1_0 = NULL;
 	{
 		// UnityEngine.WSA.Application.InvokeOnUIThread(() => inputPane?.TryHide(), false);
-		InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * L_0 = __this->get_inputPane_9();
-		InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * L_1 = L_0;
+		InputPane_tF641607371837413F8F3D16C71A021541F5E107C * L_0 = __this->get_inputPane_9();
+		InputPane_tF641607371837413F8F3D16C71A021541F5E107C * L_1 = L_0;
 		G_B1_0 = L_1;
 		if (L_1)
 		{
@@ -25511,12 +25511,12 @@ IL_000b:
 // System.Void Microsoft.MixedReality.Toolkit.Experimental.UI.MixedRealityKeyboardBase::<ShowKeyboard>b__34_0()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MixedRealityKeyboardBase_U3CShowKeyboardU3Eb__34_0_mEC64FEF6510A1A7D4FD9CCFD1F469CCC9359E892 (MixedRealityKeyboardBase_tDE0AB2B8EC8A0F280215BB0CC270A3FEE13349EF * __this, const RuntimeMethod* method)
 {
-	InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * G_B2_0 = NULL;
-	InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * G_B1_0 = NULL;
+	InputPane_tF641607371837413F8F3D16C71A021541F5E107C * G_B2_0 = NULL;
+	InputPane_tF641607371837413F8F3D16C71A021541F5E107C * G_B1_0 = NULL;
 	{
 		// UnityEngine.WSA.Application.InvokeOnUIThread(() => inputPane?.TryShow(), false);
-		InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * L_0 = __this->get_inputPane_9();
-		InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * L_1 = L_0;
+		InputPane_tF641607371837413F8F3D16C71A021541F5E107C * L_0 = __this->get_inputPane_9();
+		InputPane_tF641607371837413F8F3D16C71A021541F5E107C * L_1 = L_0;
 		G_B1_0 = L_1;
 		if (L_1)
 		{

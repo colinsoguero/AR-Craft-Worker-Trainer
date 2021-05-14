@@ -352,7 +352,7 @@ IL2CPP_EXTERN_C const uint32_t VisualProfilerControl_SetProfilerVisibility_mD514
 IL2CPP_EXTERN_C const uint32_t VisualProfilerControl_ToggleProfiler_m90EA2755A244A8E464D46E2254510759F05D118A_MetadataUsageId;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
-struct IAppCapture_t2228DE5D32E03CE1EB1E479514B08C177F5C4C18;
+struct IAppCapture_t6045FB26D6AD35D26E5B9E5B22C37F4B029CC0EC;
 
 struct FrameRateColorU5BU5D_tF0930330010AC9A8E24DBB05B3D09C28EF25531A;
 struct CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2;
@@ -386,7 +386,7 @@ public:
 struct NOVTABLE IAppCaptureStatics_t3AC5645D296D2CD4981ABAA5095B1310BA40D9F5 : Il2CppIInspectable
 {
 	static const Il2CppGuid IID;
-	virtual il2cpp_hresult_t STDCALL IAppCaptureStatics_GetForCurrentView_m60078840B0B3A58343106ED215A4396271A26788(IAppCapture_t2228DE5D32E03CE1EB1E479514B08C177F5C4C18** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IAppCaptureStatics_GetForCurrentView_mB76690492CE159FD74C8A979D7803AA0FE851403(IAppCapture_t6045FB26D6AD35D26E5B9E5B22C37F4B029CC0EC** comReturnValue) = 0;
 };
 // Windows.Media.Capture.IAppCaptureStatics2
 struct NOVTABLE IAppCaptureStatics2_t8517F380DC07A2BEE6C603D572A3BEE84EA374AB : Il2CppIInspectable
@@ -4855,7 +4855,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MixedRealityToolkitVisualProfiler_BuildW
 // System.Void Microsoft.MixedReality.Toolkit.Diagnostics.MixedRealityToolkitVisualProfiler::BuildFrameRateStrings()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MixedRealityToolkitVisualProfiler_BuildFrameRateStrings_m30C79FA50DD80723C4D89333A29D7632E8018CB8 (MixedRealityToolkitVisualProfiler_t86112D227CD8E5370AA53BE7B74699BF160270AA * __this, const RuntimeMethod* method);
 // Windows.Media.Capture.AppCapture Windows.Media.Capture.AppCapture::GetForCurrentView()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppCapture_tB6434A902143A07D9DC259154565EC03C02D309F * AppCapture_GetForCurrentView_mE22AD146579C4B51F5C8B6F606264CFC8D9B83E1 (const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppCapture_tB6434A902143A07D9DC259154565EC03C02D309F * AppCapture_GetForCurrentView_m68DBE2258EFD881607F4C96763DE80004B68DFDD (const RuntimeMethod* method);
 // UnityEngine.Camera Microsoft.MixedReality.Toolkit.Utilities.CameraCache::get_Main()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34 * CameraCache_get_Main_mAAA0F0D4FB1C64120E7E88F796BA9E0E7547F2B6 (const RuntimeMethod* method);
 // System.Boolean UnityEngine.Object::op_Implicit(UnityEngine.Object)
@@ -6896,7 +6896,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MixedRealityToolkitVisualProfiler_Start_
 		// BuildFrameRateStrings();
 		MixedRealityToolkitVisualProfiler_BuildFrameRateStrings_m30C79FA50DD80723C4D89333A29D7632E8018CB8(__this, /*hidden argument*/NULL);
 		// appCapture = AppCapture.GetForCurrentView();
-		AppCapture_tB6434A902143A07D9DC259154565EC03C02D309F * L_0 = AppCapture_GetForCurrentView_mE22AD146579C4B51F5C8B6F606264CFC8D9B83E1(/*hidden argument*/NULL);
+		AppCapture_tB6434A902143A07D9DC259154565EC03C02D309F * L_0 = AppCapture_GetForCurrentView_m68DBE2258EFD881607F4C96763DE80004B68DFDD(/*hidden argument*/NULL);
 		__this->set_appCapture_69(L_0);
 		// }
 		return;

@@ -421,9 +421,9 @@ struct TimeSpanU5BU5D_tACF30B716D863271CE7340AFE41B366570EF6A45;
 // Windows.Foundation.UniversalApiContract[]
 struct UniversalApiContractU5BU5D_t34EEF3C7CA08DBC70ACA767782DD83D7D711FF0F;
 // Windows.Perception.People.HandMeshVertex[]
-struct HandMeshVertexU5BU5D_tDB45C4032E93E7E4151597D02CE340FFAAC2F7AE;
+struct HandMeshVertexU5BU5D_tA8168A3DA6AB631C7BADDBB4D2337087B5BA21B4;
 // Windows.Perception.People.JointPose[]
-struct JointPoseU5BU5D_t7713B8A8B98C45B4BB09A931B34269BA70B5D154;
+struct JointPoseU5BU5D_tA15F154882AA71C24E348C7FB1FB48FD5BCA550F;
 // Windows.Perception.Spatial.SpatialRay[]
 struct SpatialRayU5BU5D_t3ED9805E9E9C01F707021F094D930715F8A3E972;
 // Windows.UI.Xaml.Interop.TypeName[]
@@ -885,8 +885,8 @@ struct SizeU5BU5D_t039A7BC3968859A1AC03A46860F6108D053B9D58;
 struct SizeU5BU5D_t9B66FD0DE66BE54A0260714C9F6BBD896A4FDD0B;
 struct TimeSpanU5BU5D_tACF30B716D863271CE7340AFE41B366570EF6A45;
 struct UniversalApiContractU5BU5D_t34EEF3C7CA08DBC70ACA767782DD83D7D711FF0F;
-struct HandMeshVertexU5BU5D_tDB45C4032E93E7E4151597D02CE340FFAAC2F7AE;
-struct JointPoseU5BU5D_t7713B8A8B98C45B4BB09A931B34269BA70B5D154;
+struct HandMeshVertexU5BU5D_tA8168A3DA6AB631C7BADDBB4D2337087B5BA21B4;
+struct JointPoseU5BU5D_tA15F154882AA71C24E348C7FB1FB48FD5BCA550F;
 struct SpatialRayU5BU5D_t3ED9805E9E9C01F707021F094D930715F8A3E972;
 struct TypeNameU5BU5D_t5639A6C63B43E5933AD3498000C56530312BF3D0;
 
@@ -6661,7 +6661,7 @@ public:
 	}
 };
 // Windows.Perception.People.HandMeshVertex[]
-struct HandMeshVertexU5BU5D_tDB45C4032E93E7E4151597D02CE340FFAAC2F7AE  : public RuntimeArray
+struct HandMeshVertexU5BU5D_tA8168A3DA6AB631C7BADDBB4D2337087B5BA21B4  : public RuntimeArray
 {
 public:
 	ALIGN_FIELD (8) HandMeshVertex_t97CBC783B105CAF080C98A2E7D750023040B41C3  m_Items[1];
@@ -6696,7 +6696,7 @@ public:
 	}
 };
 // Windows.Perception.People.JointPose[]
-struct JointPoseU5BU5D_t7713B8A8B98C45B4BB09A931B34269BA70B5D154  : public RuntimeArray
+struct JointPoseU5BU5D_tA15F154882AA71C24E348C7FB1FB48FD5BCA550F  : public RuntimeArray
 {
 public:
 	ALIGN_FIELD (8) JointPose_tFD55E748576AC22B47EB160A821FCEAD75C509CE  m_Items[1];
@@ -17223,7 +17223,7 @@ IL_001d:
 	}
 }
 // System.Void System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1<Windows.Perception.People.HandMeshVertex>::System.Collections.Generic.ICollection`1.CopyTo(T[],System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IInspectableToICollectionAdapter_1_System_Collections_Generic_ICollection_1_CopyTo_m5E7E861E48CA54487DC37710525C764BD2783EC6_gshared (IInspectableToICollectionAdapter_1_tCAE1EA7EA70115627FEF6AAC756D1CF18BCD6E97 * __this, HandMeshVertexU5BU5D_tDB45C4032E93E7E4151597D02CE340FFAAC2F7AE* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IInspectableToICollectionAdapter_1_System_Collections_Generic_ICollection_1_CopyTo_m5E7E861E48CA54487DC37710525C764BD2783EC6_gshared (IInspectableToICollectionAdapter_1_tCAE1EA7EA70115627FEF6AAC756D1CF18BCD6E97 * __this, HandMeshVertexU5BU5D_tA8168A3DA6AB631C7BADDBB4D2337087B5BA21B4* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -17241,7 +17241,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IInspectableToICollectionAdapter_1_Syste
 	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
 	NO_UNUSED_WARNING (__leave_targets);
 	{
-		HandMeshVertexU5BU5D_tDB45C4032E93E7E4151597D02CE340FFAAC2F7AE* L_0 = ___array0;
+		HandMeshVertexU5BU5D_tA8168A3DA6AB631C7BADDBB4D2337087B5BA21B4* L_0 = ___array0;
 		if (L_0)
 		{
 			goto IL_000e;
@@ -17285,7 +17285,7 @@ IL_001e:
 IL_002a:
 	{
 		int32_t L_6 = ___arrayIndex1;
-		HandMeshVertexU5BU5D_tDB45C4032E93E7E4151597D02CE340FFAAC2F7AE* L_7 = ___array0;
+		HandMeshVertexU5BU5D_tA8168A3DA6AB631C7BADDBB4D2337087B5BA21B4* L_7 = ___array0;
 		NullCheck(L_7);
 		if ((((int32_t)L_6) < ((int32_t)(((RuntimeArray*)L_7)->max_length))))
 		{
@@ -17300,7 +17300,7 @@ IL_002a:
 
 IL_003b:
 	{
-		HandMeshVertexU5BU5D_tDB45C4032E93E7E4151597D02CE340FFAAC2F7AE* L_9 = ___array0;
+		HandMeshVertexU5BU5D_tA8168A3DA6AB631C7BADDBB4D2337087B5BA21B4* L_9 = ___array0;
 		NullCheck(L_9);
 		int32_t L_10 = V_1;
 		int32_t L_11 = ___arrayIndex1;
@@ -17337,7 +17337,7 @@ IL_0056:
 
 IL_005f:
 		{
-			HandMeshVertexU5BU5D_tDB45C4032E93E7E4151597D02CE340FFAAC2F7AE* L_16 = ___array0;
+			HandMeshVertexU5BU5D_tA8168A3DA6AB631C7BADDBB4D2337087B5BA21B4* L_16 = ___array0;
 			int32_t L_17 = ___arrayIndex1;
 			int32_t L_18 = (int32_t)L_17;
 			___arrayIndex1 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_18, (int32_t)1));
@@ -17603,7 +17603,7 @@ IL_001d:
 	}
 }
 // System.Void System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1<Windows.Perception.People.JointPose>::System.Collections.Generic.ICollection`1.CopyTo(T[],System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IInspectableToICollectionAdapter_1_System_Collections_Generic_ICollection_1_CopyTo_mB696D5FCAF5EBE981C7FC8B341E7A60C51DE69B5_gshared (IInspectableToICollectionAdapter_1_t7E6693422D91C215B24F24271621803C869ED6F6 * __this, JointPoseU5BU5D_t7713B8A8B98C45B4BB09A931B34269BA70B5D154* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IInspectableToICollectionAdapter_1_System_Collections_Generic_ICollection_1_CopyTo_mB696D5FCAF5EBE981C7FC8B341E7A60C51DE69B5_gshared (IInspectableToICollectionAdapter_1_t7E6693422D91C215B24F24271621803C869ED6F6 * __this, JointPoseU5BU5D_tA15F154882AA71C24E348C7FB1FB48FD5BCA550F* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -17621,7 +17621,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IInspectableToICollectionAdapter_1_Syste
 	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
 	NO_UNUSED_WARNING (__leave_targets);
 	{
-		JointPoseU5BU5D_t7713B8A8B98C45B4BB09A931B34269BA70B5D154* L_0 = ___array0;
+		JointPoseU5BU5D_tA15F154882AA71C24E348C7FB1FB48FD5BCA550F* L_0 = ___array0;
 		if (L_0)
 		{
 			goto IL_000e;
@@ -17665,7 +17665,7 @@ IL_001e:
 IL_002a:
 	{
 		int32_t L_6 = ___arrayIndex1;
-		JointPoseU5BU5D_t7713B8A8B98C45B4BB09A931B34269BA70B5D154* L_7 = ___array0;
+		JointPoseU5BU5D_tA15F154882AA71C24E348C7FB1FB48FD5BCA550F* L_7 = ___array0;
 		NullCheck(L_7);
 		if ((((int32_t)L_6) < ((int32_t)(((RuntimeArray*)L_7)->max_length))))
 		{
@@ -17680,7 +17680,7 @@ IL_002a:
 
 IL_003b:
 	{
-		JointPoseU5BU5D_t7713B8A8B98C45B4BB09A931B34269BA70B5D154* L_9 = ___array0;
+		JointPoseU5BU5D_tA15F154882AA71C24E348C7FB1FB48FD5BCA550F* L_9 = ___array0;
 		NullCheck(L_9);
 		int32_t L_10 = V_1;
 		int32_t L_11 = ___arrayIndex1;
@@ -17717,7 +17717,7 @@ IL_0056:
 
 IL_005f:
 		{
-			JointPoseU5BU5D_t7713B8A8B98C45B4BB09A931B34269BA70B5D154* L_16 = ___array0;
+			JointPoseU5BU5D_tA15F154882AA71C24E348C7FB1FB48FD5BCA550F* L_16 = ___array0;
 			int32_t L_17 = ___arrayIndex1;
 			int32_t L_18 = (int32_t)L_17;
 			___arrayIndex1 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_18, (int32_t)1));

@@ -709,7 +709,7 @@ struct IResourceLoaderStatics2_t31E7B90156F59AC0E18E8325A17005842E44B300;
 // Windows.ApplicationModel.Resources.IResourceLoaderStatics3
 struct IResourceLoaderStatics3_tAB9CB861DDE786F340258AF37CD2EE9BF56C2ABA;
 // Windows.ApplicationModel.Resources.ResourceLoader
-struct ResourceLoader_tB9072395A3F7BAA35F91F4ACB1DA40251E86566E;
+struct ResourceLoader_t8B768D258E68D095DE33414413A9544BB4D9F831;
 
 IL2CPP_EXTERN_C RuntimeClass* ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* AxisTypeU5BU5D_tC44FAFD435628890796C8D88D64EC90373C0FC00_il2cpp_TypeInfo_var;
@@ -1300,7 +1300,7 @@ struct NOVTABLE IResourceLoaderStatics2_t31E7B90156F59AC0E18E8325A17005842E44B30
 	static const Il2CppGuid IID;
 	virtual il2cpp_hresult_t STDCALL IResourceLoaderStatics2_U24__Stripped0_GetForCurrentView_m52D01FAAA2CF9BF1A31635856E53DAA261455A17() = 0;
 	virtual il2cpp_hresult_t STDCALL IResourceLoaderStatics2_U24__Stripped1_GetForCurrentView_mFECC1614159C96056C280A17F6CCC826ACEB39CD() = 0;
-	virtual il2cpp_hresult_t STDCALL IResourceLoaderStatics2_GetForViewIndependentUse_mBBB086093208DC2B6B0C9F2D06A28540A55D8657(IResourceLoader_tFA2C0882D3054804485A5197EB0FED42387AD2EE** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IResourceLoaderStatics2_GetForViewIndependentUse_m724E59EB59C57D5186FD40350214BB04AD4F536D(IResourceLoader_tFA2C0882D3054804485A5197EB0FED42387AD2EE** comReturnValue) = 0;
 	virtual il2cpp_hresult_t STDCALL IResourceLoaderStatics2_U24__Stripped2_GetForViewIndependentUse_m1842026052559FC886F4AE51D9189D603422C52E() = 0;
 };
 // Windows.ApplicationModel.Resources.IResourceLoaderStatics3
@@ -5610,28 +5610,45 @@ public:
 
 
 // Windows.ApplicationModel.Resources.ResourceLoader
-struct  ResourceLoader_tB9072395A3F7BAA35F91F4ACB1DA40251E86566E  : public Il2CppComObject
+struct  ResourceLoader_t8B768D258E68D095DE33414413A9544BB4D9F831  : public Il2CppComObject
 {
 public:
 
 public:
 };
 
-struct ResourceLoader_tB9072395A3F7BAA35F91F4ACB1DA40251E86566E_StaticFields
+struct ResourceLoader_t8B768D258E68D095DE33414413A9544BB4D9F831_StaticFields
 {
 public:
-	// Cached pointer to IActivationFactory
-	Il2CppIActivationFactory* activationFactory;
 	// Cached pointer to Windows.ApplicationModel.Resources.IResourceLoaderFactory
 	IResourceLoaderFactory_tFDB61C80191FA536C86555AA1909B9A7730F3A0E* ____iresourceLoaderFactory_tFDB61C80191FA536C86555AA1909B9A7730F3A0E;
+	// Cached pointer to IActivationFactory
+	Il2CppIActivationFactory* activationFactory;
+	// Cached pointer to Windows.ApplicationModel.Resources.IResourceLoaderStatics
+	IResourceLoaderStatics_t6F406ECDF06F7ADE5F5C6BAB81B14F4937CB662A* ____iresourceLoaderStatics_t6F406ECDF06F7ADE5F5C6BAB81B14F4937CB662A;
 	// Cached pointer to Windows.ApplicationModel.Resources.IResourceLoaderStatics3
 	IResourceLoaderStatics3_tAB9CB861DDE786F340258AF37CD2EE9BF56C2ABA* ____iresourceLoaderStatics3_tAB9CB861DDE786F340258AF37CD2EE9BF56C2ABA;
 	// Cached pointer to Windows.ApplicationModel.Resources.IResourceLoaderStatics2
 	IResourceLoaderStatics2_t31E7B90156F59AC0E18E8325A17005842E44B300* ____iresourceLoaderStatics2_t31E7B90156F59AC0E18E8325A17005842E44B300;
-	// Cached pointer to Windows.ApplicationModel.Resources.IResourceLoaderStatics
-	IResourceLoaderStatics_t6F406ECDF06F7ADE5F5C6BAB81B14F4937CB662A* ____iresourceLoaderStatics_t6F406ECDF06F7ADE5F5C6BAB81B14F4937CB662A;
 
 public:
+	inline IResourceLoaderFactory_tFDB61C80191FA536C86555AA1909B9A7730F3A0E* get_____iresourceLoaderFactory_tFDB61C80191FA536C86555AA1909B9A7730F3A0E()
+	{
+		IResourceLoaderFactory_tFDB61C80191FA536C86555AA1909B9A7730F3A0E* returnValue = ____iresourceLoaderFactory_tFDB61C80191FA536C86555AA1909B9A7730F3A0E;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IResourceLoaderFactory_tFDB61C80191FA536C86555AA1909B9A7730F3A0E::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IResourceLoaderFactory_tFDB61C80191FA536C86555AA1909B9A7730F3A0E>((&____iresourceLoaderFactory_tFDB61C80191FA536C86555AA1909B9A7730F3A0E), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____iresourceLoaderFactory_tFDB61C80191FA536C86555AA1909B9A7730F3A0E;
+			}
+		}
+		return returnValue;
+	}
+
 	inline Il2CppIActivationFactory* get_activationFactory()
 	{
 		Il2CppIActivationFactory* returnValue = activationFactory;
@@ -5649,18 +5666,18 @@ public:
 		return returnValue;
 	}
 
-	inline IResourceLoaderFactory_tFDB61C80191FA536C86555AA1909B9A7730F3A0E* get_____iresourceLoaderFactory_tFDB61C80191FA536C86555AA1909B9A7730F3A0E()
+	inline IResourceLoaderStatics_t6F406ECDF06F7ADE5F5C6BAB81B14F4937CB662A* get_____iresourceLoaderStatics_t6F406ECDF06F7ADE5F5C6BAB81B14F4937CB662A()
 	{
-		IResourceLoaderFactory_tFDB61C80191FA536C86555AA1909B9A7730F3A0E* returnValue = ____iresourceLoaderFactory_tFDB61C80191FA536C86555AA1909B9A7730F3A0E;
+		IResourceLoaderStatics_t6F406ECDF06F7ADE5F5C6BAB81B14F4937CB662A* returnValue = ____iresourceLoaderStatics_t6F406ECDF06F7ADE5F5C6BAB81B14F4937CB662A;
 		if (returnValue == NULL)
 		{
-			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IResourceLoaderFactory_tFDB61C80191FA536C86555AA1909B9A7730F3A0E::IID, reinterpret_cast<void**>(&returnValue));
+			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IResourceLoaderStatics_t6F406ECDF06F7ADE5F5C6BAB81B14F4937CB662A::IID, reinterpret_cast<void**>(&returnValue));
 			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-			if (il2cpp_codegen_atomic_compare_exchange_pointer<IResourceLoaderFactory_tFDB61C80191FA536C86555AA1909B9A7730F3A0E>((&____iresourceLoaderFactory_tFDB61C80191FA536C86555AA1909B9A7730F3A0E), returnValue, NULL) != NULL)
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IResourceLoaderStatics_t6F406ECDF06F7ADE5F5C6BAB81B14F4937CB662A>((&____iresourceLoaderStatics_t6F406ECDF06F7ADE5F5C6BAB81B14F4937CB662A), returnValue, NULL) != NULL)
 			{
 				returnValue->Release();
-				returnValue = ____iresourceLoaderFactory_tFDB61C80191FA536C86555AA1909B9A7730F3A0E;
+				returnValue = ____iresourceLoaderStatics_t6F406ECDF06F7ADE5F5C6BAB81B14F4937CB662A;
 			}
 		}
 		return returnValue;
@@ -5695,23 +5712,6 @@ public:
 			{
 				returnValue->Release();
 				returnValue = ____iresourceLoaderStatics2_t31E7B90156F59AC0E18E8325A17005842E44B300;
-			}
-		}
-		return returnValue;
-	}
-
-	inline IResourceLoaderStatics_t6F406ECDF06F7ADE5F5C6BAB81B14F4937CB662A* get_____iresourceLoaderStatics_t6F406ECDF06F7ADE5F5C6BAB81B14F4937CB662A()
-	{
-		IResourceLoaderStatics_t6F406ECDF06F7ADE5F5C6BAB81B14F4937CB662A* returnValue = ____iresourceLoaderStatics_t6F406ECDF06F7ADE5F5C6BAB81B14F4937CB662A;
-		if (returnValue == NULL)
-		{
-			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IResourceLoaderStatics_t6F406ECDF06F7ADE5F5C6BAB81B14F4937CB662A::IID, reinterpret_cast<void**>(&returnValue));
-			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
-
-			if (il2cpp_codegen_atomic_compare_exchange_pointer<IResourceLoaderStatics_t6F406ECDF06F7ADE5F5C6BAB81B14F4937CB662A>((&____iresourceLoaderStatics_t6F406ECDF06F7ADE5F5C6BAB81B14F4937CB662A), returnValue, NULL) != NULL)
-			{
-				returnValue->Release();
-				returnValue = ____iresourceLoaderStatics_t6F406ECDF06F7ADE5F5C6BAB81B14F4937CB662A;
 			}
 		}
 		return returnValue;
@@ -15371,9 +15371,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechCommands__ctor_mBF264E96B3A9AD8270
 // System.Boolean System.String::IsNullOrWhiteSpace(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrWhiteSpace_m62102CA65546AE151DC8254B72110F4AA48E2135 (String_t* ___value0, const RuntimeMethod* method);
 // Windows.ApplicationModel.Resources.ResourceLoader Windows.ApplicationModel.Resources.ResourceLoader::GetForViewIndependentUse()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ResourceLoader_tB9072395A3F7BAA35F91F4ACB1DA40251E86566E * ResourceLoader_GetForViewIndependentUse_m3B47FB65B1ED8348C6B7BAA0059004AFEE2E40BD (const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ResourceLoader_t8B768D258E68D095DE33414413A9544BB4D9F831 * ResourceLoader_GetForViewIndependentUse_mE4720FC4004660F31458F37540685A14332D0323 (const RuntimeMethod* method);
 // System.String Windows.ApplicationModel.Resources.ResourceLoader::GetString(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ResourceLoader_GetString_m8586C7138823D162F671D6958F3F245C17E6B628 (ResourceLoader_tB9072395A3F7BAA35F91F4ACB1DA40251E86566E * __this, String_t* ___resource0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ResourceLoader_GetString_m8586C7138823D162F671D6958F3F245C17E6B628 (ResourceLoader_t8B768D258E68D095DE33414413A9544BB4D9F831 * __this, String_t* ___resource0, const RuntimeMethod* method);
 // System.String System.String::Concat(System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_mB78D0094592718DA6D5DB6C712A9C225631666BE (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method);
 // System.String Microsoft.MixedReality.Toolkit.Input.SpeechCommands::get_LocalizedKeyword()
@@ -26190,7 +26190,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SpeechCommands_get_LocalizedKeyword
 		il2cpp_codegen_initialize_method (SpeechCommands_get_LocalizedKeyword_m23D2BA08EFD47A734B6E5516C5460DA02A7D4767_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	ResourceLoader_tB9072395A3F7BAA35F91F4ACB1DA40251E86566E * V_0 = NULL;
+	ResourceLoader_t8B768D258E68D095DE33414413A9544BB4D9F831 * V_0 = NULL;
 	Exception_t * V_1 = NULL;
 	Exception_t * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
@@ -26221,10 +26221,10 @@ IL_001a:
 	try
 	{ // begin try (depth: 1)
 		// var resourceLoader = global::Windows.ApplicationModel.Resources.ResourceLoader.GetForViewIndependentUse();
-		ResourceLoader_tB9072395A3F7BAA35F91F4ACB1DA40251E86566E * L_4 = ResourceLoader_GetForViewIndependentUse_m3B47FB65B1ED8348C6B7BAA0059004AFEE2E40BD(/*hidden argument*/NULL);
+		ResourceLoader_t8B768D258E68D095DE33414413A9544BB4D9F831 * L_4 = ResourceLoader_GetForViewIndependentUse_mE4720FC4004660F31458F37540685A14332D0323(/*hidden argument*/NULL);
 		V_0 = L_4;
 		// localizedKeyword = resourceLoader.GetString(localizationKey);
-		ResourceLoader_tB9072395A3F7BAA35F91F4ACB1DA40251E86566E * L_5 = V_0;
+		ResourceLoader_t8B768D258E68D095DE33414413A9544BB4D9F831 * L_5 = V_0;
 		String_t* L_6 = __this->get_localizationKey_0();
 		NullCheck(L_5);
 		String_t* L_7 = ResourceLoader_GetString_m8586C7138823D162F671D6958F3F245C17E6B628(L_5, L_6, /*hidden argument*/NULL);

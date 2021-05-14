@@ -38,245 +38,259 @@ extern void CameraFocusController_OnVuforiaStarted_mA9212CEE7B9178289631A48CF097
 extern void CameraFocusController_OnPaused_m35E7F6A58071BD666B0EC4AE6D9BE5453F8A76E9 ();
 // 0x00000009 System.Void CameraFocusController::.ctor()
 extern void CameraFocusController__ctor_m030519161A692749AD0C66CA5A3E5443BEBFD236 ();
-// 0x0000000A System.Void CollisionDetection::Start()
+// 0x0000000A System.Void ChangeTransparency::Start()
+extern void ChangeTransparency_Start_mF56C553EED4C405BD24F7AA3EE63A4EB1189DFF9 ();
+// 0x0000000B System.Void ChangeTransparency::Update()
+extern void ChangeTransparency_Update_m9A1F94E7709276117F8D1BD44489746C82028BEA ();
+// 0x0000000C System.Void ChangeTransparency::.ctor()
+extern void ChangeTransparency__ctor_m2D0A963AC0E99D2AF77933235DD6B082143E7FB4 ();
+// 0x0000000D System.Void CollisionDetection::Start()
 extern void CollisionDetection_Start_m725FEAA275F50475EF35D7C422D40611F2FD1F7A ();
-// 0x0000000B System.Void CollisionDetection::Update()
+// 0x0000000E System.Void CollisionDetection::Update()
 extern void CollisionDetection_Update_mF38DBF197FE75ECB32E6F57A37798CC764D46874 ();
-// 0x0000000C System.Void CollisionDetection::OnTriggerEnter(UnityEngine.Collider)
+// 0x0000000F System.Void CollisionDetection::OnTriggerEnter(UnityEngine.Collider)
 extern void CollisionDetection_OnTriggerEnter_m61955786E44014B470289401F44AFE7D7B3B4743 ();
-// 0x0000000D System.Void CollisionDetection::OnTriggerExit(UnityEngine.Collider)
+// 0x00000010 System.Void CollisionDetection::OnTriggerExit(UnityEngine.Collider)
 extern void CollisionDetection_OnTriggerExit_m6B1377DD78E54F40E7A59CE54C53E91596E9F7EC ();
-// 0x0000000E System.Void CollisionDetection::.ctor()
+// 0x00000011 System.Void CollisionDetection::.ctor()
 extern void CollisionDetection__ctor_mE3C52F25E43490B7F2CFF7092B38D73DB31705FA ();
-// 0x0000000F System.Void FileOutput::WriteData()
+// 0x00000012 System.Void FileOutput::WriteData()
 extern void FileOutput_WriteData_m44D7B06655C7354FE927A43C22D598286D2A95FE ();
-// 0x00000010 System.Void FileOutput::AddToLog(System.String)
+// 0x00000013 System.Void FileOutput::AddToLog(System.String)
 extern void FileOutput_AddToLog_m114746C48632489017C29C6CECEAB7B5456B31E4 ();
-// 0x00000011 System.Void FileOutput::.ctor()
+// 0x00000014 System.Void FileOutput::.ctor()
 extern void FileOutput__ctor_m44322AF7AF2177D83F997D85D41250977F63C96B ();
-// 0x00000012 System.Void FileOutput::.cctor()
+// 0x00000015 System.Void FileOutput::.cctor()
 extern void FileOutput__cctor_m6F041341B5D3E5B6B10C97F9247F6468B614DF60 ();
-// 0x00000013 System.Void FileOutput_<WriteData>d__6::MoveNext()
+// 0x00000016 System.Void FileOutput_<WriteData>d__6::MoveNext()
 extern void U3CWriteDataU3Ed__6_MoveNext_mF9EDB7C6DEF43ABF82CCA9917E0A40F5C0B7DEBB_AdjustorThunk ();
-// 0x00000014 System.Void FileOutput_<WriteData>d__6::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000017 System.Void FileOutput_<WriteData>d__6::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CWriteDataU3Ed__6_SetStateMachine_mDBFD893A874CC574CA681AB395FC509C3609B399_AdjustorThunk ();
-// 0x00000015 System.Void InfoDisplay::Start()
+// 0x00000018 System.Void InfoDisplay::Start()
 extern void InfoDisplay_Start_m08DCCBBF6F2777DDB8D934F748E7537B36B623C9 ();
-// 0x00000016 System.Void InfoDisplay::Update()
+// 0x00000019 System.Void InfoDisplay::Update()
 extern void InfoDisplay_Update_mD0B50AD0B43CF02B5239AA7D75D103A1A68D9DF8 ();
-// 0x00000017 System.Void InfoDisplay::DisplayLength()
+// 0x0000001A System.Void InfoDisplay::DisplayLength()
 extern void InfoDisplay_DisplayLength_m9F545FECFB85FB8C00925B954920C789E98C6DB1 ();
-// 0x00000018 System.Void InfoDisplay::DisplayStep()
+// 0x0000001B System.Void InfoDisplay::DisplayStep()
 extern void InfoDisplay_DisplayStep_m06FAB5B51203BCE9E059BF7E291FB884E246A47A ();
-// 0x00000019 System.Void InfoDisplay::DisplayName()
+// 0x0000001C System.Void InfoDisplay::DisplayName()
 extern void InfoDisplay_DisplayName_m8B704F58E9AE871C55D0A81E9A5E016F1A5AA381 ();
-// 0x0000001A System.Void InfoDisplay::DisplayWater()
+// 0x0000001D System.Void InfoDisplay::DisplayWater()
 extern void InfoDisplay_DisplayWater_m4F7067FB407A1657A476FDFA838DE46F368C75E6 ();
-// 0x0000001B System.Void InfoDisplay::.ctor()
+// 0x0000001E System.Void InfoDisplay::.ctor()
 extern void InfoDisplay__ctor_m5B862259CA7A31BDDBE742FB7BA9E0B0EC52C856 ();
-// 0x0000001C System.Void MediaCaptureExample::Start()
+// 0x0000001F System.Void LOD::Display300()
+extern void LOD_Display300_m4EF187B632DF973E9CA92E4358DE02A576F1A119 ();
+// 0x00000020 System.Void LOD::Display400()
+extern void LOD_Display400_m763FCD98D4BEAA3DD988F549B30461225B19180F ();
+// 0x00000021 System.Void LOD::ResetModels()
+extern void LOD_ResetModels_mDCD5173C81AD5D00CB29F19A92E9943F449FAA89 ();
+// 0x00000022 System.Void LOD::.ctor()
+extern void LOD__ctor_mD7D73A82F24C7E904EDECD625D79150A55F8C988 ();
+// 0x00000023 System.Void MediaCaptureExample::Start()
 extern void MediaCaptureExample_Start_m5B7DB16E7951CBD5C960D84B78313B5FB03348F7 ();
-// 0x0000001D System.Void MediaCaptureExample::TakePhotoBasicAndSaveAsync()
+// 0x00000024 System.Void MediaCaptureExample::TakePhotoBasicAndSaveAsync()
 extern void MediaCaptureExample_TakePhotoBasicAndSaveAsync_mB1DD4C2F0FACC5664D209663B1F69D647FB104B4 ();
-// 0x0000001E System.Void MediaCaptureExample::TakePhotoBasicAndSaveAndDisplay()
+// 0x00000025 System.Void MediaCaptureExample::TakePhotoBasicAndSaveAndDisplay()
 extern void MediaCaptureExample_TakePhotoBasicAndSaveAndDisplay_mA23CACC440AA69191BB63E3F619A6C04429C2777 ();
-// 0x0000001F System.Void MediaCaptureExample::TakePhotoMoreOptionsAsync()
+// 0x00000026 System.Void MediaCaptureExample::TakePhotoMoreOptionsAsync()
 extern void MediaCaptureExample_TakePhotoMoreOptionsAsync_m9BC60D2C6E6F397D665D720DD24A111A352343ED ();
-// 0x00000020 System.Void MediaCaptureExample::processExtraTasksAfterWhenPhotoCaptureFailsMethod(Windows.Media.Capture.MediaCapture,Windows.Media.Capture.MediaCaptureFailedEventArgs)
-extern void MediaCaptureExample_processExtraTasksAfterWhenPhotoCaptureFailsMethod_m8773F7D08B458F29C5BCDA0C8B917350A1141E73 ();
-// 0x00000021 System.Void MediaCaptureExample::Update()
+// 0x00000027 System.Void MediaCaptureExample::processExtraTasksAfterWhenPhotoCaptureFailsMethod(Windows.Media.Capture.MediaCapture,Windows.Media.Capture.MediaCaptureFailedEventArgs)
+extern void MediaCaptureExample_processExtraTasksAfterWhenPhotoCaptureFailsMethod_mBBBBCF6011738065CB526680E7FF8D1C2264E8EF ();
+// 0x00000028 System.Void MediaCaptureExample::Update()
 extern void MediaCaptureExample_Update_mA0439E57355D33FBF2134B0EC4F346EA8E28B8A7 ();
-// 0x00000022 System.Void MediaCaptureExample::.ctor()
+// 0x00000029 System.Void MediaCaptureExample::.ctor()
 extern void MediaCaptureExample__ctor_mF226BFC9A006FABCBC3E8C4023353A9DE941E74B ();
-// 0x00000023 System.Void MediaCaptureExample_<TakePhotoBasicAndSaveAsync>d__3::MoveNext()
+// 0x0000002A System.Void MediaCaptureExample_<TakePhotoBasicAndSaveAsync>d__3::MoveNext()
 extern void U3CTakePhotoBasicAndSaveAsyncU3Ed__3_MoveNext_m323D1F24BC93A19C48DD6D4ECB13602886C21896_AdjustorThunk ();
-// 0x00000024 System.Void MediaCaptureExample_<TakePhotoBasicAndSaveAsync>d__3::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x0000002B System.Void MediaCaptureExample_<TakePhotoBasicAndSaveAsync>d__3::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CTakePhotoBasicAndSaveAsyncU3Ed__3_SetStateMachine_m0EA74ADC974A6903F7254C8A93EC6301DE93C330_AdjustorThunk ();
-// 0x00000025 System.Void MediaCaptureExample_<TakePhotoBasicAndSaveAndDisplay>d__4::MoveNext()
+// 0x0000002C System.Void MediaCaptureExample_<TakePhotoBasicAndSaveAndDisplay>d__4::MoveNext()
 extern void U3CTakePhotoBasicAndSaveAndDisplayU3Ed__4_MoveNext_m7CC16B20AF99620E2CB08978A71FA5B972ABD455_AdjustorThunk ();
-// 0x00000026 System.Void MediaCaptureExample_<TakePhotoBasicAndSaveAndDisplay>d__4::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x0000002D System.Void MediaCaptureExample_<TakePhotoBasicAndSaveAndDisplay>d__4::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CTakePhotoBasicAndSaveAndDisplayU3Ed__4_SetStateMachine_mC1A830C6D89D5447240CAD48BBABBEBEFBC593AD_AdjustorThunk ();
-// 0x00000027 System.Void MediaCaptureExample_<>c::.cctor()
+// 0x0000002E System.Void MediaCaptureExample_<>c::.cctor()
 extern void U3CU3Ec__cctor_m8D5DCEC4C4E4312DF16E75A3DB32AE58B58325F1 ();
-// 0x00000028 System.Void MediaCaptureExample_<>c::.ctor()
+// 0x0000002F System.Void MediaCaptureExample_<>c::.ctor()
 extern void U3CU3Ec__ctor_m105AC21EAA233D07FC14855A00A12EB47D7AFAA5 ();
-// 0x00000029 System.UInt32 MediaCaptureExample_<>c::<TakePhotoMoreOptionsAsync>b__5_0(Windows.Media.MediaProperties.ImageEncodingProperties)
-extern void U3CU3Ec_U3CTakePhotoMoreOptionsAsyncU3Eb__5_0_m80CFD897B56D64B064291D092936E115ABC13C99 ();
-// 0x0000002A System.Void MediaCaptureExample_<TakePhotoMoreOptionsAsync>d__5::MoveNext()
+// 0x00000030 System.UInt32 MediaCaptureExample_<>c::<TakePhotoMoreOptionsAsync>b__5_0(Windows.Media.MediaProperties.ImageEncodingProperties)
+extern void U3CU3Ec_U3CTakePhotoMoreOptionsAsyncU3Eb__5_0_m1DCC52BAA70B764285D8DFE08FE46C8B4B78D1A6 ();
+// 0x00000031 System.Void MediaCaptureExample_<TakePhotoMoreOptionsAsync>d__5::MoveNext()
 extern void U3CTakePhotoMoreOptionsAsyncU3Ed__5_MoveNext_m5953F72285C5B9731B1CDB3F133751A3CE0D47BC_AdjustorThunk ();
-// 0x0000002B System.Void MediaCaptureExample_<TakePhotoMoreOptionsAsync>d__5::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000032 System.Void MediaCaptureExample_<TakePhotoMoreOptionsAsync>d__5::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CTakePhotoMoreOptionsAsyncU3Ed__5_SetStateMachine_mE68645520BB0143FA07E4A73F3C53C91487DEAAB_AdjustorThunk ();
-// 0x0000002C System.Void Part::Start()
+// 0x00000033 System.Void Part::Start()
 extern void Part_Start_m7DD86C1F6BC4DD9DCBF9A499C81C8442E4EF2A1D ();
-// 0x0000002D System.Void Part::Update()
+// 0x00000034 System.Void Part::Update()
 extern void Part_Update_mC38291C71784078C06B14E26E2C67700C25C677E ();
-// 0x0000002E System.Void Part::.ctor()
+// 0x00000035 System.Void Part::.ctor()
 extern void Part__ctor_mDFB34532D5558A54F50618502BA7FDF85598A012 ();
-// 0x0000002F System.Void StepThrough::Start()
+// 0x00000036 System.Void StepThrough::Start()
 extern void StepThrough_Start_m321933B296D4276CFBC4017DE294D944A6419138 ();
-// 0x00000030 System.Void StepThrough::Update()
+// 0x00000037 System.Void StepThrough::Update()
 extern void StepThrough_Update_m3444085F9460A7B23625257483E1C023E783A38A ();
-// 0x00000031 System.Void StepThrough::NextStep()
+// 0x00000038 System.Void StepThrough::NextStep()
 extern void StepThrough_NextStep_m41B527E3E0D1E521A80154DF9ED1F07B4AE3DE2E ();
-// 0x00000032 System.Void StepThrough::BackStep()
+// 0x00000039 System.Void StepThrough::BackStep()
 extern void StepThrough_BackStep_mB595BC2FEB2E06DFD80FF95275983A2EFBF1BFD2 ();
-// 0x00000033 System.Void StepThrough::SetStep()
+// 0x0000003A System.Void StepThrough::SetStep()
 extern void StepThrough_SetStep_m00160DF5007DC457E81F69CE19B3825ADEBAE107 ();
-// 0x00000034 System.Void StepThrough::.ctor()
+// 0x0000003B System.Void StepThrough::.ctor()
 extern void StepThrough__ctor_mFD2F9E960BDF18E1F38B2926678211A9AC8D56EE ();
-// 0x00000035 System.Void UWPExample.MediaCaptureImplementation::.ctor()
+// 0x0000003C System.Void UWPExample.MediaCaptureImplementation::.ctor()
 extern void MediaCaptureImplementation__ctor_mF605D38BB3C68FCE65D74F0BE88521C7C52BBE74 ();
-// 0x00000036 System.Void UWPExample.MediaCaptureImplementation::.ctor(System.Action`2<Windows.Media.Capture.MediaCapture,Windows.Media.Capture.MediaCaptureFailedEventArgs>)
-extern void MediaCaptureImplementation__ctor_m14B5F6437667846F64CA8D15D2E8546F16F319F9 ();
-// 0x00000037 System.Threading.Tasks.Task UWPExample.MediaCaptureImplementation::InitializeAsync()
+// 0x0000003D System.Void UWPExample.MediaCaptureImplementation::.ctor(System.Action`2<Windows.Media.Capture.MediaCapture,Windows.Media.Capture.MediaCaptureFailedEventArgs>)
+extern void MediaCaptureImplementation__ctor_mADD97164040B9A65F09C4743F86349D4EC71A4B0 ();
+// 0x0000003E System.Threading.Tasks.Task UWPExample.MediaCaptureImplementation::InitializeAsync()
 extern void MediaCaptureImplementation_InitializeAsync_mCFFE598CB1FB07D82686927F4B7FE49050C2324B ();
-// 0x00000038 System.Void UWPExample.MediaCaptureImplementation::MediaCapture_Failed(Windows.Media.Capture.MediaCapture,Windows.Media.Capture.MediaCaptureFailedEventArgs)
-extern void MediaCaptureImplementation_MediaCapture_Failed_m8489DCADD8ABC37799F6E29CF2052742A342FDF7 ();
-// 0x00000039 System.Threading.Tasks.Task`1<Windows.Devices.Enumeration.DeviceInformationCollection> UWPExample.MediaCaptureImplementation::GetCameraDevicesAsync()
-extern void MediaCaptureImplementation_GetCameraDevicesAsync_m1BF5D6C159AF588C95F61C3580CBB27F9C01605A ();
-// 0x0000003A System.Threading.Tasks.Task`1<System.Int32> UWPExample.MediaCaptureImplementation::GetNumberOfCameraDevicesAsync()
+// 0x0000003F System.Void UWPExample.MediaCaptureImplementation::MediaCapture_Failed(Windows.Media.Capture.MediaCapture,Windows.Media.Capture.MediaCaptureFailedEventArgs)
+extern void MediaCaptureImplementation_MediaCapture_Failed_mDAC4DC5655285C73276E7A571DCFF9AEADEDBB55 ();
+// 0x00000040 System.Threading.Tasks.Task`1<Windows.Devices.Enumeration.DeviceInformationCollection> UWPExample.MediaCaptureImplementation::GetCameraDevicesAsync()
+extern void MediaCaptureImplementation_GetCameraDevicesAsync_mB0551E469B153D5AF1285C123366C5375EC18EEC ();
+// 0x00000041 System.Threading.Tasks.Task`1<System.Int32> UWPExample.MediaCaptureImplementation::GetNumberOfCameraDevicesAsync()
 extern void MediaCaptureImplementation_GetNumberOfCameraDevicesAsync_m12320AE9867A92601BC1BEB75F32758D066440C9 ();
-// 0x0000003B System.Threading.Tasks.Task`1<System.Boolean> UWPExample.MediaCaptureImplementation::IsCameraAvailableInDevice()
+// 0x00000042 System.Threading.Tasks.Task`1<System.Boolean> UWPExample.MediaCaptureImplementation::IsCameraAvailableInDevice()
 extern void MediaCaptureImplementation_IsCameraAvailableInDevice_m62C312ACAF1070FEDEA12F550B3B3587FD9AAED4 ();
-// 0x0000003C System.Void UWPExample.MediaCaptureImplementation::SelectCameraDevice(Windows.Devices.Enumeration.DeviceInformation)
-extern void MediaCaptureImplementation_SelectCameraDevice_m22D82FC4A25F244C0242ADE4158D7E68FB333651 ();
-// 0x0000003D System.Threading.Tasks.Task UWPExample.MediaCaptureImplementation::SelectDefaultCameraDeviceAsync()
+// 0x00000043 System.Void UWPExample.MediaCaptureImplementation::SelectCameraDevice(Windows.Devices.Enumeration.DeviceInformation)
+extern void MediaCaptureImplementation_SelectCameraDevice_m7F4DCDBD6C4F111D6D55B0F240FFE2879FF8FC4D ();
+// 0x00000044 System.Threading.Tasks.Task UWPExample.MediaCaptureImplementation::SelectDefaultCameraDeviceAsync()
 extern void MediaCaptureImplementation_SelectDefaultCameraDeviceAsync_m31AE2EF144693B7344744B2275E97C9ED0369954 ();
-// 0x0000003E System.Threading.Tasks.Task`1<Windows.Media.Capture.MediaCaptureInitializationSettings> UWPExample.MediaCaptureImplementation::GetSelectedMediaCaptureInitializationSettingsAsync()
-extern void MediaCaptureImplementation_GetSelectedMediaCaptureInitializationSettingsAsync_m6AE42D7158505CE58123CDC8468A86D8928C404D ();
-// 0x0000003F System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<Windows.Media.MediaProperties.ImageEncodingProperties>> UWPExample.MediaCaptureImplementation::GetPhotoResolutionsAsync()
-extern void MediaCaptureImplementation_GetPhotoResolutionsAsync_mE6312C3544E173EB339F63C853C864B862CA9820 ();
-// 0x00000040 Windows.Media.MediaProperties.ImageEncodingProperties UWPExample.MediaCaptureImplementation::GetSelectedPhotoResolution()
-extern void MediaCaptureImplementation_GetSelectedPhotoResolution_m41E0498DD69C0A7C0A0716E01C1FD8FFD61D3681 ();
-// 0x00000041 System.Void UWPExample.MediaCaptureImplementation::SetPhotoResolutionTo(Windows.Media.MediaProperties.ImageEncodingProperties)
-extern void MediaCaptureImplementation_SetPhotoResolutionTo_mB708664D78CC9C84F0241252B54ED542EFCBB170 ();
-// 0x00000042 System.Threading.Tasks.Task UWPExample.MediaCaptureImplementation::SetPhotoResolutionToAsync(UWPExample.MediaCaptureImplementation_PHOTO_RESOLUTION)
+// 0x00000045 System.Threading.Tasks.Task`1<Windows.Media.Capture.MediaCaptureInitializationSettings> UWPExample.MediaCaptureImplementation::GetSelectedMediaCaptureInitializationSettingsAsync()
+extern void MediaCaptureImplementation_GetSelectedMediaCaptureInitializationSettingsAsync_mBC79967E07CD6360B671750A4E4895B66B8AC262 ();
+// 0x00000046 System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<Windows.Media.MediaProperties.ImageEncodingProperties>> UWPExample.MediaCaptureImplementation::GetPhotoResolutionsAsync()
+extern void MediaCaptureImplementation_GetPhotoResolutionsAsync_m7A9920C9D47BD74E55676867CF39C6F056D86632 ();
+// 0x00000047 Windows.Media.MediaProperties.ImageEncodingProperties UWPExample.MediaCaptureImplementation::GetSelectedPhotoResolution()
+extern void MediaCaptureImplementation_GetSelectedPhotoResolution_m908D50456FC3EE152012FE233948C0164106D4F5 ();
+// 0x00000048 System.Void UWPExample.MediaCaptureImplementation::SetPhotoResolutionTo(Windows.Media.MediaProperties.ImageEncodingProperties)
+extern void MediaCaptureImplementation_SetPhotoResolutionTo_mEE6C4F096A9B1BB2B2A3731F6FC819C5D2821EE7 ();
+// 0x00000049 System.Threading.Tasks.Task UWPExample.MediaCaptureImplementation::SetPhotoResolutionToAsync(UWPExample.MediaCaptureImplementation_PHOTO_RESOLUTION)
 extern void MediaCaptureImplementation_SetPhotoResolutionToAsync_m8D36A65CA09518D63E19E3AB637B79033C13CD15 ();
-// 0x00000043 System.Threading.Tasks.Task`1<System.Byte[]> UWPExample.MediaCaptureImplementation::TakePhotoBytesAsync()
+// 0x0000004A System.Threading.Tasks.Task`1<System.Byte[]> UWPExample.MediaCaptureImplementation::TakePhotoBytesAsync()
 extern void MediaCaptureImplementation_TakePhotoBytesAsync_mB927DAFE84D9A18A7E1FE08BF70466EECCC24DA1 ();
-// 0x00000044 System.Threading.Tasks.Task`1<Windows.Storage.Streams.InMemoryRandomAccessStream> UWPExample.MediaCaptureImplementation::TakePhotoInMemoryRandomAccessStreamAsync()
-extern void MediaCaptureImplementation_TakePhotoInMemoryRandomAccessStreamAsync_m1B57C95BEE9BCE3ADE2B4A98640B7BCF05AFFA5C ();
-// 0x00000045 System.Threading.Tasks.Task`1<UnityEngine.Texture2D> UWPExample.MediaCaptureImplementation::TakePhotoTexture2DAsync()
+// 0x0000004B System.Threading.Tasks.Task`1<Windows.Storage.Streams.InMemoryRandomAccessStream> UWPExample.MediaCaptureImplementation::TakePhotoInMemoryRandomAccessStreamAsync()
+extern void MediaCaptureImplementation_TakePhotoInMemoryRandomAccessStreamAsync_mE1BD1C2ADD0A30A87E1934E57DAA6A687346AA47 ();
+// 0x0000004C System.Threading.Tasks.Task`1<UnityEngine.Texture2D> UWPExample.MediaCaptureImplementation::TakePhotoTexture2DAsync()
 extern void MediaCaptureImplementation_TakePhotoTexture2DAsync_m63832AAC831EBFEC17FBA59BD29CC4DAEE586DA9 ();
-// 0x00000046 System.Threading.Tasks.Task`1<System.Boolean> UWPExample.MediaCaptureImplementation::TakePhotoAndSavePhotoToPicturesLibraryAsync()
+// 0x0000004D System.Threading.Tasks.Task`1<System.Boolean> UWPExample.MediaCaptureImplementation::TakePhotoAndSavePhotoToPicturesLibraryAsync()
 extern void MediaCaptureImplementation_TakePhotoAndSavePhotoToPicturesLibraryAsync_m80A304B9A1C59FE583A9698A55AB9711629B1B94 ();
-// 0x00000047 System.Threading.Tasks.Task`1<System.Boolean> UWPExample.MediaCaptureImplementation::TakePhotoAndSavePhotoToPicturesLibraryAsync(System.String)
+// 0x0000004E System.Threading.Tasks.Task`1<System.Boolean> UWPExample.MediaCaptureImplementation::TakePhotoAndSavePhotoToPicturesLibraryAsync(System.String)
 extern void MediaCaptureImplementation_TakePhotoAndSavePhotoToPicturesLibraryAsync_mCA36CDE938DF3A8549B74141B4A45F134A02EA8E ();
-// 0x00000048 System.Threading.Tasks.Task`1<System.Boolean> UWPExample.MediaCaptureImplementation::TakePhotoAndSavePhotoToAsync(Windows.Storage.StorageFile)
-extern void MediaCaptureImplementation_TakePhotoAndSavePhotoToAsync_m5788F6D6931418EEBE62AAD5E192AC3A1BAF5D75 ();
-// 0x00000049 System.Threading.Tasks.Task UWPExample.MediaCaptureImplementation::TakePhotoAsync()
+// 0x0000004F System.Threading.Tasks.Task`1<System.Boolean> UWPExample.MediaCaptureImplementation::TakePhotoAndSavePhotoToAsync(Windows.Storage.StorageFile)
+extern void MediaCaptureImplementation_TakePhotoAndSavePhotoToAsync_m180B183CED625AEF147FBD20E39E1783E88ADEC2 ();
+// 0x00000050 System.Threading.Tasks.Task UWPExample.MediaCaptureImplementation::TakePhotoAsync()
 extern void MediaCaptureImplementation_TakePhotoAsync_mE1C7D51E84D4D49FBBC5FC7155E37E4637C42C8B ();
-// 0x0000004A System.Threading.Tasks.Task`1<System.Byte[]> UWPExample.MediaCaptureImplementation::ConvertFromInMemoryRandomAccessStreamToByteArrayAsync(Windows.Storage.Streams.InMemoryRandomAccessStream)
-extern void MediaCaptureImplementation_ConvertFromInMemoryRandomAccessStreamToByteArrayAsync_m02D1A5B74E68391920F3C8FAD72E5DF1B9E31D74 ();
-// 0x0000004B System.Byte[] UWPExample.MediaCaptureImplementation::GetPhotoBytes()
+// 0x00000051 System.Threading.Tasks.Task`1<System.Byte[]> UWPExample.MediaCaptureImplementation::ConvertFromInMemoryRandomAccessStreamToByteArrayAsync(Windows.Storage.Streams.InMemoryRandomAccessStream)
+extern void MediaCaptureImplementation_ConvertFromInMemoryRandomAccessStreamToByteArrayAsync_mCB2F3A44849DAD57FAF28809B774AC64C80C5CBF ();
+// 0x00000052 System.Byte[] UWPExample.MediaCaptureImplementation::GetPhotoBytes()
 extern void MediaCaptureImplementation_GetPhotoBytes_m835DD928E6B84B38B1AD37D2CEA304B48111F097 ();
-// 0x0000004C System.Threading.Tasks.Task`1<Windows.Storage.Streams.InMemoryRandomAccessStream> UWPExample.MediaCaptureImplementation::GetPhotoInMemoryRandomAccessStreamAsync()
-extern void MediaCaptureImplementation_GetPhotoInMemoryRandomAccessStreamAsync_m4C0A3D179ACBBDAEF7B6610EC91CE36CE0E84EC9 ();
-// 0x0000004D System.Threading.Tasks.Task`1<UnityEngine.Texture2D> UWPExample.MediaCaptureImplementation::GetPhotoTexture2D()
+// 0x00000053 System.Threading.Tasks.Task`1<Windows.Storage.Streams.InMemoryRandomAccessStream> UWPExample.MediaCaptureImplementation::GetPhotoInMemoryRandomAccessStreamAsync()
+extern void MediaCaptureImplementation_GetPhotoInMemoryRandomAccessStreamAsync_mE997CEA9ED9CDEC6FFC9C75CE1FE651D3F65A866 ();
+// 0x00000054 System.Threading.Tasks.Task`1<UnityEngine.Texture2D> UWPExample.MediaCaptureImplementation::GetPhotoTexture2D()
 extern void MediaCaptureImplementation_GetPhotoTexture2D_m01E9E1AAAE854A52F87F5A69CAFBB58261B23342 ();
-// 0x0000004E System.Threading.Tasks.Task`1<System.Boolean> UWPExample.MediaCaptureImplementation::SavePhotoToPicturesLibraryAsync()
+// 0x00000055 System.Threading.Tasks.Task`1<System.Boolean> UWPExample.MediaCaptureImplementation::SavePhotoToPicturesLibraryAsync()
 extern void MediaCaptureImplementation_SavePhotoToPicturesLibraryAsync_m103BDFAD286283B02A55E321BD7A365816B7F239 ();
-// 0x0000004F System.Threading.Tasks.Task`1<System.Boolean> UWPExample.MediaCaptureImplementation::SavePhotoToPicturesLibraryAsync(System.String)
+// 0x00000056 System.Threading.Tasks.Task`1<System.Boolean> UWPExample.MediaCaptureImplementation::SavePhotoToPicturesLibraryAsync(System.String)
 extern void MediaCaptureImplementation_SavePhotoToPicturesLibraryAsync_m7A98A64A5CE70724D5A9DE5581F3B4D00E397D4E ();
-// 0x00000050 System.Threading.Tasks.Task`1<System.Boolean> UWPExample.MediaCaptureImplementation::SavePhotoToAsync(Windows.Storage.StorageFile)
-extern void MediaCaptureImplementation_SavePhotoToAsync_m2E765E0D00A7F497CFEFD063752DAF3C9584F80A ();
-// 0x00000051 System.String UWPExample.MediaCaptureImplementation::getDefaultFileName()
+// 0x00000057 System.Threading.Tasks.Task`1<System.Boolean> UWPExample.MediaCaptureImplementation::SavePhotoToAsync(Windows.Storage.StorageFile)
+extern void MediaCaptureImplementation_SavePhotoToAsync_mA4B0B10625A3E76228CB4255C3CCEB25654110E6 ();
+// 0x00000058 System.String UWPExample.MediaCaptureImplementation::getDefaultFileName()
 extern void MediaCaptureImplementation_getDefaultFileName_m197B1067D3B868D869A6498A708B1679051BEC1B ();
-// 0x00000052 System.Void UWPExample.MediaCaptureImplementation_<InitializeAsync>d__10::MoveNext()
+// 0x00000059 System.Void UWPExample.MediaCaptureImplementation_<InitializeAsync>d__10::MoveNext()
 extern void U3CInitializeAsyncU3Ed__10_MoveNext_m194F1E8227750E9ACC264CAC6C97AB58F0C7A5C0_AdjustorThunk ();
-// 0x00000053 System.Void UWPExample.MediaCaptureImplementation_<InitializeAsync>d__10::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x0000005A System.Void UWPExample.MediaCaptureImplementation_<InitializeAsync>d__10::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CInitializeAsyncU3Ed__10_SetStateMachine_m85DD3820CB0138BE2B85BDD141E52596A476A9DE_AdjustorThunk ();
-// 0x00000054 System.Void UWPExample.MediaCaptureImplementation_<GetCameraDevicesAsync>d__12::MoveNext()
+// 0x0000005B System.Void UWPExample.MediaCaptureImplementation_<GetCameraDevicesAsync>d__12::MoveNext()
 extern void U3CGetCameraDevicesAsyncU3Ed__12_MoveNext_m6E6AF455F15B5B4EF69DEBB46055BE334CB7E350_AdjustorThunk ();
-// 0x00000055 System.Void UWPExample.MediaCaptureImplementation_<GetCameraDevicesAsync>d__12::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x0000005C System.Void UWPExample.MediaCaptureImplementation_<GetCameraDevicesAsync>d__12::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CGetCameraDevicesAsyncU3Ed__12_SetStateMachine_m4AF70412F824FA40D855CB66732C9E19DB33BB61_AdjustorThunk ();
-// 0x00000056 System.Void UWPExample.MediaCaptureImplementation_<GetNumberOfCameraDevicesAsync>d__13::MoveNext()
+// 0x0000005D System.Void UWPExample.MediaCaptureImplementation_<GetNumberOfCameraDevicesAsync>d__13::MoveNext()
 extern void U3CGetNumberOfCameraDevicesAsyncU3Ed__13_MoveNext_mD651A29EF647260BF6236E6A3DF0F1DAD0BD5181_AdjustorThunk ();
-// 0x00000057 System.Void UWPExample.MediaCaptureImplementation_<GetNumberOfCameraDevicesAsync>d__13::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x0000005E System.Void UWPExample.MediaCaptureImplementation_<GetNumberOfCameraDevicesAsync>d__13::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CGetNumberOfCameraDevicesAsyncU3Ed__13_SetStateMachine_mA3B51743C863E67D07DD4EF63397FCE7C5E1DE2E_AdjustorThunk ();
-// 0x00000058 System.Void UWPExample.MediaCaptureImplementation_<IsCameraAvailableInDevice>d__14::MoveNext()
+// 0x0000005F System.Void UWPExample.MediaCaptureImplementation_<IsCameraAvailableInDevice>d__14::MoveNext()
 extern void U3CIsCameraAvailableInDeviceU3Ed__14_MoveNext_mE8B2AACA2370A001EF6A70F99E8FA7EB360E23BE_AdjustorThunk ();
-// 0x00000059 System.Void UWPExample.MediaCaptureImplementation_<IsCameraAvailableInDevice>d__14::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000060 System.Void UWPExample.MediaCaptureImplementation_<IsCameraAvailableInDevice>d__14::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CIsCameraAvailableInDeviceU3Ed__14_SetStateMachine_m86C23391312E3C6EBAE560F108F1345363D268E6_AdjustorThunk ();
-// 0x0000005A System.Void UWPExample.MediaCaptureImplementation_<SelectDefaultCameraDeviceAsync>d__16::MoveNext()
+// 0x00000061 System.Void UWPExample.MediaCaptureImplementation_<SelectDefaultCameraDeviceAsync>d__16::MoveNext()
 extern void U3CSelectDefaultCameraDeviceAsyncU3Ed__16_MoveNext_m8F45940CED91A04F36EA8379D3AC53630987F51B_AdjustorThunk ();
-// 0x0000005B System.Void UWPExample.MediaCaptureImplementation_<SelectDefaultCameraDeviceAsync>d__16::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000062 System.Void UWPExample.MediaCaptureImplementation_<SelectDefaultCameraDeviceAsync>d__16::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CSelectDefaultCameraDeviceAsyncU3Ed__16_SetStateMachine_m4D0113B5545A015F20CED79B0E68CA8ACCE53F54_AdjustorThunk ();
-// 0x0000005C System.Void UWPExample.MediaCaptureImplementation_<GetSelectedMediaCaptureInitializationSettingsAsync>d__17::MoveNext()
+// 0x00000063 System.Void UWPExample.MediaCaptureImplementation_<GetSelectedMediaCaptureInitializationSettingsAsync>d__17::MoveNext()
 extern void U3CGetSelectedMediaCaptureInitializationSettingsAsyncU3Ed__17_MoveNext_mC78A559C29823286E31D25C25EC37D5DFF8661DB_AdjustorThunk ();
-// 0x0000005D System.Void UWPExample.MediaCaptureImplementation_<GetSelectedMediaCaptureInitializationSettingsAsync>d__17::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000064 System.Void UWPExample.MediaCaptureImplementation_<GetSelectedMediaCaptureInitializationSettingsAsync>d__17::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CGetSelectedMediaCaptureInitializationSettingsAsyncU3Ed__17_SetStateMachine_m2B574D62C2FF23640B6A095D894FF922176DA961_AdjustorThunk ();
-// 0x0000005E System.Void UWPExample.MediaCaptureImplementation_<>c::.cctor()
+// 0x00000065 System.Void UWPExample.MediaCaptureImplementation_<>c::.cctor()
 extern void U3CU3Ec__cctor_mC61D3D7EE08A22689DDA5D1A7545BABAF51AF36A ();
-// 0x0000005F System.Void UWPExample.MediaCaptureImplementation_<>c::.ctor()
+// 0x00000066 System.Void UWPExample.MediaCaptureImplementation_<>c::.ctor()
 extern void U3CU3Ec__ctor_m9ED8926D3C32EDD5B757524DC62DB0AA4848AB78 ();
-// 0x00000060 Windows.Media.MediaProperties.ImageEncodingProperties UWPExample.MediaCaptureImplementation_<>c::<GetPhotoResolutionsAsync>b__18_0(Windows.Media.MediaProperties.IMediaEncodingProperties)
-extern void U3CU3Ec_U3CGetPhotoResolutionsAsyncU3Eb__18_0_m1CBDF704B391A73418FFF5CE7118AC46B030E7A5 ();
-// 0x00000061 System.Boolean UWPExample.MediaCaptureImplementation_<>c::<GetPhotoResolutionsAsync>b__18_1(Windows.Media.MediaProperties.ImageEncodingProperties)
-extern void U3CU3Ec_U3CGetPhotoResolutionsAsyncU3Eb__18_1_mC87049C92EA97C1922A8C4257C1BC35F413718F8 ();
-// 0x00000062 System.UInt32 UWPExample.MediaCaptureImplementation_<>c::<SetPhotoResolutionToAsync>b__21_0(Windows.Media.MediaProperties.ImageEncodingProperties)
-extern void U3CU3Ec_U3CSetPhotoResolutionToAsyncU3Eb__21_0_m4CEBB881CA48BF3C0DC17D57274486B568A94A43 ();
-// 0x00000063 System.Void UWPExample.MediaCaptureImplementation_<GetPhotoResolutionsAsync>d__18::MoveNext()
+// 0x00000067 Windows.Media.MediaProperties.ImageEncodingProperties UWPExample.MediaCaptureImplementation_<>c::<GetPhotoResolutionsAsync>b__18_0(Windows.Media.MediaProperties.IMediaEncodingProperties)
+extern void U3CU3Ec_U3CGetPhotoResolutionsAsyncU3Eb__18_0_mBEEC08FE4A46DFEEEC60B08294D7D9BF83D9CD2A ();
+// 0x00000068 System.Boolean UWPExample.MediaCaptureImplementation_<>c::<GetPhotoResolutionsAsync>b__18_1(Windows.Media.MediaProperties.ImageEncodingProperties)
+extern void U3CU3Ec_U3CGetPhotoResolutionsAsyncU3Eb__18_1_m2A7526AC2350381C2FA02F93F8562CC4F9C2F3C9 ();
+// 0x00000069 System.UInt32 UWPExample.MediaCaptureImplementation_<>c::<SetPhotoResolutionToAsync>b__21_0(Windows.Media.MediaProperties.ImageEncodingProperties)
+extern void U3CU3Ec_U3CSetPhotoResolutionToAsyncU3Eb__21_0_m1E3DA9892FE83EEF8410DCE45CDF239D1716DE12 ();
+// 0x0000006A System.Void UWPExample.MediaCaptureImplementation_<GetPhotoResolutionsAsync>d__18::MoveNext()
 extern void U3CGetPhotoResolutionsAsyncU3Ed__18_MoveNext_m486C092C062D3FC4121F3F589DA063B5A6099CF0_AdjustorThunk ();
-// 0x00000064 System.Void UWPExample.MediaCaptureImplementation_<GetPhotoResolutionsAsync>d__18::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x0000006B System.Void UWPExample.MediaCaptureImplementation_<GetPhotoResolutionsAsync>d__18::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CGetPhotoResolutionsAsyncU3Ed__18_SetStateMachine_mFCB7DD3307434DA43BC66F2FF4EABB274DE14E59_AdjustorThunk ();
-// 0x00000065 System.Void UWPExample.MediaCaptureImplementation_<SetPhotoResolutionToAsync>d__21::MoveNext()
+// 0x0000006C System.Void UWPExample.MediaCaptureImplementation_<SetPhotoResolutionToAsync>d__21::MoveNext()
 extern void U3CSetPhotoResolutionToAsyncU3Ed__21_MoveNext_mF8FD22CEC1C431E4BD13ED744F84D7B70E8B3A87_AdjustorThunk ();
-// 0x00000066 System.Void UWPExample.MediaCaptureImplementation_<SetPhotoResolutionToAsync>d__21::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x0000006D System.Void UWPExample.MediaCaptureImplementation_<SetPhotoResolutionToAsync>d__21::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CSetPhotoResolutionToAsyncU3Ed__21_SetStateMachine_m3E8DF76476F10E5788E485685ACA7F651C772AF8_AdjustorThunk ();
-// 0x00000067 System.Void UWPExample.MediaCaptureImplementation_<TakePhotoBytesAsync>d__22::MoveNext()
+// 0x0000006E System.Void UWPExample.MediaCaptureImplementation_<TakePhotoBytesAsync>d__22::MoveNext()
 extern void U3CTakePhotoBytesAsyncU3Ed__22_MoveNext_mF589701F841A53B131888A0932C3877B9DA2CA4C_AdjustorThunk ();
-// 0x00000068 System.Void UWPExample.MediaCaptureImplementation_<TakePhotoBytesAsync>d__22::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x0000006F System.Void UWPExample.MediaCaptureImplementation_<TakePhotoBytesAsync>d__22::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CTakePhotoBytesAsyncU3Ed__22_SetStateMachine_m7A661C456F7980D6A6731552296D628C64146608_AdjustorThunk ();
-// 0x00000069 System.Void UWPExample.MediaCaptureImplementation_<TakePhotoInMemoryRandomAccessStreamAsync>d__23::MoveNext()
+// 0x00000070 System.Void UWPExample.MediaCaptureImplementation_<TakePhotoInMemoryRandomAccessStreamAsync>d__23::MoveNext()
 extern void U3CTakePhotoInMemoryRandomAccessStreamAsyncU3Ed__23_MoveNext_m45EE8BACE151DCF696B9339EA40612EC8C527767_AdjustorThunk ();
-// 0x0000006A System.Void UWPExample.MediaCaptureImplementation_<TakePhotoInMemoryRandomAccessStreamAsync>d__23::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000071 System.Void UWPExample.MediaCaptureImplementation_<TakePhotoInMemoryRandomAccessStreamAsync>d__23::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CTakePhotoInMemoryRandomAccessStreamAsyncU3Ed__23_SetStateMachine_mEF0C8BFA0F0442513AF5C4862D445F862543554B_AdjustorThunk ();
-// 0x0000006B System.Void UWPExample.MediaCaptureImplementation_<TakePhotoTexture2DAsync>d__24::MoveNext()
+// 0x00000072 System.Void UWPExample.MediaCaptureImplementation_<TakePhotoTexture2DAsync>d__24::MoveNext()
 extern void U3CTakePhotoTexture2DAsyncU3Ed__24_MoveNext_m8F4FF0BBBFB8130042EF306FC9ED7495D03070E0_AdjustorThunk ();
-// 0x0000006C System.Void UWPExample.MediaCaptureImplementation_<TakePhotoTexture2DAsync>d__24::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000073 System.Void UWPExample.MediaCaptureImplementation_<TakePhotoTexture2DAsync>d__24::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CTakePhotoTexture2DAsyncU3Ed__24_SetStateMachine_m7857A0D127843910ACC6F864CF3F1C193637E076_AdjustorThunk ();
-// 0x0000006D System.Void UWPExample.MediaCaptureImplementation_<TakePhotoAndSavePhotoToPicturesLibraryAsync>d__25::MoveNext()
+// 0x00000074 System.Void UWPExample.MediaCaptureImplementation_<TakePhotoAndSavePhotoToPicturesLibraryAsync>d__25::MoveNext()
 extern void U3CTakePhotoAndSavePhotoToPicturesLibraryAsyncU3Ed__25_MoveNext_m11DF69D16752DC6C4BFD3F4A93C82ADEAC1DB057_AdjustorThunk ();
-// 0x0000006E System.Void UWPExample.MediaCaptureImplementation_<TakePhotoAndSavePhotoToPicturesLibraryAsync>d__25::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000075 System.Void UWPExample.MediaCaptureImplementation_<TakePhotoAndSavePhotoToPicturesLibraryAsync>d__25::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CTakePhotoAndSavePhotoToPicturesLibraryAsyncU3Ed__25_SetStateMachine_m1E2FB7D4EE0322DA78DDF1B1F7A3FACC38B20F9E_AdjustorThunk ();
-// 0x0000006F System.Void UWPExample.MediaCaptureImplementation_<TakePhotoAndSavePhotoToPicturesLibraryAsync>d__26::MoveNext()
+// 0x00000076 System.Void UWPExample.MediaCaptureImplementation_<TakePhotoAndSavePhotoToPicturesLibraryAsync>d__26::MoveNext()
 extern void U3CTakePhotoAndSavePhotoToPicturesLibraryAsyncU3Ed__26_MoveNext_m9D5E0E92D37D1EA028A9B17EC7BCE344C892E06E_AdjustorThunk ();
-// 0x00000070 System.Void UWPExample.MediaCaptureImplementation_<TakePhotoAndSavePhotoToPicturesLibraryAsync>d__26::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000077 System.Void UWPExample.MediaCaptureImplementation_<TakePhotoAndSavePhotoToPicturesLibraryAsync>d__26::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CTakePhotoAndSavePhotoToPicturesLibraryAsyncU3Ed__26_SetStateMachine_m99FE3E51308F5E6BC0CA0106BBAD41BAE1D4C60F_AdjustorThunk ();
-// 0x00000071 System.Void UWPExample.MediaCaptureImplementation_<TakePhotoAndSavePhotoToAsync>d__27::MoveNext()
+// 0x00000078 System.Void UWPExample.MediaCaptureImplementation_<TakePhotoAndSavePhotoToAsync>d__27::MoveNext()
 extern void U3CTakePhotoAndSavePhotoToAsyncU3Ed__27_MoveNext_mFE79C312C2D089D893892317543A61B173FAFFF2_AdjustorThunk ();
-// 0x00000072 System.Void UWPExample.MediaCaptureImplementation_<TakePhotoAndSavePhotoToAsync>d__27::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000079 System.Void UWPExample.MediaCaptureImplementation_<TakePhotoAndSavePhotoToAsync>d__27::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CTakePhotoAndSavePhotoToAsyncU3Ed__27_SetStateMachine_mCD2F524F380F47BFFC1B8D719CD8787CB3461F80_AdjustorThunk ();
-// 0x00000073 System.Void UWPExample.MediaCaptureImplementation_<TakePhotoAsync>d__28::MoveNext()
+// 0x0000007A System.Void UWPExample.MediaCaptureImplementation_<TakePhotoAsync>d__28::MoveNext()
 extern void U3CTakePhotoAsyncU3Ed__28_MoveNext_m22EA58BE8AC35613782F0A7527A964015CD2AD90_AdjustorThunk ();
-// 0x00000074 System.Void UWPExample.MediaCaptureImplementation_<TakePhotoAsync>d__28::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x0000007B System.Void UWPExample.MediaCaptureImplementation_<TakePhotoAsync>d__28::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CTakePhotoAsyncU3Ed__28_SetStateMachine_m7815A8488D83D4CD41EBA2DF5157DE37A2286F84_AdjustorThunk ();
-// 0x00000075 System.Void UWPExample.MediaCaptureImplementation_<ConvertFromInMemoryRandomAccessStreamToByteArrayAsync>d__29::MoveNext()
+// 0x0000007C System.Void UWPExample.MediaCaptureImplementation_<ConvertFromInMemoryRandomAccessStreamToByteArrayAsync>d__29::MoveNext()
 extern void U3CConvertFromInMemoryRandomAccessStreamToByteArrayAsyncU3Ed__29_MoveNext_m1FE493831B44E994FD4B2C3AACE8414DD859788D_AdjustorThunk ();
-// 0x00000076 System.Void UWPExample.MediaCaptureImplementation_<ConvertFromInMemoryRandomAccessStreamToByteArrayAsync>d__29::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x0000007D System.Void UWPExample.MediaCaptureImplementation_<ConvertFromInMemoryRandomAccessStreamToByteArrayAsync>d__29::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CConvertFromInMemoryRandomAccessStreamToByteArrayAsyncU3Ed__29_SetStateMachine_m335C2030DFD66F8DB468483D1AB18304353FBC3C_AdjustorThunk ();
-// 0x00000077 System.Void UWPExample.MediaCaptureImplementation_<GetPhotoInMemoryRandomAccessStreamAsync>d__31::MoveNext()
+// 0x0000007E System.Void UWPExample.MediaCaptureImplementation_<GetPhotoInMemoryRandomAccessStreamAsync>d__31::MoveNext()
 extern void U3CGetPhotoInMemoryRandomAccessStreamAsyncU3Ed__31_MoveNext_m09031030107F1E3647F409F9B2A472D7C1BFEDBE_AdjustorThunk ();
-// 0x00000078 System.Void UWPExample.MediaCaptureImplementation_<GetPhotoInMemoryRandomAccessStreamAsync>d__31::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x0000007F System.Void UWPExample.MediaCaptureImplementation_<GetPhotoInMemoryRandomAccessStreamAsync>d__31::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CGetPhotoInMemoryRandomAccessStreamAsyncU3Ed__31_SetStateMachine_m947393E7573EA2A8516EB76BFBB910B5BFE5E02D_AdjustorThunk ();
-// 0x00000079 System.Void UWPExample.MediaCaptureImplementation_<GetPhotoTexture2D>d__32::MoveNext()
+// 0x00000080 System.Void UWPExample.MediaCaptureImplementation_<GetPhotoTexture2D>d__32::MoveNext()
 extern void U3CGetPhotoTexture2DU3Ed__32_MoveNext_m84EDA254BB48D71AE9E012E69D664454C6D5CA38_AdjustorThunk ();
-// 0x0000007A System.Void UWPExample.MediaCaptureImplementation_<GetPhotoTexture2D>d__32::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000081 System.Void UWPExample.MediaCaptureImplementation_<GetPhotoTexture2D>d__32::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CGetPhotoTexture2DU3Ed__32_SetStateMachine_m55F4FD16D9606ADAC691842B250695D02E79DD65_AdjustorThunk ();
-// 0x0000007B System.Void UWPExample.MediaCaptureImplementation_<SavePhotoToPicturesLibraryAsync>d__33::MoveNext()
+// 0x00000082 System.Void UWPExample.MediaCaptureImplementation_<SavePhotoToPicturesLibraryAsync>d__33::MoveNext()
 extern void U3CSavePhotoToPicturesLibraryAsyncU3Ed__33_MoveNext_m1443E448A8B4F40758B65AB7C13CBCD3E3E35072_AdjustorThunk ();
-// 0x0000007C System.Void UWPExample.MediaCaptureImplementation_<SavePhotoToPicturesLibraryAsync>d__33::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000083 System.Void UWPExample.MediaCaptureImplementation_<SavePhotoToPicturesLibraryAsync>d__33::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CSavePhotoToPicturesLibraryAsyncU3Ed__33_SetStateMachine_m3A97967154608FF0F19B2841E49C3C73E1C245BC_AdjustorThunk ();
-// 0x0000007D System.Void UWPExample.MediaCaptureImplementation_<SavePhotoToPicturesLibraryAsync>d__34::MoveNext()
+// 0x00000084 System.Void UWPExample.MediaCaptureImplementation_<SavePhotoToPicturesLibraryAsync>d__34::MoveNext()
 extern void U3CSavePhotoToPicturesLibraryAsyncU3Ed__34_MoveNext_mA2DB752B3FE7171AA6E63A1C87681D82BB558BF1_AdjustorThunk ();
-// 0x0000007E System.Void UWPExample.MediaCaptureImplementation_<SavePhotoToPicturesLibraryAsync>d__34::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000085 System.Void UWPExample.MediaCaptureImplementation_<SavePhotoToPicturesLibraryAsync>d__34::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CSavePhotoToPicturesLibraryAsyncU3Ed__34_SetStateMachine_m1E50780A0FD774C6DCFBF0C6A9A3FD47A3DBF77A_AdjustorThunk ();
-// 0x0000007F System.Void UWPExample.MediaCaptureImplementation_<SavePhotoToAsync>d__35::MoveNext()
+// 0x00000086 System.Void UWPExample.MediaCaptureImplementation_<SavePhotoToAsync>d__35::MoveNext()
 extern void U3CSavePhotoToAsyncU3Ed__35_MoveNext_mDF6AFCECDB2E7AB5DC8E980CBCB3FB2F3C7725B5_AdjustorThunk ();
-// 0x00000080 System.Void UWPExample.MediaCaptureImplementation_<SavePhotoToAsync>d__35::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000087 System.Void UWPExample.MediaCaptureImplementation_<SavePhotoToAsync>d__35::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CSavePhotoToAsyncU3Ed__35_SetStateMachine_m205EBE6780D9222BAFA59D8EEC8C12CC6910B32B_AdjustorThunk ();
-static Il2CppMethodPointer s_methodPointers[128] = 
+static Il2CppMethodPointer s_methodPointers[135] = 
 {
 	ButtonLogging_Start_m0A9D8908CEF70ACC5D9C36F242A8AA712E5E26B3,
 	ButtonLogging_LengthPressed_mB1F6B81AE75CBB142ADAA2ACF4E95025CF3154DD,
@@ -287,6 +301,9 @@ static Il2CppMethodPointer s_methodPointers[128] =
 	CameraFocusController_OnVuforiaStarted_mA9212CEE7B9178289631A48CF0972DA1371ABC23,
 	CameraFocusController_OnPaused_m35E7F6A58071BD666B0EC4AE6D9BE5453F8A76E9,
 	CameraFocusController__ctor_m030519161A692749AD0C66CA5A3E5443BEBFD236,
+	ChangeTransparency_Start_mF56C553EED4C405BD24F7AA3EE63A4EB1189DFF9,
+	ChangeTransparency_Update_m9A1F94E7709276117F8D1BD44489746C82028BEA,
+	ChangeTransparency__ctor_m2D0A963AC0E99D2AF77933235DD6B082143E7FB4,
 	CollisionDetection_Start_m725FEAA275F50475EF35D7C422D40611F2FD1F7A,
 	CollisionDetection_Update_mF38DBF197FE75ECB32E6F57A37798CC764D46874,
 	CollisionDetection_OnTriggerEnter_m61955786E44014B470289401F44AFE7D7B3B4743,
@@ -305,11 +322,15 @@ static Il2CppMethodPointer s_methodPointers[128] =
 	InfoDisplay_DisplayName_m8B704F58E9AE871C55D0A81E9A5E016F1A5AA381,
 	InfoDisplay_DisplayWater_m4F7067FB407A1657A476FDFA838DE46F368C75E6,
 	InfoDisplay__ctor_m5B862259CA7A31BDDBE742FB7BA9E0B0EC52C856,
+	LOD_Display300_m4EF187B632DF973E9CA92E4358DE02A576F1A119,
+	LOD_Display400_m763FCD98D4BEAA3DD988F549B30461225B19180F,
+	LOD_ResetModels_mDCD5173C81AD5D00CB29F19A92E9943F449FAA89,
+	LOD__ctor_mD7D73A82F24C7E904EDECD625D79150A55F8C988,
 	MediaCaptureExample_Start_m5B7DB16E7951CBD5C960D84B78313B5FB03348F7,
 	MediaCaptureExample_TakePhotoBasicAndSaveAsync_mB1DD4C2F0FACC5664D209663B1F69D647FB104B4,
 	MediaCaptureExample_TakePhotoBasicAndSaveAndDisplay_mA23CACC440AA69191BB63E3F619A6C04429C2777,
 	MediaCaptureExample_TakePhotoMoreOptionsAsync_m9BC60D2C6E6F397D665D720DD24A111A352343ED,
-	MediaCaptureExample_processExtraTasksAfterWhenPhotoCaptureFailsMethod_m8773F7D08B458F29C5BCDA0C8B917350A1141E73,
+	MediaCaptureExample_processExtraTasksAfterWhenPhotoCaptureFailsMethod_mBBBBCF6011738065CB526680E7FF8D1C2264E8EF,
 	MediaCaptureExample_Update_mA0439E57355D33FBF2134B0EC4F346EA8E28B8A7,
 	MediaCaptureExample__ctor_mF226BFC9A006FABCBC3E8C4023353A9DE941E74B,
 	U3CTakePhotoBasicAndSaveAsyncU3Ed__3_MoveNext_m323D1F24BC93A19C48DD6D4ECB13602886C21896_AdjustorThunk,
@@ -318,7 +339,7 @@ static Il2CppMethodPointer s_methodPointers[128] =
 	U3CTakePhotoBasicAndSaveAndDisplayU3Ed__4_SetStateMachine_mC1A830C6D89D5447240CAD48BBABBEBEFBC593AD_AdjustorThunk,
 	U3CU3Ec__cctor_m8D5DCEC4C4E4312DF16E75A3DB32AE58B58325F1,
 	U3CU3Ec__ctor_m105AC21EAA233D07FC14855A00A12EB47D7AFAA5,
-	U3CU3Ec_U3CTakePhotoMoreOptionsAsyncU3Eb__5_0_m80CFD897B56D64B064291D092936E115ABC13C99,
+	U3CU3Ec_U3CTakePhotoMoreOptionsAsyncU3Eb__5_0_m1DCC52BAA70B764285D8DFE08FE46C8B4B78D1A6,
 	U3CTakePhotoMoreOptionsAsyncU3Ed__5_MoveNext_m5953F72285C5B9731B1CDB3F133751A3CE0D47BC_AdjustorThunk,
 	U3CTakePhotoMoreOptionsAsyncU3Ed__5_SetStateMachine_mE68645520BB0143FA07E4A73F3C53C91487DEAAB_AdjustorThunk,
 	Part_Start_m7DD86C1F6BC4DD9DCBF9A499C81C8442E4EF2A1D,
@@ -331,33 +352,33 @@ static Il2CppMethodPointer s_methodPointers[128] =
 	StepThrough_SetStep_m00160DF5007DC457E81F69CE19B3825ADEBAE107,
 	StepThrough__ctor_mFD2F9E960BDF18E1F38B2926678211A9AC8D56EE,
 	MediaCaptureImplementation__ctor_mF605D38BB3C68FCE65D74F0BE88521C7C52BBE74,
-	MediaCaptureImplementation__ctor_m14B5F6437667846F64CA8D15D2E8546F16F319F9,
+	MediaCaptureImplementation__ctor_mADD97164040B9A65F09C4743F86349D4EC71A4B0,
 	MediaCaptureImplementation_InitializeAsync_mCFFE598CB1FB07D82686927F4B7FE49050C2324B,
-	MediaCaptureImplementation_MediaCapture_Failed_m8489DCADD8ABC37799F6E29CF2052742A342FDF7,
-	MediaCaptureImplementation_GetCameraDevicesAsync_m1BF5D6C159AF588C95F61C3580CBB27F9C01605A,
+	MediaCaptureImplementation_MediaCapture_Failed_mDAC4DC5655285C73276E7A571DCFF9AEADEDBB55,
+	MediaCaptureImplementation_GetCameraDevicesAsync_mB0551E469B153D5AF1285C123366C5375EC18EEC,
 	MediaCaptureImplementation_GetNumberOfCameraDevicesAsync_m12320AE9867A92601BC1BEB75F32758D066440C9,
 	MediaCaptureImplementation_IsCameraAvailableInDevice_m62C312ACAF1070FEDEA12F550B3B3587FD9AAED4,
-	MediaCaptureImplementation_SelectCameraDevice_m22D82FC4A25F244C0242ADE4158D7E68FB333651,
+	MediaCaptureImplementation_SelectCameraDevice_m7F4DCDBD6C4F111D6D55B0F240FFE2879FF8FC4D,
 	MediaCaptureImplementation_SelectDefaultCameraDeviceAsync_m31AE2EF144693B7344744B2275E97C9ED0369954,
-	MediaCaptureImplementation_GetSelectedMediaCaptureInitializationSettingsAsync_m6AE42D7158505CE58123CDC8468A86D8928C404D,
-	MediaCaptureImplementation_GetPhotoResolutionsAsync_mE6312C3544E173EB339F63C853C864B862CA9820,
-	MediaCaptureImplementation_GetSelectedPhotoResolution_m41E0498DD69C0A7C0A0716E01C1FD8FFD61D3681,
-	MediaCaptureImplementation_SetPhotoResolutionTo_mB708664D78CC9C84F0241252B54ED542EFCBB170,
+	MediaCaptureImplementation_GetSelectedMediaCaptureInitializationSettingsAsync_mBC79967E07CD6360B671750A4E4895B66B8AC262,
+	MediaCaptureImplementation_GetPhotoResolutionsAsync_m7A9920C9D47BD74E55676867CF39C6F056D86632,
+	MediaCaptureImplementation_GetSelectedPhotoResolution_m908D50456FC3EE152012FE233948C0164106D4F5,
+	MediaCaptureImplementation_SetPhotoResolutionTo_mEE6C4F096A9B1BB2B2A3731F6FC819C5D2821EE7,
 	MediaCaptureImplementation_SetPhotoResolutionToAsync_m8D36A65CA09518D63E19E3AB637B79033C13CD15,
 	MediaCaptureImplementation_TakePhotoBytesAsync_mB927DAFE84D9A18A7E1FE08BF70466EECCC24DA1,
-	MediaCaptureImplementation_TakePhotoInMemoryRandomAccessStreamAsync_m1B57C95BEE9BCE3ADE2B4A98640B7BCF05AFFA5C,
+	MediaCaptureImplementation_TakePhotoInMemoryRandomAccessStreamAsync_mE1BD1C2ADD0A30A87E1934E57DAA6A687346AA47,
 	MediaCaptureImplementation_TakePhotoTexture2DAsync_m63832AAC831EBFEC17FBA59BD29CC4DAEE586DA9,
 	MediaCaptureImplementation_TakePhotoAndSavePhotoToPicturesLibraryAsync_m80A304B9A1C59FE583A9698A55AB9711629B1B94,
 	MediaCaptureImplementation_TakePhotoAndSavePhotoToPicturesLibraryAsync_mCA36CDE938DF3A8549B74141B4A45F134A02EA8E,
-	MediaCaptureImplementation_TakePhotoAndSavePhotoToAsync_m5788F6D6931418EEBE62AAD5E192AC3A1BAF5D75,
+	MediaCaptureImplementation_TakePhotoAndSavePhotoToAsync_m180B183CED625AEF147FBD20E39E1783E88ADEC2,
 	MediaCaptureImplementation_TakePhotoAsync_mE1C7D51E84D4D49FBBC5FC7155E37E4637C42C8B,
-	MediaCaptureImplementation_ConvertFromInMemoryRandomAccessStreamToByteArrayAsync_m02D1A5B74E68391920F3C8FAD72E5DF1B9E31D74,
+	MediaCaptureImplementation_ConvertFromInMemoryRandomAccessStreamToByteArrayAsync_mCB2F3A44849DAD57FAF28809B774AC64C80C5CBF,
 	MediaCaptureImplementation_GetPhotoBytes_m835DD928E6B84B38B1AD37D2CEA304B48111F097,
-	MediaCaptureImplementation_GetPhotoInMemoryRandomAccessStreamAsync_m4C0A3D179ACBBDAEF7B6610EC91CE36CE0E84EC9,
+	MediaCaptureImplementation_GetPhotoInMemoryRandomAccessStreamAsync_mE997CEA9ED9CDEC6FFC9C75CE1FE651D3F65A866,
 	MediaCaptureImplementation_GetPhotoTexture2D_m01E9E1AAAE854A52F87F5A69CAFBB58261B23342,
 	MediaCaptureImplementation_SavePhotoToPicturesLibraryAsync_m103BDFAD286283B02A55E321BD7A365816B7F239,
 	MediaCaptureImplementation_SavePhotoToPicturesLibraryAsync_m7A98A64A5CE70724D5A9DE5581F3B4D00E397D4E,
-	MediaCaptureImplementation_SavePhotoToAsync_m2E765E0D00A7F497CFEFD063752DAF3C9584F80A,
+	MediaCaptureImplementation_SavePhotoToAsync_mA4B0B10625A3E76228CB4255C3CCEB25654110E6,
 	MediaCaptureImplementation_getDefaultFileName_m197B1067D3B868D869A6498A708B1679051BEC1B,
 	U3CInitializeAsyncU3Ed__10_MoveNext_m194F1E8227750E9ACC264CAC6C97AB58F0C7A5C0_AdjustorThunk,
 	U3CInitializeAsyncU3Ed__10_SetStateMachine_m85DD3820CB0138BE2B85BDD141E52596A476A9DE_AdjustorThunk,
@@ -373,9 +394,9 @@ static Il2CppMethodPointer s_methodPointers[128] =
 	U3CGetSelectedMediaCaptureInitializationSettingsAsyncU3Ed__17_SetStateMachine_m2B574D62C2FF23640B6A095D894FF922176DA961_AdjustorThunk,
 	U3CU3Ec__cctor_mC61D3D7EE08A22689DDA5D1A7545BABAF51AF36A,
 	U3CU3Ec__ctor_m9ED8926D3C32EDD5B757524DC62DB0AA4848AB78,
-	U3CU3Ec_U3CGetPhotoResolutionsAsyncU3Eb__18_0_m1CBDF704B391A73418FFF5CE7118AC46B030E7A5,
-	U3CU3Ec_U3CGetPhotoResolutionsAsyncU3Eb__18_1_mC87049C92EA97C1922A8C4257C1BC35F413718F8,
-	U3CU3Ec_U3CSetPhotoResolutionToAsyncU3Eb__21_0_m4CEBB881CA48BF3C0DC17D57274486B568A94A43,
+	U3CU3Ec_U3CGetPhotoResolutionsAsyncU3Eb__18_0_mBEEC08FE4A46DFEEEC60B08294D7D9BF83D9CD2A,
+	U3CU3Ec_U3CGetPhotoResolutionsAsyncU3Eb__18_1_m2A7526AC2350381C2FA02F93F8562CC4F9C2F3C9,
+	U3CU3Ec_U3CSetPhotoResolutionToAsyncU3Eb__21_0_m1E3DA9892FE83EEF8410DCE45CDF239D1716DE12,
 	U3CGetPhotoResolutionsAsyncU3Ed__18_MoveNext_m486C092C062D3FC4121F3F589DA063B5A6099CF0_AdjustorThunk,
 	U3CGetPhotoResolutionsAsyncU3Ed__18_SetStateMachine_mFCB7DD3307434DA43BC66F2FF4EABB274DE14E59_AdjustorThunk,
 	U3CSetPhotoResolutionToAsyncU3Ed__21_MoveNext_mF8FD22CEC1C431E4BD13ED744F84D7B70E8B3A87_AdjustorThunk,
@@ -407,7 +428,7 @@ static Il2CppMethodPointer s_methodPointers[128] =
 	U3CSavePhotoToAsyncU3Ed__35_MoveNext_mDF6AFCECDB2E7AB5DC8E980CBCB3FB2F3C7725B5_AdjustorThunk,
 	U3CSavePhotoToAsyncU3Ed__35_SetStateMachine_m205EBE6780D9222BAFA59D8EEC8C12CC6910B32B_AdjustorThunk,
 };
-static const int32_t s_InvokerIndices[128] = 
+static const int32_t s_InvokerIndices[135] = 
 {
 	23,
 	23,
@@ -420,6 +441,9 @@ static const int32_t s_InvokerIndices[128] =
 	23,
 	23,
 	23,
+	23,
+	23,
+	23,
 	26,
 	26,
 	23,
@@ -429,6 +453,10 @@ static const int32_t s_InvokerIndices[128] =
 	3,
 	23,
 	26,
+	23,
+	23,
+	23,
+	23,
 	23,
 	23,
 	23,
@@ -542,7 +570,7 @@ extern const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	128,
+	135,
 	s_methodPointers,
 	s_InvokerIndices,
 	0,

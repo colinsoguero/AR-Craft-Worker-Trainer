@@ -184,17 +184,17 @@ struct XRMeshSubsystem_t6FB1A94A4B7956BCE5A99B6C826D46A21C69A8B9;
 // Windows.Perception.People.HandMeshObserver
 struct HandMeshObserver_t709681ED43D6E9586D3C63A3FCCC327CA1DA7622;
 // Windows.Perception.People.HandMeshVertex[]
-struct HandMeshVertexU5BU5D_tDB45C4032E93E7E4151597D02CE340FFAAC2F7AE;
+struct HandMeshVertexU5BU5D_tA8168A3DA6AB631C7BADDBB4D2337087B5BA21B4;
 // Windows.Perception.People.HeadPose
 struct HeadPose_t4120F90F7D9775587E6525B4FEFB179B0BBC1BA5;
 // Windows.Perception.PerceptionTimestamp
-struct PerceptionTimestamp_t4C22B3DAA8F2818AD66B75F4D34EEBF75BE8210B;
+struct PerceptionTimestamp_t855B59AA90343C5363D8872D37C4F7242BE5AE90;
 // Windows.Perception.Spatial.SpatialCoordinateSystem
-struct SpatialCoordinateSystem_t9793A47C531B409D7329F96BB654DB8EB4E52F92;
+struct SpatialCoordinateSystem_t54D5543C43F67C79478BF39C7ECCE0352AC84CCD;
 // Windows.UI.Input.Spatial.ISpatialPointerPoseStatics
 struct ISpatialPointerPoseStatics_t70420F0518CAEACFA6AF9786013EB1C6EE90B810;
 // Windows.UI.Input.Spatial.SpatialPointerPose
-struct SpatialPointerPose_t6A06B6C05A932893B9632705F72921B7B40E6364;
+struct SpatialPointerPose_t0133C2FAE15B5CFC957A0A9910CAAAAA7A4173A1;
 
 IL2CPP_EXTERN_C RuntimeClass* BaseWindowsMixedRealityCameraSettings_t889605FE4EA0754CB3C3A51846D7BB64D51AB8FB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* CommonUsages_t2011A2315CAEDDFC1D5FBA04ED5024172F903321_il2cpp_TypeInfo_var;
@@ -287,7 +287,7 @@ IL2CPP_EXTERN_C const uint32_t XRSDKSubsystemHelpers_get_MeshSubsystem_mA2093721
 IL2CPP_EXTERN_C const uint32_t XRSDKWindowsMixedRealityUtilitiesProvider_Microsoft_MixedReality_Toolkit_WindowsMixedReality_IWindowsMixedRealityUtilitiesProvider_get_IHolographicFramePtr_m67EBDB9138F58BD0B17EBA28284E621337C9E520_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t XRSDKWindowsMixedRealityUtilitiesProvider_Microsoft_MixedReality_Toolkit_WindowsMixedReality_IWindowsMixedRealityUtilitiesProvider_get_ISpatialCoordinateSystemPtr_m05F5A1F05C071B024C9A052B6B40AFAD45CD1FB4_MetadataUsageId;
 struct IPerceptionTimestamp_t5F33F9E30A183CD55EFF379B5377A2861C7FD96E;
-struct ISpatialCoordinateSystem_t04CC30DCD4E391F17E2FB548A4B55B9D8BBA5EA3;
+struct ISpatialCoordinateSystem_t8F4DC599755946B5BB8F082B564C34A94EF14F57;
 struct ISpatialPointerPose_t29F1DD390048F10CA0FA7F119B4D9127602A8245;
 
 struct MixedRealityInteractionMappingU5BU5D_tE330A63D12CF463F30CA17BF8DBD16E32791C91A;
@@ -318,7 +318,7 @@ public:
 struct NOVTABLE ISpatialPointerPoseStatics_t70420F0518CAEACFA6AF9786013EB1C6EE90B810 : Il2CppIInspectable
 {
 	static const Il2CppGuid IID;
-	virtual il2cpp_hresult_t STDCALL ISpatialPointerPoseStatics_TryGetAtTimestamp_mE239221196DF618AC4DC9B5CCC696B64277E6BEB(ISpatialCoordinateSystem_t04CC30DCD4E391F17E2FB548A4B55B9D8BBA5EA3* ___coordinateSystem0, IPerceptionTimestamp_t5F33F9E30A183CD55EFF379B5377A2861C7FD96E* ___timestamp1, ISpatialPointerPose_t29F1DD390048F10CA0FA7F119B4D9127602A8245** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL ISpatialPointerPoseStatics_TryGetAtTimestamp_m866011938D6AEF4F1F267AC53712EB4DB7C4090D(ISpatialCoordinateSystem_t8F4DC599755946B5BB8F082B564C34A94EF14F57* ___coordinateSystem0, IPerceptionTimestamp_t5F33F9E30A183CD55EFF379B5377A2861C7FD96E* ___timestamp1, ISpatialPointerPose_t29F1DD390048F10CA0FA7F119B4D9127602A8245** comReturnValue) = 0;
 };
 
 // Microsoft.MixedReality.Toolkit.BaseService
@@ -1849,7 +1849,7 @@ public:
 
 
 // Windows.Perception.PerceptionTimestamp
-struct  PerceptionTimestamp_t4C22B3DAA8F2818AD66B75F4D34EEBF75BE8210B  : public Il2CppComObject
+struct  PerceptionTimestamp_t855B59AA90343C5363D8872D37C4F7242BE5AE90  : public Il2CppComObject
 {
 public:
 
@@ -1858,7 +1858,7 @@ public:
 
 
 // Windows.Perception.Spatial.SpatialCoordinateSystem
-struct  SpatialCoordinateSystem_t9793A47C531B409D7329F96BB654DB8EB4E52F92  : public Il2CppComObject
+struct  SpatialCoordinateSystem_t54D5543C43F67C79478BF39C7ECCE0352AC84CCD  : public Il2CppComObject
 {
 public:
 
@@ -1867,14 +1867,14 @@ public:
 
 
 // Windows.UI.Input.Spatial.SpatialPointerPose
-struct  SpatialPointerPose_t6A06B6C05A932893B9632705F72921B7B40E6364  : public Il2CppComObject
+struct  SpatialPointerPose_t0133C2FAE15B5CFC957A0A9910CAAAAA7A4173A1  : public Il2CppComObject
 {
 public:
 
 public:
 };
 
-struct SpatialPointerPose_t6A06B6C05A932893B9632705F72921B7B40E6364_StaticFields
+struct SpatialPointerPose_t0133C2FAE15B5CFC957A0A9910CAAAAA7A4173A1_StaticFields
 {
 public:
 	// Cached pointer to IActivationFactory
@@ -2213,7 +2213,7 @@ public:
 	// System.IntPtr Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityUtilities::currentSpatialCoordinateSystemPtr
 	intptr_t ___currentSpatialCoordinateSystemPtr_1;
 	// Windows.Perception.Spatial.SpatialCoordinateSystem Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityUtilities::spatialCoordinateSystem
-	SpatialCoordinateSystem_t9793A47C531B409D7329F96BB654DB8EB4E52F92 * ___spatialCoordinateSystem_2;
+	SpatialCoordinateSystem_t54D5543C43F67C79478BF39C7ECCE0352AC84CCD * ___spatialCoordinateSystem_2;
 
 public:
 	inline static int32_t get_offset_of_U3CUtilitiesProviderU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(WindowsMixedRealityUtilities_tD634AE84FADFB60334E4C565795B160C02827666_StaticFields, ___U3CUtilitiesProviderU3Ek__BackingField_0)); }
@@ -2234,9 +2234,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_spatialCoordinateSystem_2() { return static_cast<int32_t>(offsetof(WindowsMixedRealityUtilities_tD634AE84FADFB60334E4C565795B160C02827666_StaticFields, ___spatialCoordinateSystem_2)); }
-	inline SpatialCoordinateSystem_t9793A47C531B409D7329F96BB654DB8EB4E52F92 * get_spatialCoordinateSystem_2() const { return ___spatialCoordinateSystem_2; }
-	inline SpatialCoordinateSystem_t9793A47C531B409D7329F96BB654DB8EB4E52F92 ** get_address_of_spatialCoordinateSystem_2() { return &___spatialCoordinateSystem_2; }
-	inline void set_spatialCoordinateSystem_2(SpatialCoordinateSystem_t9793A47C531B409D7329F96BB654DB8EB4E52F92 * value)
+	inline SpatialCoordinateSystem_t54D5543C43F67C79478BF39C7ECCE0352AC84CCD * get_spatialCoordinateSystem_2() const { return ___spatialCoordinateSystem_2; }
+	inline SpatialCoordinateSystem_t54D5543C43F67C79478BF39C7ECCE0352AC84CCD ** get_address_of_spatialCoordinateSystem_2() { return &___spatialCoordinateSystem_2; }
+	inline void set_spatialCoordinateSystem_2(SpatialCoordinateSystem_t54D5543C43F67C79478BF39C7ECCE0352AC84CCD * value)
 	{
 		___spatialCoordinateSystem_2 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___spatialCoordinateSystem_2), (void*)value);
@@ -3192,14 +3192,14 @@ public:
 
 
 // Windows.UI.Input.Spatial.SpatialInteractionSourceKind
-struct  SpatialInteractionSourceKind_tD4B307AD5130D2B3658A0A6A8FA2DAA7051F9222 
+struct  SpatialInteractionSourceKind_t121787D88938AD2A5EB266A9C10FAD348762817B 
 {
 public:
 	// System.Int32 Windows.UI.Input.Spatial.SpatialInteractionSourceKind::value__
 	int32_t ___value___2;
 
 public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(SpatialInteractionSourceKind_tD4B307AD5130D2B3658A0A6A8FA2DAA7051F9222, ___value___2)); }
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(SpatialInteractionSourceKind_t121787D88938AD2A5EB266A9C10FAD348762817B, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -4387,7 +4387,7 @@ public:
 	// System.UInt16[] Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityArticulatedHandDefinition::handMeshTriangleIndices
 	UInt16U5BU5D_t2D4BB1F8C486FF4359FFA7E4A76A8708A684543E* ___handMeshTriangleIndices_14;
 	// Windows.Perception.People.HandMeshVertex[] Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityArticulatedHandDefinition::vertexAndNormals
-	HandMeshVertexU5BU5D_tDB45C4032E93E7E4151597D02CE340FFAAC2F7AE* ___vertexAndNormals_15;
+	HandMeshVertexU5BU5D_tA8168A3DA6AB631C7BADDBB4D2337087B5BA21B4* ___vertexAndNormals_15;
 	// UnityEngine.Vector3[] Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityArticulatedHandDefinition::handMeshVerticesUnity
 	Vector3U5BU5D_tB9EC3346CC4A0EA5447D968E84A9AC1F6F372C28* ___handMeshVerticesUnity_16;
 	// UnityEngine.Vector3[] Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityArticulatedHandDefinition::handMeshNormalsUnity
@@ -4419,9 +4419,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_vertexAndNormals_15() { return static_cast<int32_t>(offsetof(WindowsMixedRealityArticulatedHandDefinition_t2AAEA2DB7EF0B774E2F726C52F997095905DCFA5, ___vertexAndNormals_15)); }
-	inline HandMeshVertexU5BU5D_tDB45C4032E93E7E4151597D02CE340FFAAC2F7AE* get_vertexAndNormals_15() const { return ___vertexAndNormals_15; }
-	inline HandMeshVertexU5BU5D_tDB45C4032E93E7E4151597D02CE340FFAAC2F7AE** get_address_of_vertexAndNormals_15() { return &___vertexAndNormals_15; }
-	inline void set_vertexAndNormals_15(HandMeshVertexU5BU5D_tDB45C4032E93E7E4151597D02CE340FFAAC2F7AE* value)
+	inline HandMeshVertexU5BU5D_tA8168A3DA6AB631C7BADDBB4D2337087B5BA21B4* get_vertexAndNormals_15() const { return ___vertexAndNormals_15; }
+	inline HandMeshVertexU5BU5D_tA8168A3DA6AB631C7BADDBB4D2337087B5BA21B4** get_address_of_vertexAndNormals_15() { return &___vertexAndNormals_15; }
+	inline void set_vertexAndNormals_15(HandMeshVertexU5BU5D_tA8168A3DA6AB631C7BADDBB4D2337087B5BA21B4* value)
 	{
 		___vertexAndNormals_15 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___vertexAndNormals_15), (void*)value);
@@ -5236,15 +5236,15 @@ inline RuntimeObject* BaseDataProvider_1_get_Service_m237EF4D80CF62A3F2D6C3FD40F
 	return ((  RuntimeObject* (*) (BaseDataProvider_1_t43BC8767D20E44102434711F32A229661E6B22DB *, const RuntimeMethod*))BaseDataProvider_1_get_Service_m7BEFB212EB3A81D2EA46B9A461E2B9A6A0F82B59_gshared_inline)(__this, method);
 }
 // Windows.Perception.Spatial.SpatialCoordinateSystem Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityUtilities::get_SpatialCoordinateSystem()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpatialCoordinateSystem_t9793A47C531B409D7329F96BB654DB8EB4E52F92 * WindowsMixedRealityUtilities_get_SpatialCoordinateSystem_m6FEBA826024B06BDC239267927A77F0211F51F67 (const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpatialCoordinateSystem_t54D5543C43F67C79478BF39C7ECCE0352AC84CCD * WindowsMixedRealityUtilities_get_SpatialCoordinateSystem_mEE7D8A6AB54A991D8E6424ACBCCB400A6494F0C4 (const RuntimeMethod* method);
 // System.DateTimeOffset System.DateTimeOffset::get_Now()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTimeOffset_t6C333873402CAD576160B4F8E159EB6834F06B85  DateTimeOffset_get_Now_mB50A645DA5F2A946FB7CF6BC49C37C8965E4626D (const RuntimeMethod* method);
 // Windows.Perception.PerceptionTimestamp Windows.Perception.PerceptionTimestampHelper::FromHistoricalTargetTime(System.DateTimeOffset)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PerceptionTimestamp_t4C22B3DAA8F2818AD66B75F4D34EEBF75BE8210B * PerceptionTimestampHelper_FromHistoricalTargetTime_m3887862422EFE0EB81A026771F85278980FB2943 (DateTimeOffset_t6C333873402CAD576160B4F8E159EB6834F06B85  ___targetTime0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PerceptionTimestamp_t855B59AA90343C5363D8872D37C4F7242BE5AE90 * PerceptionTimestampHelper_FromHistoricalTargetTime_mA7E3DEC1BA06F1494D91EB5B34596E35B07577AE (DateTimeOffset_t6C333873402CAD576160B4F8E159EB6834F06B85  ___targetTime0, const RuntimeMethod* method);
 // Windows.UI.Input.Spatial.SpatialPointerPose Windows.UI.Input.Spatial.SpatialPointerPose::TryGetAtTimestamp(Windows.Perception.Spatial.SpatialCoordinateSystem,Windows.Perception.PerceptionTimestamp)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpatialPointerPose_t6A06B6C05A932893B9632705F72921B7B40E6364 * SpatialPointerPose_TryGetAtTimestamp_m86E035A372E4724987F5D572081513327F3435D8 (SpatialCoordinateSystem_t9793A47C531B409D7329F96BB654DB8EB4E52F92 * ___coordinateSystem0, PerceptionTimestamp_t4C22B3DAA8F2818AD66B75F4D34EEBF75BE8210B * ___timestamp1, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpatialPointerPose_t0133C2FAE15B5CFC957A0A9910CAAAAA7A4173A1 * SpatialPointerPose_TryGetAtTimestamp_mF345A3D760C001305464B4EBE89EA665ED238F5E (SpatialCoordinateSystem_t54D5543C43F67C79478BF39C7ECCE0352AC84CCD * ___coordinateSystem0, PerceptionTimestamp_t855B59AA90343C5363D8872D37C4F7242BE5AE90 * ___timestamp1, const RuntimeMethod* method);
 // Windows.Perception.People.HeadPose Windows.UI.Input.Spatial.SpatialPointerPose::get_Head()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HeadPose_t4120F90F7D9775587E6525B4FEFB179B0BBC1BA5 * SpatialPointerPose_get_Head_m5B4D49A633973E41CC36CB43AA5B8C19887B088C (SpatialPointerPose_t6A06B6C05A932893B9632705F72921B7B40E6364 * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HeadPose_t4120F90F7D9775587E6525B4FEFB179B0BBC1BA5 * SpatialPointerPose_get_Head_mDE61F0A26A1E29788E3FF811B1CA8187BA71EA37 (SpatialPointerPose_t0133C2FAE15B5CFC957A0A9910CAAAAA7A4173A1 * __this, const RuntimeMethod* method);
 // System.Numerics.Vector3 Windows.Perception.People.HeadPose::get_Position()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_tA1B8517EED04F753987922C4361B51A4F3AE8C65  HeadPose_get_Position_m7B7C069DBF000DCD402ABB410BD0411A9B2AFB66 (HeadPose_t4120F90F7D9775587E6525B4FEFB179B0BBC1BA5 * __this, const RuntimeMethod* method);
 // UnityEngine.Vector3 Microsoft.MixedReality.Toolkit.SystemNumericsExtensions::ToUnityVector3(System.Numerics.Vector3)
@@ -5256,7 +5256,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSDKDeviceManager_Update_mA17479E8D224D
 // System.Boolean Microsoft.MixedReality.Toolkit.Windows.Utilities.WindowsApiChecker::IsMethodAvailable(System.String,System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WindowsApiChecker_IsMethodAvailable_m7857B6764BDB2723EA6AB47F81BDAB3D42E4C3A0 (String_t* ___namespaceName0, String_t* ___className1, String_t* ___methodName2, const RuntimeMethod* method);
 // System.Boolean Windows.UI.Input.Spatial.SpatialInteractionManager::IsSourceKindSupported(Windows.UI.Input.Spatial.SpatialInteractionSourceKind)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpatialInteractionManager_IsSourceKindSupported_mD85293F528AAC9D7B3976A5742E4F8BE9D951873 (int32_t ___kind0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpatialInteractionManager_IsSourceKindSupported_mCCC933BD27FB38C9ABF81AA8EC0AF1AADA0402C4 (int32_t ___kind0, const RuntimeMethod* method);
 // System.Type System.Type::GetTypeFromHandle(System.RuntimeTypeHandle)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t * Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6 (RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  ___handle0, const RuntimeMethod* method);
 // System.Type Microsoft.MixedReality.Toolkit.XRSDK.Input.XRSDKDeviceManager::GetControllerType(Microsoft.MixedReality.Toolkit.Input.SupportedControllerType)
@@ -5611,7 +5611,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindowsMixedRealityDeviceManager_Update_
 		il2cpp_codegen_initialize_method (WindowsMixedRealityDeviceManager_Update_m2885CD4E1869B358E5CEB44C9B51E448773867B7_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	SpatialPointerPose_t6A06B6C05A932893B9632705F72921B7B40E6364 * V_0 = NULL;
+	SpatialPointerPose_t0133C2FAE15B5CFC957A0A9910CAAAAA7A4173A1 * V_0 = NULL;
 	HeadPose_t4120F90F7D9775587E6525B4FEFB179B0BBC1BA5 * V_1 = NULL;
 	{
 		// if (mixedRealityGazeProviderHeadOverride != null && mixedRealityGazeProviderHeadOverride.UseHeadGazeOverride && WindowsMixedRealityUtilities.SpatialCoordinateSystem != null)
@@ -5632,7 +5632,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindowsMixedRealityDeviceManager_Update_
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(WindowsMixedRealityUtilities_tD634AE84FADFB60334E4C565795B160C02827666_il2cpp_TypeInfo_var);
-		SpatialCoordinateSystem_t9793A47C531B409D7329F96BB654DB8EB4E52F92 * L_3 = WindowsMixedRealityUtilities_get_SpatialCoordinateSystem_m6FEBA826024B06BDC239267927A77F0211F51F67(/*hidden argument*/NULL);
+		SpatialCoordinateSystem_t54D5543C43F67C79478BF39C7ECCE0352AC84CCD * L_3 = WindowsMixedRealityUtilities_get_SpatialCoordinateSystem_mEE7D8A6AB54A991D8E6424ACBCCB400A6494F0C4(/*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_005f;
@@ -5641,14 +5641,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindowsMixedRealityDeviceManager_Update_
 	{
 		// SpatialPointerPose pointerPose = SpatialPointerPose.TryGetAtTimestamp(WindowsMixedRealityUtilities.SpatialCoordinateSystem, PerceptionTimestampHelper.FromHistoricalTargetTime(DateTimeOffset.Now));
 		IL2CPP_RUNTIME_CLASS_INIT(WindowsMixedRealityUtilities_tD634AE84FADFB60334E4C565795B160C02827666_il2cpp_TypeInfo_var);
-		SpatialCoordinateSystem_t9793A47C531B409D7329F96BB654DB8EB4E52F92 * L_4 = WindowsMixedRealityUtilities_get_SpatialCoordinateSystem_m6FEBA826024B06BDC239267927A77F0211F51F67(/*hidden argument*/NULL);
+		SpatialCoordinateSystem_t54D5543C43F67C79478BF39C7ECCE0352AC84CCD * L_4 = WindowsMixedRealityUtilities_get_SpatialCoordinateSystem_mEE7D8A6AB54A991D8E6424ACBCCB400A6494F0C4(/*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DateTimeOffset_t6C333873402CAD576160B4F8E159EB6834F06B85_il2cpp_TypeInfo_var);
 		DateTimeOffset_t6C333873402CAD576160B4F8E159EB6834F06B85  L_5 = DateTimeOffset_get_Now_mB50A645DA5F2A946FB7CF6BC49C37C8965E4626D(/*hidden argument*/NULL);
-		PerceptionTimestamp_t4C22B3DAA8F2818AD66B75F4D34EEBF75BE8210B * L_6 = PerceptionTimestampHelper_FromHistoricalTargetTime_m3887862422EFE0EB81A026771F85278980FB2943(L_5, /*hidden argument*/NULL);
-		SpatialPointerPose_t6A06B6C05A932893B9632705F72921B7B40E6364 * L_7 = SpatialPointerPose_TryGetAtTimestamp_m86E035A372E4724987F5D572081513327F3435D8(L_4, L_6, /*hidden argument*/NULL);
+		PerceptionTimestamp_t855B59AA90343C5363D8872D37C4F7242BE5AE90 * L_6 = PerceptionTimestampHelper_FromHistoricalTargetTime_mA7E3DEC1BA06F1494D91EB5B34596E35B07577AE(L_5, /*hidden argument*/NULL);
+		SpatialPointerPose_t0133C2FAE15B5CFC957A0A9910CAAAAA7A4173A1 * L_7 = SpatialPointerPose_TryGetAtTimestamp_mF345A3D760C001305464B4EBE89EA665ED238F5E(L_4, L_6, /*hidden argument*/NULL);
 		V_0 = L_7;
 		// if (pointerPose != null)
-		SpatialPointerPose_t6A06B6C05A932893B9632705F72921B7B40E6364 * L_8 = V_0;
+		SpatialPointerPose_t0133C2FAE15B5CFC957A0A9910CAAAAA7A4173A1 * L_8 = V_0;
 		if (!L_8)
 		{
 			goto IL_005f;
@@ -5656,9 +5656,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindowsMixedRealityDeviceManager_Update_
 	}
 	{
 		// HeadPose head = pointerPose.Head;
-		SpatialPointerPose_t6A06B6C05A932893B9632705F72921B7B40E6364 * L_9 = V_0;
+		SpatialPointerPose_t0133C2FAE15B5CFC957A0A9910CAAAAA7A4173A1 * L_9 = V_0;
 		NullCheck(L_9);
-		HeadPose_t4120F90F7D9775587E6525B4FEFB179B0BBC1BA5 * L_10 = SpatialPointerPose_get_Head_m5B4D49A633973E41CC36CB43AA5B8C19887B088C(L_9, /*hidden argument*/NULL);
+		HeadPose_t4120F90F7D9775587E6525B4FEFB179B0BBC1BA5 * L_10 = SpatialPointerPose_get_Head_mDE61F0A26A1E29788E3FF811B1CA8187BA71EA37(L_9, /*hidden argument*/NULL);
 		V_1 = L_10;
 		// if (head != null)
 		HeadPose_t4120F90F7D9775587E6525B4FEFB179B0BBC1BA5 * L_11 = V_1;
@@ -5732,14 +5732,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WindowsMixedRealityDeviceManager_CheckCa
 IL_0020:
 	{
 		// return SpatialInteractionManager.IsSourceKindSupported(SpatialInteractionSourceKind.Hand);
-		bool L_3 = SpatialInteractionManager_IsSourceKindSupported_mD85293F528AAC9D7B3976A5742E4F8BE9D951873(1, /*hidden argument*/NULL);
+		bool L_3 = SpatialInteractionManager_IsSourceKindSupported_mCCC933BD27FB38C9ABF81AA8EC0AF1AADA0402C4(1, /*hidden argument*/NULL);
 		return L_3;
 	}
 
 IL_0027:
 	{
 		// return SpatialInteractionManager.IsSourceKindSupported(SpatialInteractionSourceKind.Controller);
-		bool L_4 = SpatialInteractionManager_IsSourceKindSupported_mD85293F528AAC9D7B3976A5742E4F8BE9D951873(3, /*hidden argument*/NULL);
+		bool L_4 = SpatialInteractionManager_IsSourceKindSupported_mCCC933BD27FB38C9ABF81AA8EC0AF1AADA0402C4(3, /*hidden argument*/NULL);
 		return L_4;
 	}
 

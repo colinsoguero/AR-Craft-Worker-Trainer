@@ -199,7 +199,7 @@ struct Task_1_tD6131FE3A3A2F1D58DB886B6CF31A2672B75B439;
 // System.Threading.Tasks.Task`1<System.Byte[]>
 struct Task_1_t2ED0F6929D1C02BC2CEF49AC8D20FFCA4E41D648;
 // System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<Windows.Media.MediaProperties.ImageEncodingProperties>>
-struct Task_1_tFD89CD32AF01BA66B8B181AFB221212DCB6A9E58;
+struct Task_1_t0D0A15C414CECD4A205B4564DA209A14AD3CA938;
 // System.Threading.Tasks.Task`1<System.Int32>
 struct Task_1_t640F0CBB720BB9CD14B90B7B81624471A9F56D87;
 // System.Threading.Tasks.Task`1<System.Int32Enum>
@@ -225,19 +225,19 @@ struct Task_1_tF3C52637D7C212377E29F98D2AD11BBD43732A2B;
 // System.Threading.Tasks.Task`1<UnityEngine.Texture2D>
 struct Task_1_tB68DBA6DA1120A65465275E18B4DD57CA6580BB1;
 // System.Threading.Tasks.Task`1<Windows.Devices.Enumeration.DeviceInformationCollection>
-struct Task_1_tF30FF02E144E30B6C7D2D1DE46FCEF94E18B5D8D;
+struct Task_1_t6F2619C0C05BE2F56F615E5BF4A6EC45FB37C230;
 // System.Threading.Tasks.Task`1<Windows.Graphics.Imaging.BitmapDecoder>
-struct Task_1_t94AD2B395C4C28DBC68997BE3815F9B20E8C5E66;
+struct Task_1_tBD40565E955BE8AFC48C8BFE0BB6757C297DC8CA;
 // System.Threading.Tasks.Task`1<Windows.Media.Capture.MediaCaptureInitializationSettings>
-struct Task_1_t604E3462626CC4C338931645D1AB09D0E3F77EDE;
+struct Task_1_t54690A0B7AAC6F166B3C4469B2BB2DA984F400FD;
 // System.Threading.Tasks.Task`1<Windows.Storage.StorageFile>
-struct Task_1_t945DB4058D1BA63B1BE1740640A60E9BA7DBE07E;
+struct Task_1_tA909F28EC23F53693E7FBF9A12A54919C3A571C3;
 // System.Threading.Tasks.Task`1<Windows.Storage.StorageLibrary>
-struct Task_1_t556D75D03C2FCA34F7CD7E7B135E391B3AB82D6D;
+struct Task_1_t63802A641652FF8D9BC1FF6A63F23C9C3CCE8318;
 // System.Threading.Tasks.Task`1<Windows.Storage.Streams.IBuffer>
-struct Task_1_t4657CAC4312043C0D7F80DB11C11289050310679;
+struct Task_1_t8CFC7F3C6953F45C86D3D64B9325E39E03254538;
 // System.Threading.Tasks.Task`1<Windows.Storage.Streams.InMemoryRandomAccessStream>
-struct Task_1_t68FDE0DEC53571D35DDBCC54B3CC89E218B8337D;
+struct Task_1_tCD7C4A6D1B18FAFE5220A69D05E76C01CCDB6C03;
 // System.Threading.Thread
 struct Thread_tF60E0A146CD3B5480CB65FF9B6016E84C5460CC7;
 // System.Void
@@ -1417,17 +1417,17 @@ public:
 
 
 // System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Devices.Enumeration.DeviceInformationCollection>
-struct  TaskAwaiter_1_t1183E3936EAE9FDABBB47FD6DBAE687DE3A7ACB2 
+struct  TaskAwaiter_1_tE31F062EFC91270FEA83286006CEB8AF9D2D6F68 
 {
 public:
 	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.TaskAwaiter`1::m_task
-	Task_1_tF30FF02E144E30B6C7D2D1DE46FCEF94E18B5D8D * ___m_task_0;
+	Task_1_t6F2619C0C05BE2F56F615E5BF4A6EC45FB37C230 * ___m_task_0;
 
 public:
-	inline static int32_t get_offset_of_m_task_0() { return static_cast<int32_t>(offsetof(TaskAwaiter_1_t1183E3936EAE9FDABBB47FD6DBAE687DE3A7ACB2, ___m_task_0)); }
-	inline Task_1_tF30FF02E144E30B6C7D2D1DE46FCEF94E18B5D8D * get_m_task_0() const { return ___m_task_0; }
-	inline Task_1_tF30FF02E144E30B6C7D2D1DE46FCEF94E18B5D8D ** get_address_of_m_task_0() { return &___m_task_0; }
-	inline void set_m_task_0(Task_1_tF30FF02E144E30B6C7D2D1DE46FCEF94E18B5D8D * value)
+	inline static int32_t get_offset_of_m_task_0() { return static_cast<int32_t>(offsetof(TaskAwaiter_1_tE31F062EFC91270FEA83286006CEB8AF9D2D6F68, ___m_task_0)); }
+	inline Task_1_t6F2619C0C05BE2F56F615E5BF4A6EC45FB37C230 * get_m_task_0() const { return ___m_task_0; }
+	inline Task_1_t6F2619C0C05BE2F56F615E5BF4A6EC45FB37C230 ** get_address_of_m_task_0() { return &___m_task_0; }
+	inline void set_m_task_0(Task_1_t6F2619C0C05BE2F56F615E5BF4A6EC45FB37C230 * value)
 	{
 		___m_task_0 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___m_task_0), (void*)value);
@@ -1436,17 +1436,17 @@ public:
 
 
 // System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Graphics.Imaging.BitmapDecoder>
-struct  TaskAwaiter_1_t111F804DD86A29D2EAAB596521D2866A2477B48F 
+struct  TaskAwaiter_1_tEA1AEB408B9FA7FADCF79E9769D1116E70BE43E7 
 {
 public:
 	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.TaskAwaiter`1::m_task
-	Task_1_t94AD2B395C4C28DBC68997BE3815F9B20E8C5E66 * ___m_task_0;
+	Task_1_tBD40565E955BE8AFC48C8BFE0BB6757C297DC8CA * ___m_task_0;
 
 public:
-	inline static int32_t get_offset_of_m_task_0() { return static_cast<int32_t>(offsetof(TaskAwaiter_1_t111F804DD86A29D2EAAB596521D2866A2477B48F, ___m_task_0)); }
-	inline Task_1_t94AD2B395C4C28DBC68997BE3815F9B20E8C5E66 * get_m_task_0() const { return ___m_task_0; }
-	inline Task_1_t94AD2B395C4C28DBC68997BE3815F9B20E8C5E66 ** get_address_of_m_task_0() { return &___m_task_0; }
-	inline void set_m_task_0(Task_1_t94AD2B395C4C28DBC68997BE3815F9B20E8C5E66 * value)
+	inline static int32_t get_offset_of_m_task_0() { return static_cast<int32_t>(offsetof(TaskAwaiter_1_tEA1AEB408B9FA7FADCF79E9769D1116E70BE43E7, ___m_task_0)); }
+	inline Task_1_tBD40565E955BE8AFC48C8BFE0BB6757C297DC8CA * get_m_task_0() const { return ___m_task_0; }
+	inline Task_1_tBD40565E955BE8AFC48C8BFE0BB6757C297DC8CA ** get_address_of_m_task_0() { return &___m_task_0; }
+	inline void set_m_task_0(Task_1_tBD40565E955BE8AFC48C8BFE0BB6757C297DC8CA * value)
 	{
 		___m_task_0 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___m_task_0), (void*)value);
@@ -1455,17 +1455,17 @@ public:
 
 
 // System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.StorageFile>
-struct  TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E 
+struct  TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 
 {
 public:
 	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.TaskAwaiter`1::m_task
-	Task_1_t945DB4058D1BA63B1BE1740640A60E9BA7DBE07E * ___m_task_0;
+	Task_1_tA909F28EC23F53693E7FBF9A12A54919C3A571C3 * ___m_task_0;
 
 public:
-	inline static int32_t get_offset_of_m_task_0() { return static_cast<int32_t>(offsetof(TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E, ___m_task_0)); }
-	inline Task_1_t945DB4058D1BA63B1BE1740640A60E9BA7DBE07E * get_m_task_0() const { return ___m_task_0; }
-	inline Task_1_t945DB4058D1BA63B1BE1740640A60E9BA7DBE07E ** get_address_of_m_task_0() { return &___m_task_0; }
-	inline void set_m_task_0(Task_1_t945DB4058D1BA63B1BE1740640A60E9BA7DBE07E * value)
+	inline static int32_t get_offset_of_m_task_0() { return static_cast<int32_t>(offsetof(TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7, ___m_task_0)); }
+	inline Task_1_tA909F28EC23F53693E7FBF9A12A54919C3A571C3 * get_m_task_0() const { return ___m_task_0; }
+	inline Task_1_tA909F28EC23F53693E7FBF9A12A54919C3A571C3 ** get_address_of_m_task_0() { return &___m_task_0; }
+	inline void set_m_task_0(Task_1_tA909F28EC23F53693E7FBF9A12A54919C3A571C3 * value)
 	{
 		___m_task_0 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___m_task_0), (void*)value);
@@ -1474,17 +1474,17 @@ public:
 
 
 // System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.StorageLibrary>
-struct  TaskAwaiter_1_tD9785438DBBB81BD319AAA8D96286D3832F73DE1 
+struct  TaskAwaiter_1_t74E2EA2CB35AFD5FBFE03D24F8EADF800EECB2F6 
 {
 public:
 	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.TaskAwaiter`1::m_task
-	Task_1_t556D75D03C2FCA34F7CD7E7B135E391B3AB82D6D * ___m_task_0;
+	Task_1_t63802A641652FF8D9BC1FF6A63F23C9C3CCE8318 * ___m_task_0;
 
 public:
-	inline static int32_t get_offset_of_m_task_0() { return static_cast<int32_t>(offsetof(TaskAwaiter_1_tD9785438DBBB81BD319AAA8D96286D3832F73DE1, ___m_task_0)); }
-	inline Task_1_t556D75D03C2FCA34F7CD7E7B135E391B3AB82D6D * get_m_task_0() const { return ___m_task_0; }
-	inline Task_1_t556D75D03C2FCA34F7CD7E7B135E391B3AB82D6D ** get_address_of_m_task_0() { return &___m_task_0; }
-	inline void set_m_task_0(Task_1_t556D75D03C2FCA34F7CD7E7B135E391B3AB82D6D * value)
+	inline static int32_t get_offset_of_m_task_0() { return static_cast<int32_t>(offsetof(TaskAwaiter_1_t74E2EA2CB35AFD5FBFE03D24F8EADF800EECB2F6, ___m_task_0)); }
+	inline Task_1_t63802A641652FF8D9BC1FF6A63F23C9C3CCE8318 * get_m_task_0() const { return ___m_task_0; }
+	inline Task_1_t63802A641652FF8D9BC1FF6A63F23C9C3CCE8318 ** get_address_of_m_task_0() { return &___m_task_0; }
+	inline void set_m_task_0(Task_1_t63802A641652FF8D9BC1FF6A63F23C9C3CCE8318 * value)
 	{
 		___m_task_0 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___m_task_0), (void*)value);
@@ -1493,17 +1493,17 @@ public:
 
 
 // System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.Streams.IBuffer>
-struct  TaskAwaiter_1_t84542E6DA1B74EECCBB0DFC832C0E70063E30F2E 
+struct  TaskAwaiter_1_t7DA40DAC5737C94A250AA69DCE863F90B87F20A0 
 {
 public:
 	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.TaskAwaiter`1::m_task
-	Task_1_t4657CAC4312043C0D7F80DB11C11289050310679 * ___m_task_0;
+	Task_1_t8CFC7F3C6953F45C86D3D64B9325E39E03254538 * ___m_task_0;
 
 public:
-	inline static int32_t get_offset_of_m_task_0() { return static_cast<int32_t>(offsetof(TaskAwaiter_1_t84542E6DA1B74EECCBB0DFC832C0E70063E30F2E, ___m_task_0)); }
-	inline Task_1_t4657CAC4312043C0D7F80DB11C11289050310679 * get_m_task_0() const { return ___m_task_0; }
-	inline Task_1_t4657CAC4312043C0D7F80DB11C11289050310679 ** get_address_of_m_task_0() { return &___m_task_0; }
-	inline void set_m_task_0(Task_1_t4657CAC4312043C0D7F80DB11C11289050310679 * value)
+	inline static int32_t get_offset_of_m_task_0() { return static_cast<int32_t>(offsetof(TaskAwaiter_1_t7DA40DAC5737C94A250AA69DCE863F90B87F20A0, ___m_task_0)); }
+	inline Task_1_t8CFC7F3C6953F45C86D3D64B9325E39E03254538 * get_m_task_0() const { return ___m_task_0; }
+	inline Task_1_t8CFC7F3C6953F45C86D3D64B9325E39E03254538 ** get_address_of_m_task_0() { return &___m_task_0; }
+	inline void set_m_task_0(Task_1_t8CFC7F3C6953F45C86D3D64B9325E39E03254538 * value)
 	{
 		___m_task_0 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___m_task_0), (void*)value);
@@ -1512,17 +1512,17 @@ public:
 
 
 // System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.Streams.InMemoryRandomAccessStream>
-struct  TaskAwaiter_1_t8D00CC3039DBE9BB4D44230FBEA1A6D558E2396D 
+struct  TaskAwaiter_1_t656E42417A4E85DA90FC17E3B934F977A5FD8909 
 {
 public:
 	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.TaskAwaiter`1::m_task
-	Task_1_t68FDE0DEC53571D35DDBCC54B3CC89E218B8337D * ___m_task_0;
+	Task_1_tCD7C4A6D1B18FAFE5220A69D05E76C01CCDB6C03 * ___m_task_0;
 
 public:
-	inline static int32_t get_offset_of_m_task_0() { return static_cast<int32_t>(offsetof(TaskAwaiter_1_t8D00CC3039DBE9BB4D44230FBEA1A6D558E2396D, ___m_task_0)); }
-	inline Task_1_t68FDE0DEC53571D35DDBCC54B3CC89E218B8337D * get_m_task_0() const { return ___m_task_0; }
-	inline Task_1_t68FDE0DEC53571D35DDBCC54B3CC89E218B8337D ** get_address_of_m_task_0() { return &___m_task_0; }
-	inline void set_m_task_0(Task_1_t68FDE0DEC53571D35DDBCC54B3CC89E218B8337D * value)
+	inline static int32_t get_offset_of_m_task_0() { return static_cast<int32_t>(offsetof(TaskAwaiter_1_t656E42417A4E85DA90FC17E3B934F977A5FD8909, ___m_task_0)); }
+	inline Task_1_tCD7C4A6D1B18FAFE5220A69D05E76C01CCDB6C03 * get_m_task_0() const { return ___m_task_0; }
+	inline Task_1_tCD7C4A6D1B18FAFE5220A69D05E76C01CCDB6C03 ** get_address_of_m_task_0() { return &___m_task_0; }
+	inline void set_m_task_0(Task_1_tCD7C4A6D1B18FAFE5220A69D05E76C01CCDB6C03 * value)
 	{
 		___m_task_0 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___m_task_0), (void*)value);
@@ -2942,16 +2942,16 @@ public:
 
 
 // System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Collections.Generic.IReadOnlyList`1<Windows.Media.MediaProperties.ImageEncodingProperties>>
-struct  AsyncTaskMethodBuilder_1_tE730C1639F7A6C900054E6065F806AC06E6107A6 
+struct  AsyncTaskMethodBuilder_1_t0010D7F332F4D8F6605195F2E2B2B92E89AD341B 
 {
 public:
 	// System.Runtime.CompilerServices.AsyncMethodBuilderCore System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_coreState
 	AsyncMethodBuilderCore_t4CE6C1E4B0621A6EC45CF6E0E8F1F633FFF9FF01  ___m_coreState_1;
 	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_task
-	Task_1_tFD89CD32AF01BA66B8B181AFB221212DCB6A9E58 * ___m_task_2;
+	Task_1_t0D0A15C414CECD4A205B4564DA209A14AD3CA938 * ___m_task_2;
 
 public:
-	inline static int32_t get_offset_of_m_coreState_1() { return static_cast<int32_t>(offsetof(AsyncTaskMethodBuilder_1_tE730C1639F7A6C900054E6065F806AC06E6107A6, ___m_coreState_1)); }
+	inline static int32_t get_offset_of_m_coreState_1() { return static_cast<int32_t>(offsetof(AsyncTaskMethodBuilder_1_t0010D7F332F4D8F6605195F2E2B2B92E89AD341B, ___m_coreState_1)); }
 	inline AsyncMethodBuilderCore_t4CE6C1E4B0621A6EC45CF6E0E8F1F633FFF9FF01  get_m_coreState_1() const { return ___m_coreState_1; }
 	inline AsyncMethodBuilderCore_t4CE6C1E4B0621A6EC45CF6E0E8F1F633FFF9FF01 * get_address_of_m_coreState_1() { return &___m_coreState_1; }
 	inline void set_m_coreState_1(AsyncMethodBuilderCore_t4CE6C1E4B0621A6EC45CF6E0E8F1F633FFF9FF01  value)
@@ -2963,27 +2963,27 @@ public:
 		#endif
 	}
 
-	inline static int32_t get_offset_of_m_task_2() { return static_cast<int32_t>(offsetof(AsyncTaskMethodBuilder_1_tE730C1639F7A6C900054E6065F806AC06E6107A6, ___m_task_2)); }
-	inline Task_1_tFD89CD32AF01BA66B8B181AFB221212DCB6A9E58 * get_m_task_2() const { return ___m_task_2; }
-	inline Task_1_tFD89CD32AF01BA66B8B181AFB221212DCB6A9E58 ** get_address_of_m_task_2() { return &___m_task_2; }
-	inline void set_m_task_2(Task_1_tFD89CD32AF01BA66B8B181AFB221212DCB6A9E58 * value)
+	inline static int32_t get_offset_of_m_task_2() { return static_cast<int32_t>(offsetof(AsyncTaskMethodBuilder_1_t0010D7F332F4D8F6605195F2E2B2B92E89AD341B, ___m_task_2)); }
+	inline Task_1_t0D0A15C414CECD4A205B4564DA209A14AD3CA938 * get_m_task_2() const { return ___m_task_2; }
+	inline Task_1_t0D0A15C414CECD4A205B4564DA209A14AD3CA938 ** get_address_of_m_task_2() { return &___m_task_2; }
+	inline void set_m_task_2(Task_1_t0D0A15C414CECD4A205B4564DA209A14AD3CA938 * value)
 	{
 		___m_task_2 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___m_task_2), (void*)value);
 	}
 };
 
-struct AsyncTaskMethodBuilder_1_tE730C1639F7A6C900054E6065F806AC06E6107A6_StaticFields
+struct AsyncTaskMethodBuilder_1_t0010D7F332F4D8F6605195F2E2B2B92E89AD341B_StaticFields
 {
 public:
 	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::s_defaultResultTask
-	Task_1_tFD89CD32AF01BA66B8B181AFB221212DCB6A9E58 * ___s_defaultResultTask_0;
+	Task_1_t0D0A15C414CECD4A205B4564DA209A14AD3CA938 * ___s_defaultResultTask_0;
 
 public:
-	inline static int32_t get_offset_of_s_defaultResultTask_0() { return static_cast<int32_t>(offsetof(AsyncTaskMethodBuilder_1_tE730C1639F7A6C900054E6065F806AC06E6107A6_StaticFields, ___s_defaultResultTask_0)); }
-	inline Task_1_tFD89CD32AF01BA66B8B181AFB221212DCB6A9E58 * get_s_defaultResultTask_0() const { return ___s_defaultResultTask_0; }
-	inline Task_1_tFD89CD32AF01BA66B8B181AFB221212DCB6A9E58 ** get_address_of_s_defaultResultTask_0() { return &___s_defaultResultTask_0; }
-	inline void set_s_defaultResultTask_0(Task_1_tFD89CD32AF01BA66B8B181AFB221212DCB6A9E58 * value)
+	inline static int32_t get_offset_of_s_defaultResultTask_0() { return static_cast<int32_t>(offsetof(AsyncTaskMethodBuilder_1_t0010D7F332F4D8F6605195F2E2B2B92E89AD341B_StaticFields, ___s_defaultResultTask_0)); }
+	inline Task_1_t0D0A15C414CECD4A205B4564DA209A14AD3CA938 * get_s_defaultResultTask_0() const { return ___s_defaultResultTask_0; }
+	inline Task_1_t0D0A15C414CECD4A205B4564DA209A14AD3CA938 ** get_address_of_s_defaultResultTask_0() { return &___s_defaultResultTask_0; }
+	inline void set_s_defaultResultTask_0(Task_1_t0D0A15C414CECD4A205B4564DA209A14AD3CA938 * value)
 	{
 		___s_defaultResultTask_0 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___s_defaultResultTask_0), (void*)value);
@@ -3492,16 +3492,16 @@ public:
 
 
 // System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Windows.Devices.Enumeration.DeviceInformationCollection>
-struct  AsyncTaskMethodBuilder_1_t6146F736B1EE4DB25D963322C904B0C7AE5E004D 
+struct  AsyncTaskMethodBuilder_1_t1AEF6CF8C925F070B610FF95A58B949ED6CDB2DB 
 {
 public:
 	// System.Runtime.CompilerServices.AsyncMethodBuilderCore System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_coreState
 	AsyncMethodBuilderCore_t4CE6C1E4B0621A6EC45CF6E0E8F1F633FFF9FF01  ___m_coreState_1;
 	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_task
-	Task_1_tF30FF02E144E30B6C7D2D1DE46FCEF94E18B5D8D * ___m_task_2;
+	Task_1_t6F2619C0C05BE2F56F615E5BF4A6EC45FB37C230 * ___m_task_2;
 
 public:
-	inline static int32_t get_offset_of_m_coreState_1() { return static_cast<int32_t>(offsetof(AsyncTaskMethodBuilder_1_t6146F736B1EE4DB25D963322C904B0C7AE5E004D, ___m_coreState_1)); }
+	inline static int32_t get_offset_of_m_coreState_1() { return static_cast<int32_t>(offsetof(AsyncTaskMethodBuilder_1_t1AEF6CF8C925F070B610FF95A58B949ED6CDB2DB, ___m_coreState_1)); }
 	inline AsyncMethodBuilderCore_t4CE6C1E4B0621A6EC45CF6E0E8F1F633FFF9FF01  get_m_coreState_1() const { return ___m_coreState_1; }
 	inline AsyncMethodBuilderCore_t4CE6C1E4B0621A6EC45CF6E0E8F1F633FFF9FF01 * get_address_of_m_coreState_1() { return &___m_coreState_1; }
 	inline void set_m_coreState_1(AsyncMethodBuilderCore_t4CE6C1E4B0621A6EC45CF6E0E8F1F633FFF9FF01  value)
@@ -3513,27 +3513,27 @@ public:
 		#endif
 	}
 
-	inline static int32_t get_offset_of_m_task_2() { return static_cast<int32_t>(offsetof(AsyncTaskMethodBuilder_1_t6146F736B1EE4DB25D963322C904B0C7AE5E004D, ___m_task_2)); }
-	inline Task_1_tF30FF02E144E30B6C7D2D1DE46FCEF94E18B5D8D * get_m_task_2() const { return ___m_task_2; }
-	inline Task_1_tF30FF02E144E30B6C7D2D1DE46FCEF94E18B5D8D ** get_address_of_m_task_2() { return &___m_task_2; }
-	inline void set_m_task_2(Task_1_tF30FF02E144E30B6C7D2D1DE46FCEF94E18B5D8D * value)
+	inline static int32_t get_offset_of_m_task_2() { return static_cast<int32_t>(offsetof(AsyncTaskMethodBuilder_1_t1AEF6CF8C925F070B610FF95A58B949ED6CDB2DB, ___m_task_2)); }
+	inline Task_1_t6F2619C0C05BE2F56F615E5BF4A6EC45FB37C230 * get_m_task_2() const { return ___m_task_2; }
+	inline Task_1_t6F2619C0C05BE2F56F615E5BF4A6EC45FB37C230 ** get_address_of_m_task_2() { return &___m_task_2; }
+	inline void set_m_task_2(Task_1_t6F2619C0C05BE2F56F615E5BF4A6EC45FB37C230 * value)
 	{
 		___m_task_2 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___m_task_2), (void*)value);
 	}
 };
 
-struct AsyncTaskMethodBuilder_1_t6146F736B1EE4DB25D963322C904B0C7AE5E004D_StaticFields
+struct AsyncTaskMethodBuilder_1_t1AEF6CF8C925F070B610FF95A58B949ED6CDB2DB_StaticFields
 {
 public:
 	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::s_defaultResultTask
-	Task_1_tF30FF02E144E30B6C7D2D1DE46FCEF94E18B5D8D * ___s_defaultResultTask_0;
+	Task_1_t6F2619C0C05BE2F56F615E5BF4A6EC45FB37C230 * ___s_defaultResultTask_0;
 
 public:
-	inline static int32_t get_offset_of_s_defaultResultTask_0() { return static_cast<int32_t>(offsetof(AsyncTaskMethodBuilder_1_t6146F736B1EE4DB25D963322C904B0C7AE5E004D_StaticFields, ___s_defaultResultTask_0)); }
-	inline Task_1_tF30FF02E144E30B6C7D2D1DE46FCEF94E18B5D8D * get_s_defaultResultTask_0() const { return ___s_defaultResultTask_0; }
-	inline Task_1_tF30FF02E144E30B6C7D2D1DE46FCEF94E18B5D8D ** get_address_of_s_defaultResultTask_0() { return &___s_defaultResultTask_0; }
-	inline void set_s_defaultResultTask_0(Task_1_tF30FF02E144E30B6C7D2D1DE46FCEF94E18B5D8D * value)
+	inline static int32_t get_offset_of_s_defaultResultTask_0() { return static_cast<int32_t>(offsetof(AsyncTaskMethodBuilder_1_t1AEF6CF8C925F070B610FF95A58B949ED6CDB2DB_StaticFields, ___s_defaultResultTask_0)); }
+	inline Task_1_t6F2619C0C05BE2F56F615E5BF4A6EC45FB37C230 * get_s_defaultResultTask_0() const { return ___s_defaultResultTask_0; }
+	inline Task_1_t6F2619C0C05BE2F56F615E5BF4A6EC45FB37C230 ** get_address_of_s_defaultResultTask_0() { return &___s_defaultResultTask_0; }
+	inline void set_s_defaultResultTask_0(Task_1_t6F2619C0C05BE2F56F615E5BF4A6EC45FB37C230 * value)
 	{
 		___s_defaultResultTask_0 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___s_defaultResultTask_0), (void*)value);
@@ -3542,16 +3542,16 @@ public:
 
 
 // System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Windows.Media.Capture.MediaCaptureInitializationSettings>
-struct  AsyncTaskMethodBuilder_1_t4779A5C830912E09C7B1CCA46230A148209E014A 
+struct  AsyncTaskMethodBuilder_1_t239A62B59C5DCFDBC6EFAE7A66DF94D9817509DE 
 {
 public:
 	// System.Runtime.CompilerServices.AsyncMethodBuilderCore System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_coreState
 	AsyncMethodBuilderCore_t4CE6C1E4B0621A6EC45CF6E0E8F1F633FFF9FF01  ___m_coreState_1;
 	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_task
-	Task_1_t604E3462626CC4C338931645D1AB09D0E3F77EDE * ___m_task_2;
+	Task_1_t54690A0B7AAC6F166B3C4469B2BB2DA984F400FD * ___m_task_2;
 
 public:
-	inline static int32_t get_offset_of_m_coreState_1() { return static_cast<int32_t>(offsetof(AsyncTaskMethodBuilder_1_t4779A5C830912E09C7B1CCA46230A148209E014A, ___m_coreState_1)); }
+	inline static int32_t get_offset_of_m_coreState_1() { return static_cast<int32_t>(offsetof(AsyncTaskMethodBuilder_1_t239A62B59C5DCFDBC6EFAE7A66DF94D9817509DE, ___m_coreState_1)); }
 	inline AsyncMethodBuilderCore_t4CE6C1E4B0621A6EC45CF6E0E8F1F633FFF9FF01  get_m_coreState_1() const { return ___m_coreState_1; }
 	inline AsyncMethodBuilderCore_t4CE6C1E4B0621A6EC45CF6E0E8F1F633FFF9FF01 * get_address_of_m_coreState_1() { return &___m_coreState_1; }
 	inline void set_m_coreState_1(AsyncMethodBuilderCore_t4CE6C1E4B0621A6EC45CF6E0E8F1F633FFF9FF01  value)
@@ -3563,27 +3563,27 @@ public:
 		#endif
 	}
 
-	inline static int32_t get_offset_of_m_task_2() { return static_cast<int32_t>(offsetof(AsyncTaskMethodBuilder_1_t4779A5C830912E09C7B1CCA46230A148209E014A, ___m_task_2)); }
-	inline Task_1_t604E3462626CC4C338931645D1AB09D0E3F77EDE * get_m_task_2() const { return ___m_task_2; }
-	inline Task_1_t604E3462626CC4C338931645D1AB09D0E3F77EDE ** get_address_of_m_task_2() { return &___m_task_2; }
-	inline void set_m_task_2(Task_1_t604E3462626CC4C338931645D1AB09D0E3F77EDE * value)
+	inline static int32_t get_offset_of_m_task_2() { return static_cast<int32_t>(offsetof(AsyncTaskMethodBuilder_1_t239A62B59C5DCFDBC6EFAE7A66DF94D9817509DE, ___m_task_2)); }
+	inline Task_1_t54690A0B7AAC6F166B3C4469B2BB2DA984F400FD * get_m_task_2() const { return ___m_task_2; }
+	inline Task_1_t54690A0B7AAC6F166B3C4469B2BB2DA984F400FD ** get_address_of_m_task_2() { return &___m_task_2; }
+	inline void set_m_task_2(Task_1_t54690A0B7AAC6F166B3C4469B2BB2DA984F400FD * value)
 	{
 		___m_task_2 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___m_task_2), (void*)value);
 	}
 };
 
-struct AsyncTaskMethodBuilder_1_t4779A5C830912E09C7B1CCA46230A148209E014A_StaticFields
+struct AsyncTaskMethodBuilder_1_t239A62B59C5DCFDBC6EFAE7A66DF94D9817509DE_StaticFields
 {
 public:
 	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::s_defaultResultTask
-	Task_1_t604E3462626CC4C338931645D1AB09D0E3F77EDE * ___s_defaultResultTask_0;
+	Task_1_t54690A0B7AAC6F166B3C4469B2BB2DA984F400FD * ___s_defaultResultTask_0;
 
 public:
-	inline static int32_t get_offset_of_s_defaultResultTask_0() { return static_cast<int32_t>(offsetof(AsyncTaskMethodBuilder_1_t4779A5C830912E09C7B1CCA46230A148209E014A_StaticFields, ___s_defaultResultTask_0)); }
-	inline Task_1_t604E3462626CC4C338931645D1AB09D0E3F77EDE * get_s_defaultResultTask_0() const { return ___s_defaultResultTask_0; }
-	inline Task_1_t604E3462626CC4C338931645D1AB09D0E3F77EDE ** get_address_of_s_defaultResultTask_0() { return &___s_defaultResultTask_0; }
-	inline void set_s_defaultResultTask_0(Task_1_t604E3462626CC4C338931645D1AB09D0E3F77EDE * value)
+	inline static int32_t get_offset_of_s_defaultResultTask_0() { return static_cast<int32_t>(offsetof(AsyncTaskMethodBuilder_1_t239A62B59C5DCFDBC6EFAE7A66DF94D9817509DE_StaticFields, ___s_defaultResultTask_0)); }
+	inline Task_1_t54690A0B7AAC6F166B3C4469B2BB2DA984F400FD * get_s_defaultResultTask_0() const { return ___s_defaultResultTask_0; }
+	inline Task_1_t54690A0B7AAC6F166B3C4469B2BB2DA984F400FD ** get_address_of_s_defaultResultTask_0() { return &___s_defaultResultTask_0; }
+	inline void set_s_defaultResultTask_0(Task_1_t54690A0B7AAC6F166B3C4469B2BB2DA984F400FD * value)
 	{
 		___s_defaultResultTask_0 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___s_defaultResultTask_0), (void*)value);
@@ -3592,16 +3592,16 @@ public:
 
 
 // System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Windows.Storage.Streams.InMemoryRandomAccessStream>
-struct  AsyncTaskMethodBuilder_1_tF342DBEFB1145C67EE5CDA8B0CFD478DB5FFAF88 
+struct  AsyncTaskMethodBuilder_1_t8ACF4B44061B625A207A34910AEE7A6DCE61E0C2 
 {
 public:
 	// System.Runtime.CompilerServices.AsyncMethodBuilderCore System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_coreState
 	AsyncMethodBuilderCore_t4CE6C1E4B0621A6EC45CF6E0E8F1F633FFF9FF01  ___m_coreState_1;
 	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_task
-	Task_1_t68FDE0DEC53571D35DDBCC54B3CC89E218B8337D * ___m_task_2;
+	Task_1_tCD7C4A6D1B18FAFE5220A69D05E76C01CCDB6C03 * ___m_task_2;
 
 public:
-	inline static int32_t get_offset_of_m_coreState_1() { return static_cast<int32_t>(offsetof(AsyncTaskMethodBuilder_1_tF342DBEFB1145C67EE5CDA8B0CFD478DB5FFAF88, ___m_coreState_1)); }
+	inline static int32_t get_offset_of_m_coreState_1() { return static_cast<int32_t>(offsetof(AsyncTaskMethodBuilder_1_t8ACF4B44061B625A207A34910AEE7A6DCE61E0C2, ___m_coreState_1)); }
 	inline AsyncMethodBuilderCore_t4CE6C1E4B0621A6EC45CF6E0E8F1F633FFF9FF01  get_m_coreState_1() const { return ___m_coreState_1; }
 	inline AsyncMethodBuilderCore_t4CE6C1E4B0621A6EC45CF6E0E8F1F633FFF9FF01 * get_address_of_m_coreState_1() { return &___m_coreState_1; }
 	inline void set_m_coreState_1(AsyncMethodBuilderCore_t4CE6C1E4B0621A6EC45CF6E0E8F1F633FFF9FF01  value)
@@ -3613,27 +3613,27 @@ public:
 		#endif
 	}
 
-	inline static int32_t get_offset_of_m_task_2() { return static_cast<int32_t>(offsetof(AsyncTaskMethodBuilder_1_tF342DBEFB1145C67EE5CDA8B0CFD478DB5FFAF88, ___m_task_2)); }
-	inline Task_1_t68FDE0DEC53571D35DDBCC54B3CC89E218B8337D * get_m_task_2() const { return ___m_task_2; }
-	inline Task_1_t68FDE0DEC53571D35DDBCC54B3CC89E218B8337D ** get_address_of_m_task_2() { return &___m_task_2; }
-	inline void set_m_task_2(Task_1_t68FDE0DEC53571D35DDBCC54B3CC89E218B8337D * value)
+	inline static int32_t get_offset_of_m_task_2() { return static_cast<int32_t>(offsetof(AsyncTaskMethodBuilder_1_t8ACF4B44061B625A207A34910AEE7A6DCE61E0C2, ___m_task_2)); }
+	inline Task_1_tCD7C4A6D1B18FAFE5220A69D05E76C01CCDB6C03 * get_m_task_2() const { return ___m_task_2; }
+	inline Task_1_tCD7C4A6D1B18FAFE5220A69D05E76C01CCDB6C03 ** get_address_of_m_task_2() { return &___m_task_2; }
+	inline void set_m_task_2(Task_1_tCD7C4A6D1B18FAFE5220A69D05E76C01CCDB6C03 * value)
 	{
 		___m_task_2 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___m_task_2), (void*)value);
 	}
 };
 
-struct AsyncTaskMethodBuilder_1_tF342DBEFB1145C67EE5CDA8B0CFD478DB5FFAF88_StaticFields
+struct AsyncTaskMethodBuilder_1_t8ACF4B44061B625A207A34910AEE7A6DCE61E0C2_StaticFields
 {
 public:
 	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::s_defaultResultTask
-	Task_1_t68FDE0DEC53571D35DDBCC54B3CC89E218B8337D * ___s_defaultResultTask_0;
+	Task_1_tCD7C4A6D1B18FAFE5220A69D05E76C01CCDB6C03 * ___s_defaultResultTask_0;
 
 public:
-	inline static int32_t get_offset_of_s_defaultResultTask_0() { return static_cast<int32_t>(offsetof(AsyncTaskMethodBuilder_1_tF342DBEFB1145C67EE5CDA8B0CFD478DB5FFAF88_StaticFields, ___s_defaultResultTask_0)); }
-	inline Task_1_t68FDE0DEC53571D35DDBCC54B3CC89E218B8337D * get_s_defaultResultTask_0() const { return ___s_defaultResultTask_0; }
-	inline Task_1_t68FDE0DEC53571D35DDBCC54B3CC89E218B8337D ** get_address_of_s_defaultResultTask_0() { return &___s_defaultResultTask_0; }
-	inline void set_s_defaultResultTask_0(Task_1_t68FDE0DEC53571D35DDBCC54B3CC89E218B8337D * value)
+	inline static int32_t get_offset_of_s_defaultResultTask_0() { return static_cast<int32_t>(offsetof(AsyncTaskMethodBuilder_1_t8ACF4B44061B625A207A34910AEE7A6DCE61E0C2_StaticFields, ___s_defaultResultTask_0)); }
+	inline Task_1_tCD7C4A6D1B18FAFE5220A69D05E76C01CCDB6C03 * get_s_defaultResultTask_0() const { return ___s_defaultResultTask_0; }
+	inline Task_1_tCD7C4A6D1B18FAFE5220A69D05E76C01CCDB6C03 ** get_address_of_s_defaultResultTask_0() { return &___s_defaultResultTask_0; }
+	inline void set_s_defaultResultTask_0(Task_1_tCD7C4A6D1B18FAFE5220A69D05E76C01CCDB6C03 * value)
 	{
 		___s_defaultResultTask_0 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___s_defaultResultTask_0), (void*)value);
@@ -4588,9 +4588,9 @@ public:
 	// System.Runtime.CompilerServices.ConfiguredTaskAwaitable_ConfiguredTaskAwaiter Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.GltfUtility_<ImportGltfObjectFromPathAsync>d__4::<>u__1
 	ConfiguredTaskAwaiter_tF1AAA16B8A1250CA037E32157A3424CD2BA47874  ___U3CU3Eu__1_5;
 	// System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.StorageFile> Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.GltfUtility_<ImportGltfObjectFromPathAsync>d__4::<>u__2
-	TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  ___U3CU3Eu__2_6;
+	TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  ___U3CU3Eu__2_6;
 	// System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.Streams.IBuffer> Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.GltfUtility_<ImportGltfObjectFromPathAsync>d__4::<>u__3
-	TaskAwaiter_1_t84542E6DA1B74EECCBB0DFC832C0E70063E30F2E  ___U3CU3Eu__3_7;
+	TaskAwaiter_1_t7DA40DAC5737C94A250AA69DCE863F90B87F20A0  ___U3CU3Eu__3_7;
 	// System.Runtime.CompilerServices.TaskAwaiter`1<UnityEngine.GameObject> Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.GltfUtility_<ImportGltfObjectFromPathAsync>d__4::<>u__4
 	TaskAwaiter_1_tAE6B8B90DDB2F4605D3C8F53F1F449F35790A468  ___U3CU3Eu__4_8;
 	// System.Object Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.GltfUtility_<ImportGltfObjectFromPathAsync>d__4::<>u__5
@@ -4656,18 +4656,18 @@ public:
 	}
 
 	inline static int32_t get_offset_of_U3CU3Eu__2_6() { return static_cast<int32_t>(offsetof(U3CImportGltfObjectFromPathAsyncU3Ed__4_t5D65EC1B4C8438D1DEB42A00CFA0316594CC6281, ___U3CU3Eu__2_6)); }
-	inline TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  get_U3CU3Eu__2_6() const { return ___U3CU3Eu__2_6; }
-	inline TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E * get_address_of_U3CU3Eu__2_6() { return &___U3CU3Eu__2_6; }
-	inline void set_U3CU3Eu__2_6(TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  value)
+	inline TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  get_U3CU3Eu__2_6() const { return ___U3CU3Eu__2_6; }
+	inline TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 * get_address_of_U3CU3Eu__2_6() { return &___U3CU3Eu__2_6; }
+	inline void set_U3CU3Eu__2_6(TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  value)
 	{
 		___U3CU3Eu__2_6 = value;
 		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__2_6))->___m_task_0), (void*)NULL);
 	}
 
 	inline static int32_t get_offset_of_U3CU3Eu__3_7() { return static_cast<int32_t>(offsetof(U3CImportGltfObjectFromPathAsyncU3Ed__4_t5D65EC1B4C8438D1DEB42A00CFA0316594CC6281, ___U3CU3Eu__3_7)); }
-	inline TaskAwaiter_1_t84542E6DA1B74EECCBB0DFC832C0E70063E30F2E  get_U3CU3Eu__3_7() const { return ___U3CU3Eu__3_7; }
-	inline TaskAwaiter_1_t84542E6DA1B74EECCBB0DFC832C0E70063E30F2E * get_address_of_U3CU3Eu__3_7() { return &___U3CU3Eu__3_7; }
-	inline void set_U3CU3Eu__3_7(TaskAwaiter_1_t84542E6DA1B74EECCBB0DFC832C0E70063E30F2E  value)
+	inline TaskAwaiter_1_t7DA40DAC5737C94A250AA69DCE863F90B87F20A0  get_U3CU3Eu__3_7() const { return ___U3CU3Eu__3_7; }
+	inline TaskAwaiter_1_t7DA40DAC5737C94A250AA69DCE863F90B87F20A0 * get_address_of_U3CU3Eu__3_7() { return &___U3CU3Eu__3_7; }
+	inline void set_U3CU3Eu__3_7(TaskAwaiter_1_t7DA40DAC5737C94A250AA69DCE863F90B87F20A0  value)
 	{
 		___U3CU3Eu__3_7 = value;
 		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__3_7))->___m_task_0), (void*)NULL);
@@ -7934,9 +7934,9 @@ public:
 	// System.Int32 UWPExample.MediaCaptureImplementation_<GetCameraDevicesAsync>d__12::<>1__state
 	int32_t ___U3CU3E1__state_0;
 	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Windows.Devices.Enumeration.DeviceInformationCollection> UWPExample.MediaCaptureImplementation_<GetCameraDevicesAsync>d__12::<>t__builder
-	AsyncTaskMethodBuilder_1_t6146F736B1EE4DB25D963322C904B0C7AE5E004D  ___U3CU3Et__builder_1;
+	AsyncTaskMethodBuilder_1_t1AEF6CF8C925F070B610FF95A58B949ED6CDB2DB  ___U3CU3Et__builder_1;
 	// System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Devices.Enumeration.DeviceInformationCollection> UWPExample.MediaCaptureImplementation_<GetCameraDevicesAsync>d__12::<>u__1
-	TaskAwaiter_1_t1183E3936EAE9FDABBB47FD6DBAE687DE3A7ACB2  ___U3CU3Eu__1_2;
+	TaskAwaiter_1_tE31F062EFC91270FEA83286006CEB8AF9D2D6F68  ___U3CU3Eu__1_2;
 
 public:
 	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CGetCameraDevicesAsyncU3Ed__12_t7D2AA353AB1B17C234107C901D8455CA736E042B, ___U3CU3E1__state_0)); }
@@ -7948,9 +7948,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CGetCameraDevicesAsyncU3Ed__12_t7D2AA353AB1B17C234107C901D8455CA736E042B, ___U3CU3Et__builder_1)); }
-	inline AsyncTaskMethodBuilder_1_t6146F736B1EE4DB25D963322C904B0C7AE5E004D  get_U3CU3Et__builder_1() const { return ___U3CU3Et__builder_1; }
-	inline AsyncTaskMethodBuilder_1_t6146F736B1EE4DB25D963322C904B0C7AE5E004D * get_address_of_U3CU3Et__builder_1() { return &___U3CU3Et__builder_1; }
-	inline void set_U3CU3Et__builder_1(AsyncTaskMethodBuilder_1_t6146F736B1EE4DB25D963322C904B0C7AE5E004D  value)
+	inline AsyncTaskMethodBuilder_1_t1AEF6CF8C925F070B610FF95A58B949ED6CDB2DB  get_U3CU3Et__builder_1() const { return ___U3CU3Et__builder_1; }
+	inline AsyncTaskMethodBuilder_1_t1AEF6CF8C925F070B610FF95A58B949ED6CDB2DB * get_address_of_U3CU3Et__builder_1() { return &___U3CU3Et__builder_1; }
+	inline void set_U3CU3Et__builder_1(AsyncTaskMethodBuilder_1_t1AEF6CF8C925F070B610FF95A58B949ED6CDB2DB  value)
 	{
 		___U3CU3Et__builder_1 = value;
 		Il2CppCodeGenWriteBarrier((void**)&((&(((&___U3CU3Et__builder_1))->___m_coreState_1))->___m_stateMachine_0), (void*)NULL);
@@ -7963,9 +7963,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_U3CU3Eu__1_2() { return static_cast<int32_t>(offsetof(U3CGetCameraDevicesAsyncU3Ed__12_t7D2AA353AB1B17C234107C901D8455CA736E042B, ___U3CU3Eu__1_2)); }
-	inline TaskAwaiter_1_t1183E3936EAE9FDABBB47FD6DBAE687DE3A7ACB2  get_U3CU3Eu__1_2() const { return ___U3CU3Eu__1_2; }
-	inline TaskAwaiter_1_t1183E3936EAE9FDABBB47FD6DBAE687DE3A7ACB2 * get_address_of_U3CU3Eu__1_2() { return &___U3CU3Eu__1_2; }
-	inline void set_U3CU3Eu__1_2(TaskAwaiter_1_t1183E3936EAE9FDABBB47FD6DBAE687DE3A7ACB2  value)
+	inline TaskAwaiter_1_tE31F062EFC91270FEA83286006CEB8AF9D2D6F68  get_U3CU3Eu__1_2() const { return ___U3CU3Eu__1_2; }
+	inline TaskAwaiter_1_tE31F062EFC91270FEA83286006CEB8AF9D2D6F68 * get_address_of_U3CU3Eu__1_2() { return &___U3CU3Eu__1_2; }
+	inline void set_U3CU3Eu__1_2(TaskAwaiter_1_tE31F062EFC91270FEA83286006CEB8AF9D2D6F68  value)
 	{
 		___U3CU3Eu__1_2 = value;
 		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__1_2))->___m_task_0), (void*)NULL);
@@ -7984,7 +7984,7 @@ public:
 	// UWPExample.MediaCaptureImplementation UWPExample.MediaCaptureImplementation_<GetNumberOfCameraDevicesAsync>d__13::<>4__this
 	MediaCaptureImplementation_t451B72791B96E3E8C4FBB477281DD6D475F1C2E8 * ___U3CU3E4__this_2;
 	// System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Devices.Enumeration.DeviceInformationCollection> UWPExample.MediaCaptureImplementation_<GetNumberOfCameraDevicesAsync>d__13::<>u__1
-	TaskAwaiter_1_t1183E3936EAE9FDABBB47FD6DBAE687DE3A7ACB2  ___U3CU3Eu__1_3;
+	TaskAwaiter_1_tE31F062EFC91270FEA83286006CEB8AF9D2D6F68  ___U3CU3Eu__1_3;
 
 public:
 	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CGetNumberOfCameraDevicesAsyncU3Ed__13_t66A1D061F6E9E71AFB4B913E8834584AB382A3FA, ___U3CU3E1__state_0)); }
@@ -8020,9 +8020,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_U3CU3Eu__1_3() { return static_cast<int32_t>(offsetof(U3CGetNumberOfCameraDevicesAsyncU3Ed__13_t66A1D061F6E9E71AFB4B913E8834584AB382A3FA, ___U3CU3Eu__1_3)); }
-	inline TaskAwaiter_1_t1183E3936EAE9FDABBB47FD6DBAE687DE3A7ACB2  get_U3CU3Eu__1_3() const { return ___U3CU3Eu__1_3; }
-	inline TaskAwaiter_1_t1183E3936EAE9FDABBB47FD6DBAE687DE3A7ACB2 * get_address_of_U3CU3Eu__1_3() { return &___U3CU3Eu__1_3; }
-	inline void set_U3CU3Eu__1_3(TaskAwaiter_1_t1183E3936EAE9FDABBB47FD6DBAE687DE3A7ACB2  value)
+	inline TaskAwaiter_1_tE31F062EFC91270FEA83286006CEB8AF9D2D6F68  get_U3CU3Eu__1_3() const { return ___U3CU3Eu__1_3; }
+	inline TaskAwaiter_1_tE31F062EFC91270FEA83286006CEB8AF9D2D6F68 * get_address_of_U3CU3Eu__1_3() { return &___U3CU3Eu__1_3; }
+	inline void set_U3CU3Eu__1_3(TaskAwaiter_1_tE31F062EFC91270FEA83286006CEB8AF9D2D6F68  value)
 	{
 		___U3CU3Eu__1_3 = value;
 		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__1_3))->___m_task_0), (void*)NULL);
@@ -8037,7 +8037,7 @@ public:
 	// System.Int32 UWPExample.MediaCaptureImplementation_<GetPhotoInMemoryRandomAccessStreamAsync>d__31::<>1__state
 	int32_t ___U3CU3E1__state_0;
 	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Windows.Storage.Streams.InMemoryRandomAccessStream> UWPExample.MediaCaptureImplementation_<GetPhotoInMemoryRandomAccessStreamAsync>d__31::<>t__builder
-	AsyncTaskMethodBuilder_1_tF342DBEFB1145C67EE5CDA8B0CFD478DB5FFAF88  ___U3CU3Et__builder_1;
+	AsyncTaskMethodBuilder_1_t8ACF4B44061B625A207A34910AEE7A6DCE61E0C2  ___U3CU3Et__builder_1;
 	// UWPExample.MediaCaptureImplementation UWPExample.MediaCaptureImplementation_<GetPhotoInMemoryRandomAccessStreamAsync>d__31::<>4__this
 	MediaCaptureImplementation_t451B72791B96E3E8C4FBB477281DD6D475F1C2E8 * ___U3CU3E4__this_2;
 	// Windows.Storage.Streams.InMemoryRandomAccessStream UWPExample.MediaCaptureImplementation_<GetPhotoInMemoryRandomAccessStreamAsync>d__31::<inMemoryRandomAccessStream>5__2
@@ -8055,9 +8055,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CGetPhotoInMemoryRandomAccessStreamAsyncU3Ed__31_tF57A4D95F821646469251DE995D35D1D907CCD30, ___U3CU3Et__builder_1)); }
-	inline AsyncTaskMethodBuilder_1_tF342DBEFB1145C67EE5CDA8B0CFD478DB5FFAF88  get_U3CU3Et__builder_1() const { return ___U3CU3Et__builder_1; }
-	inline AsyncTaskMethodBuilder_1_tF342DBEFB1145C67EE5CDA8B0CFD478DB5FFAF88 * get_address_of_U3CU3Et__builder_1() { return &___U3CU3Et__builder_1; }
-	inline void set_U3CU3Et__builder_1(AsyncTaskMethodBuilder_1_tF342DBEFB1145C67EE5CDA8B0CFD478DB5FFAF88  value)
+	inline AsyncTaskMethodBuilder_1_t8ACF4B44061B625A207A34910AEE7A6DCE61E0C2  get_U3CU3Et__builder_1() const { return ___U3CU3Et__builder_1; }
+	inline AsyncTaskMethodBuilder_1_t8ACF4B44061B625A207A34910AEE7A6DCE61E0C2 * get_address_of_U3CU3Et__builder_1() { return &___U3CU3Et__builder_1; }
+	inline void set_U3CU3Et__builder_1(AsyncTaskMethodBuilder_1_t8ACF4B44061B625A207A34910AEE7A6DCE61E0C2  value)
 	{
 		___U3CU3Et__builder_1 = value;
 		Il2CppCodeGenWriteBarrier((void**)&((&(((&___U3CU3Et__builder_1))->___m_coreState_1))->___m_stateMachine_0), (void*)NULL);
@@ -8105,7 +8105,7 @@ public:
 	// System.Int32 UWPExample.MediaCaptureImplementation_<GetPhotoResolutionsAsync>d__18::<>1__state
 	int32_t ___U3CU3E1__state_0;
 	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Collections.Generic.IReadOnlyList`1<Windows.Media.MediaProperties.ImageEncodingProperties>> UWPExample.MediaCaptureImplementation_<GetPhotoResolutionsAsync>d__18::<>t__builder
-	AsyncTaskMethodBuilder_1_tE730C1639F7A6C900054E6065F806AC06E6107A6  ___U3CU3Et__builder_1;
+	AsyncTaskMethodBuilder_1_t0010D7F332F4D8F6605195F2E2B2B92E89AD341B  ___U3CU3Et__builder_1;
 	// UWPExample.MediaCaptureImplementation UWPExample.MediaCaptureImplementation_<GetPhotoResolutionsAsync>d__18::<>4__this
 	MediaCaptureImplementation_t451B72791B96E3E8C4FBB477281DD6D475F1C2E8 * ___U3CU3E4__this_2;
 	// System.Runtime.CompilerServices.TaskAwaiter UWPExample.MediaCaptureImplementation_<GetPhotoResolutionsAsync>d__18::<>u__1
@@ -8121,9 +8121,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CGetPhotoResolutionsAsyncU3Ed__18_t8DD7E8FA3861413265FC175700FB39CC5715336B, ___U3CU3Et__builder_1)); }
-	inline AsyncTaskMethodBuilder_1_tE730C1639F7A6C900054E6065F806AC06E6107A6  get_U3CU3Et__builder_1() const { return ___U3CU3Et__builder_1; }
-	inline AsyncTaskMethodBuilder_1_tE730C1639F7A6C900054E6065F806AC06E6107A6 * get_address_of_U3CU3Et__builder_1() { return &___U3CU3Et__builder_1; }
-	inline void set_U3CU3Et__builder_1(AsyncTaskMethodBuilder_1_tE730C1639F7A6C900054E6065F806AC06E6107A6  value)
+	inline AsyncTaskMethodBuilder_1_t0010D7F332F4D8F6605195F2E2B2B92E89AD341B  get_U3CU3Et__builder_1() const { return ___U3CU3Et__builder_1; }
+	inline AsyncTaskMethodBuilder_1_t0010D7F332F4D8F6605195F2E2B2B92E89AD341B * get_address_of_U3CU3Et__builder_1() { return &___U3CU3Et__builder_1; }
+	inline void set_U3CU3Et__builder_1(AsyncTaskMethodBuilder_1_t0010D7F332F4D8F6605195F2E2B2B92E89AD341B  value)
 	{
 		___U3CU3Et__builder_1 = value;
 		Il2CppCodeGenWriteBarrier((void**)&((&(((&___U3CU3Et__builder_1))->___m_coreState_1))->___m_stateMachine_0), (void*)NULL);
@@ -8166,9 +8166,9 @@ public:
 	// UWPExample.MediaCaptureImplementation UWPExample.MediaCaptureImplementation_<GetPhotoTexture2D>d__32::<>4__this
 	MediaCaptureImplementation_t451B72791B96E3E8C4FBB477281DD6D475F1C2E8 * ___U3CU3E4__this_2;
 	// System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.Streams.InMemoryRandomAccessStream> UWPExample.MediaCaptureImplementation_<GetPhotoTexture2D>d__32::<>u__1
-	TaskAwaiter_1_t8D00CC3039DBE9BB4D44230FBEA1A6D558E2396D  ___U3CU3Eu__1_3;
+	TaskAwaiter_1_t656E42417A4E85DA90FC17E3B934F977A5FD8909  ___U3CU3Eu__1_3;
 	// System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Graphics.Imaging.BitmapDecoder> UWPExample.MediaCaptureImplementation_<GetPhotoTexture2D>d__32::<>u__2
-	TaskAwaiter_1_t111F804DD86A29D2EAAB596521D2866A2477B48F  ___U3CU3Eu__2_4;
+	TaskAwaiter_1_tEA1AEB408B9FA7FADCF79E9769D1116E70BE43E7  ___U3CU3Eu__2_4;
 
 public:
 	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CGetPhotoTexture2DU3Ed__32_t04D2591A63E7078567CEF7DDBCBCDCAEC9D64730, ___U3CU3E1__state_0)); }
@@ -8204,18 +8204,18 @@ public:
 	}
 
 	inline static int32_t get_offset_of_U3CU3Eu__1_3() { return static_cast<int32_t>(offsetof(U3CGetPhotoTexture2DU3Ed__32_t04D2591A63E7078567CEF7DDBCBCDCAEC9D64730, ___U3CU3Eu__1_3)); }
-	inline TaskAwaiter_1_t8D00CC3039DBE9BB4D44230FBEA1A6D558E2396D  get_U3CU3Eu__1_3() const { return ___U3CU3Eu__1_3; }
-	inline TaskAwaiter_1_t8D00CC3039DBE9BB4D44230FBEA1A6D558E2396D * get_address_of_U3CU3Eu__1_3() { return &___U3CU3Eu__1_3; }
-	inline void set_U3CU3Eu__1_3(TaskAwaiter_1_t8D00CC3039DBE9BB4D44230FBEA1A6D558E2396D  value)
+	inline TaskAwaiter_1_t656E42417A4E85DA90FC17E3B934F977A5FD8909  get_U3CU3Eu__1_3() const { return ___U3CU3Eu__1_3; }
+	inline TaskAwaiter_1_t656E42417A4E85DA90FC17E3B934F977A5FD8909 * get_address_of_U3CU3Eu__1_3() { return &___U3CU3Eu__1_3; }
+	inline void set_U3CU3Eu__1_3(TaskAwaiter_1_t656E42417A4E85DA90FC17E3B934F977A5FD8909  value)
 	{
 		___U3CU3Eu__1_3 = value;
 		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__1_3))->___m_task_0), (void*)NULL);
 	}
 
 	inline static int32_t get_offset_of_U3CU3Eu__2_4() { return static_cast<int32_t>(offsetof(U3CGetPhotoTexture2DU3Ed__32_t04D2591A63E7078567CEF7DDBCBCDCAEC9D64730, ___U3CU3Eu__2_4)); }
-	inline TaskAwaiter_1_t111F804DD86A29D2EAAB596521D2866A2477B48F  get_U3CU3Eu__2_4() const { return ___U3CU3Eu__2_4; }
-	inline TaskAwaiter_1_t111F804DD86A29D2EAAB596521D2866A2477B48F * get_address_of_U3CU3Eu__2_4() { return &___U3CU3Eu__2_4; }
-	inline void set_U3CU3Eu__2_4(TaskAwaiter_1_t111F804DD86A29D2EAAB596521D2866A2477B48F  value)
+	inline TaskAwaiter_1_tEA1AEB408B9FA7FADCF79E9769D1116E70BE43E7  get_U3CU3Eu__2_4() const { return ___U3CU3Eu__2_4; }
+	inline TaskAwaiter_1_tEA1AEB408B9FA7FADCF79E9769D1116E70BE43E7 * get_address_of_U3CU3Eu__2_4() { return &___U3CU3Eu__2_4; }
+	inline void set_U3CU3Eu__2_4(TaskAwaiter_1_tEA1AEB408B9FA7FADCF79E9769D1116E70BE43E7  value)
 	{
 		___U3CU3Eu__2_4 = value;
 		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__2_4))->___m_task_0), (void*)NULL);
@@ -8230,7 +8230,7 @@ public:
 	// System.Int32 UWPExample.MediaCaptureImplementation_<GetSelectedMediaCaptureInitializationSettingsAsync>d__17::<>1__state
 	int32_t ___U3CU3E1__state_0;
 	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Windows.Media.Capture.MediaCaptureInitializationSettings> UWPExample.MediaCaptureImplementation_<GetSelectedMediaCaptureInitializationSettingsAsync>d__17::<>t__builder
-	AsyncTaskMethodBuilder_1_t4779A5C830912E09C7B1CCA46230A148209E014A  ___U3CU3Et__builder_1;
+	AsyncTaskMethodBuilder_1_t239A62B59C5DCFDBC6EFAE7A66DF94D9817509DE  ___U3CU3Et__builder_1;
 	// UWPExample.MediaCaptureImplementation UWPExample.MediaCaptureImplementation_<GetSelectedMediaCaptureInitializationSettingsAsync>d__17::<>4__this
 	MediaCaptureImplementation_t451B72791B96E3E8C4FBB477281DD6D475F1C2E8 * ___U3CU3E4__this_2;
 	// System.Runtime.CompilerServices.TaskAwaiter UWPExample.MediaCaptureImplementation_<GetSelectedMediaCaptureInitializationSettingsAsync>d__17::<>u__1
@@ -8246,9 +8246,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CGetSelectedMediaCaptureInitializationSettingsAsyncU3Ed__17_t00228194A91E58380BEFAACD47440865B00A1D50, ___U3CU3Et__builder_1)); }
-	inline AsyncTaskMethodBuilder_1_t4779A5C830912E09C7B1CCA46230A148209E014A  get_U3CU3Et__builder_1() const { return ___U3CU3Et__builder_1; }
-	inline AsyncTaskMethodBuilder_1_t4779A5C830912E09C7B1CCA46230A148209E014A * get_address_of_U3CU3Et__builder_1() { return &___U3CU3Et__builder_1; }
-	inline void set_U3CU3Et__builder_1(AsyncTaskMethodBuilder_1_t4779A5C830912E09C7B1CCA46230A148209E014A  value)
+	inline AsyncTaskMethodBuilder_1_t239A62B59C5DCFDBC6EFAE7A66DF94D9817509DE  get_U3CU3Et__builder_1() const { return ___U3CU3Et__builder_1; }
+	inline AsyncTaskMethodBuilder_1_t239A62B59C5DCFDBC6EFAE7A66DF94D9817509DE * get_address_of_U3CU3Et__builder_1() { return &___U3CU3Et__builder_1; }
+	inline void set_U3CU3Et__builder_1(AsyncTaskMethodBuilder_1_t239A62B59C5DCFDBC6EFAE7A66DF94D9817509DE  value)
 	{
 		___U3CU3Et__builder_1 = value;
 		Il2CppCodeGenWriteBarrier((void**)&((&(((&___U3CU3Et__builder_1))->___m_coreState_1))->___m_stateMachine_0), (void*)NULL);
@@ -8475,9 +8475,9 @@ public:
 	// UWPExample.MediaCaptureImplementation UWPExample.MediaCaptureImplementation_<SavePhotoToPicturesLibraryAsync>d__34::<>4__this
 	MediaCaptureImplementation_t451B72791B96E3E8C4FBB477281DD6D475F1C2E8 * ___U3CU3E4__this_3;
 	// System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.StorageLibrary> UWPExample.MediaCaptureImplementation_<SavePhotoToPicturesLibraryAsync>d__34::<>u__1
-	TaskAwaiter_1_tD9785438DBBB81BD319AAA8D96286D3832F73DE1  ___U3CU3Eu__1_4;
+	TaskAwaiter_1_t74E2EA2CB35AFD5FBFE03D24F8EADF800EECB2F6  ___U3CU3Eu__1_4;
 	// System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.StorageFile> UWPExample.MediaCaptureImplementation_<SavePhotoToPicturesLibraryAsync>d__34::<>u__2
-	TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  ___U3CU3Eu__2_5;
+	TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  ___U3CU3Eu__2_5;
 	// System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> UWPExample.MediaCaptureImplementation_<SavePhotoToPicturesLibraryAsync>d__34::<>u__3
 	TaskAwaiter_1_tFD52D9BC245E2C60016F2E6F4CC4A15361418090  ___U3CU3Eu__3_6;
 
@@ -8524,18 +8524,18 @@ public:
 	}
 
 	inline static int32_t get_offset_of_U3CU3Eu__1_4() { return static_cast<int32_t>(offsetof(U3CSavePhotoToPicturesLibraryAsyncU3Ed__34_tC80CF3A9345998FCF9224E171F644BD835CD4A9A, ___U3CU3Eu__1_4)); }
-	inline TaskAwaiter_1_tD9785438DBBB81BD319AAA8D96286D3832F73DE1  get_U3CU3Eu__1_4() const { return ___U3CU3Eu__1_4; }
-	inline TaskAwaiter_1_tD9785438DBBB81BD319AAA8D96286D3832F73DE1 * get_address_of_U3CU3Eu__1_4() { return &___U3CU3Eu__1_4; }
-	inline void set_U3CU3Eu__1_4(TaskAwaiter_1_tD9785438DBBB81BD319AAA8D96286D3832F73DE1  value)
+	inline TaskAwaiter_1_t74E2EA2CB35AFD5FBFE03D24F8EADF800EECB2F6  get_U3CU3Eu__1_4() const { return ___U3CU3Eu__1_4; }
+	inline TaskAwaiter_1_t74E2EA2CB35AFD5FBFE03D24F8EADF800EECB2F6 * get_address_of_U3CU3Eu__1_4() { return &___U3CU3Eu__1_4; }
+	inline void set_U3CU3Eu__1_4(TaskAwaiter_1_t74E2EA2CB35AFD5FBFE03D24F8EADF800EECB2F6  value)
 	{
 		___U3CU3Eu__1_4 = value;
 		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__1_4))->___m_task_0), (void*)NULL);
 	}
 
 	inline static int32_t get_offset_of_U3CU3Eu__2_5() { return static_cast<int32_t>(offsetof(U3CSavePhotoToPicturesLibraryAsyncU3Ed__34_tC80CF3A9345998FCF9224E171F644BD835CD4A9A, ___U3CU3Eu__2_5)); }
-	inline TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  get_U3CU3Eu__2_5() const { return ___U3CU3Eu__2_5; }
-	inline TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E * get_address_of_U3CU3Eu__2_5() { return &___U3CU3Eu__2_5; }
-	inline void set_U3CU3Eu__2_5(TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  value)
+	inline TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  get_U3CU3Eu__2_5() const { return ___U3CU3Eu__2_5; }
+	inline TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 * get_address_of_U3CU3Eu__2_5() { return &___U3CU3Eu__2_5; }
+	inline void set_U3CU3Eu__2_5(TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  value)
 	{
 		___U3CU3Eu__2_5 = value;
 		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__2_5))->___m_task_0), (void*)NULL);
@@ -8714,9 +8714,9 @@ public:
 	// System.Runtime.CompilerServices.TaskAwaiter UWPExample.MediaCaptureImplementation_<TakePhotoAndSavePhotoToPicturesLibraryAsync>d__26::<>u__1
 	TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F  ___U3CU3Eu__1_4;
 	// System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.StorageLibrary> UWPExample.MediaCaptureImplementation_<TakePhotoAndSavePhotoToPicturesLibraryAsync>d__26::<>u__2
-	TaskAwaiter_1_tD9785438DBBB81BD319AAA8D96286D3832F73DE1  ___U3CU3Eu__2_5;
+	TaskAwaiter_1_t74E2EA2CB35AFD5FBFE03D24F8EADF800EECB2F6  ___U3CU3Eu__2_5;
 	// System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.StorageFile> UWPExample.MediaCaptureImplementation_<TakePhotoAndSavePhotoToPicturesLibraryAsync>d__26::<>u__3
-	TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  ___U3CU3Eu__3_6;
+	TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  ___U3CU3Eu__3_6;
 	// System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> UWPExample.MediaCaptureImplementation_<TakePhotoAndSavePhotoToPicturesLibraryAsync>d__26::<>u__4
 	TaskAwaiter_1_tFD52D9BC245E2C60016F2E6F4CC4A15361418090  ___U3CU3Eu__4_7;
 
@@ -8772,18 +8772,18 @@ public:
 	}
 
 	inline static int32_t get_offset_of_U3CU3Eu__2_5() { return static_cast<int32_t>(offsetof(U3CTakePhotoAndSavePhotoToPicturesLibraryAsyncU3Ed__26_tA8EEFBE87449216994F578B140A1327AC5563B19, ___U3CU3Eu__2_5)); }
-	inline TaskAwaiter_1_tD9785438DBBB81BD319AAA8D96286D3832F73DE1  get_U3CU3Eu__2_5() const { return ___U3CU3Eu__2_5; }
-	inline TaskAwaiter_1_tD9785438DBBB81BD319AAA8D96286D3832F73DE1 * get_address_of_U3CU3Eu__2_5() { return &___U3CU3Eu__2_5; }
-	inline void set_U3CU3Eu__2_5(TaskAwaiter_1_tD9785438DBBB81BD319AAA8D96286D3832F73DE1  value)
+	inline TaskAwaiter_1_t74E2EA2CB35AFD5FBFE03D24F8EADF800EECB2F6  get_U3CU3Eu__2_5() const { return ___U3CU3Eu__2_5; }
+	inline TaskAwaiter_1_t74E2EA2CB35AFD5FBFE03D24F8EADF800EECB2F6 * get_address_of_U3CU3Eu__2_5() { return &___U3CU3Eu__2_5; }
+	inline void set_U3CU3Eu__2_5(TaskAwaiter_1_t74E2EA2CB35AFD5FBFE03D24F8EADF800EECB2F6  value)
 	{
 		___U3CU3Eu__2_5 = value;
 		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__2_5))->___m_task_0), (void*)NULL);
 	}
 
 	inline static int32_t get_offset_of_U3CU3Eu__3_6() { return static_cast<int32_t>(offsetof(U3CTakePhotoAndSavePhotoToPicturesLibraryAsyncU3Ed__26_tA8EEFBE87449216994F578B140A1327AC5563B19, ___U3CU3Eu__3_6)); }
-	inline TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  get_U3CU3Eu__3_6() const { return ___U3CU3Eu__3_6; }
-	inline TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E * get_address_of_U3CU3Eu__3_6() { return &___U3CU3Eu__3_6; }
-	inline void set_U3CU3Eu__3_6(TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  value)
+	inline TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  get_U3CU3Eu__3_6() const { return ___U3CU3Eu__3_6; }
+	inline TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 * get_address_of_U3CU3Eu__3_6() { return &___U3CU3Eu__3_6; }
+	inline void set_U3CU3Eu__3_6(TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  value)
 	{
 		___U3CU3Eu__3_6 = value;
 		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__3_6))->___m_task_0), (void*)NULL);
@@ -8864,13 +8864,13 @@ public:
 	// System.Int32 UWPExample.MediaCaptureImplementation_<TakePhotoInMemoryRandomAccessStreamAsync>d__23::<>1__state
 	int32_t ___U3CU3E1__state_0;
 	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Windows.Storage.Streams.InMemoryRandomAccessStream> UWPExample.MediaCaptureImplementation_<TakePhotoInMemoryRandomAccessStreamAsync>d__23::<>t__builder
-	AsyncTaskMethodBuilder_1_tF342DBEFB1145C67EE5CDA8B0CFD478DB5FFAF88  ___U3CU3Et__builder_1;
+	AsyncTaskMethodBuilder_1_t8ACF4B44061B625A207A34910AEE7A6DCE61E0C2  ___U3CU3Et__builder_1;
 	// UWPExample.MediaCaptureImplementation UWPExample.MediaCaptureImplementation_<TakePhotoInMemoryRandomAccessStreamAsync>d__23::<>4__this
 	MediaCaptureImplementation_t451B72791B96E3E8C4FBB477281DD6D475F1C2E8 * ___U3CU3E4__this_2;
 	// System.Runtime.CompilerServices.TaskAwaiter UWPExample.MediaCaptureImplementation_<TakePhotoInMemoryRandomAccessStreamAsync>d__23::<>u__1
 	TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F  ___U3CU3Eu__1_3;
 	// System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.Streams.InMemoryRandomAccessStream> UWPExample.MediaCaptureImplementation_<TakePhotoInMemoryRandomAccessStreamAsync>d__23::<>u__2
-	TaskAwaiter_1_t8D00CC3039DBE9BB4D44230FBEA1A6D558E2396D  ___U3CU3Eu__2_4;
+	TaskAwaiter_1_t656E42417A4E85DA90FC17E3B934F977A5FD8909  ___U3CU3Eu__2_4;
 
 public:
 	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CTakePhotoInMemoryRandomAccessStreamAsyncU3Ed__23_t9A7BF4FA6C5885411C7D8F5161B189B740DACF5A, ___U3CU3E1__state_0)); }
@@ -8882,9 +8882,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CTakePhotoInMemoryRandomAccessStreamAsyncU3Ed__23_t9A7BF4FA6C5885411C7D8F5161B189B740DACF5A, ___U3CU3Et__builder_1)); }
-	inline AsyncTaskMethodBuilder_1_tF342DBEFB1145C67EE5CDA8B0CFD478DB5FFAF88  get_U3CU3Et__builder_1() const { return ___U3CU3Et__builder_1; }
-	inline AsyncTaskMethodBuilder_1_tF342DBEFB1145C67EE5CDA8B0CFD478DB5FFAF88 * get_address_of_U3CU3Et__builder_1() { return &___U3CU3Et__builder_1; }
-	inline void set_U3CU3Et__builder_1(AsyncTaskMethodBuilder_1_tF342DBEFB1145C67EE5CDA8B0CFD478DB5FFAF88  value)
+	inline AsyncTaskMethodBuilder_1_t8ACF4B44061B625A207A34910AEE7A6DCE61E0C2  get_U3CU3Et__builder_1() const { return ___U3CU3Et__builder_1; }
+	inline AsyncTaskMethodBuilder_1_t8ACF4B44061B625A207A34910AEE7A6DCE61E0C2 * get_address_of_U3CU3Et__builder_1() { return &___U3CU3Et__builder_1; }
+	inline void set_U3CU3Et__builder_1(AsyncTaskMethodBuilder_1_t8ACF4B44061B625A207A34910AEE7A6DCE61E0C2  value)
 	{
 		___U3CU3Et__builder_1 = value;
 		Il2CppCodeGenWriteBarrier((void**)&((&(((&___U3CU3Et__builder_1))->___m_coreState_1))->___m_stateMachine_0), (void*)NULL);
@@ -8915,9 +8915,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_U3CU3Eu__2_4() { return static_cast<int32_t>(offsetof(U3CTakePhotoInMemoryRandomAccessStreamAsyncU3Ed__23_t9A7BF4FA6C5885411C7D8F5161B189B740DACF5A, ___U3CU3Eu__2_4)); }
-	inline TaskAwaiter_1_t8D00CC3039DBE9BB4D44230FBEA1A6D558E2396D  get_U3CU3Eu__2_4() const { return ___U3CU3Eu__2_4; }
-	inline TaskAwaiter_1_t8D00CC3039DBE9BB4D44230FBEA1A6D558E2396D * get_address_of_U3CU3Eu__2_4() { return &___U3CU3Eu__2_4; }
-	inline void set_U3CU3Eu__2_4(TaskAwaiter_1_t8D00CC3039DBE9BB4D44230FBEA1A6D558E2396D  value)
+	inline TaskAwaiter_1_t656E42417A4E85DA90FC17E3B934F977A5FD8909  get_U3CU3Eu__2_4() const { return ___U3CU3Eu__2_4; }
+	inline TaskAwaiter_1_t656E42417A4E85DA90FC17E3B934F977A5FD8909 * get_address_of_U3CU3Eu__2_4() { return &___U3CU3Eu__2_4; }
+	inline void set_U3CU3Eu__2_4(TaskAwaiter_1_t656E42417A4E85DA90FC17E3B934F977A5FD8909  value)
 	{
 		___U3CU3Eu__2_4 = value;
 		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__2_4))->___m_task_0), (void*)NULL);
@@ -9513,9 +9513,9 @@ public:
 	// UnityEngine.Texture2D Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf_<ConstructTextureAsync>d__21::<texture>5__4
 	Texture2D_tBBF96AC337723E2EF156DF17E09D4379FD05DE1C * ___U3CtextureU3E5__4_7;
 	// System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.StorageFile> Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf_<ConstructTextureAsync>d__21::<>u__2
-	TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  ___U3CU3Eu__2_8;
+	TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  ___U3CU3Eu__2_8;
 	// System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.Streams.IBuffer> Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf_<ConstructTextureAsync>d__21::<>u__3
-	TaskAwaiter_1_t84542E6DA1B74EECCBB0DFC832C0E70063E30F2E  ___U3CU3Eu__3_9;
+	TaskAwaiter_1_t7DA40DAC5737C94A250AA69DCE863F90B87F20A0  ___U3CU3Eu__3_9;
 	// System.Object Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf_<ConstructTextureAsync>d__21::<>u__4
 	RuntimeObject * ___U3CU3Eu__4_10;
 
@@ -9598,18 +9598,18 @@ public:
 	}
 
 	inline static int32_t get_offset_of_U3CU3Eu__2_8() { return static_cast<int32_t>(offsetof(U3CConstructTextureAsyncU3Ed__21_tD36194DB01EED4E89BFA8F5E95E2EF2642BA6A8C, ___U3CU3Eu__2_8)); }
-	inline TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  get_U3CU3Eu__2_8() const { return ___U3CU3Eu__2_8; }
-	inline TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E * get_address_of_U3CU3Eu__2_8() { return &___U3CU3Eu__2_8; }
-	inline void set_U3CU3Eu__2_8(TaskAwaiter_1_tF4ECE0A7BCE455BCA36C5338CB25CFBD5ECD6F7E  value)
+	inline TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  get_U3CU3Eu__2_8() const { return ___U3CU3Eu__2_8; }
+	inline TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7 * get_address_of_U3CU3Eu__2_8() { return &___U3CU3Eu__2_8; }
+	inline void set_U3CU3Eu__2_8(TaskAwaiter_1_t0EC41B121A16FD1E4990BFC450109F3D135055F7  value)
 	{
 		___U3CU3Eu__2_8 = value;
 		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__2_8))->___m_task_0), (void*)NULL);
 	}
 
 	inline static int32_t get_offset_of_U3CU3Eu__3_9() { return static_cast<int32_t>(offsetof(U3CConstructTextureAsyncU3Ed__21_tD36194DB01EED4E89BFA8F5E95E2EF2642BA6A8C, ___U3CU3Eu__3_9)); }
-	inline TaskAwaiter_1_t84542E6DA1B74EECCBB0DFC832C0E70063E30F2E  get_U3CU3Eu__3_9() const { return ___U3CU3Eu__3_9; }
-	inline TaskAwaiter_1_t84542E6DA1B74EECCBB0DFC832C0E70063E30F2E * get_address_of_U3CU3Eu__3_9() { return &___U3CU3Eu__3_9; }
-	inline void set_U3CU3Eu__3_9(TaskAwaiter_1_t84542E6DA1B74EECCBB0DFC832C0E70063E30F2E  value)
+	inline TaskAwaiter_1_t7DA40DAC5737C94A250AA69DCE863F90B87F20A0  get_U3CU3Eu__3_9() const { return ___U3CU3Eu__3_9; }
+	inline TaskAwaiter_1_t7DA40DAC5737C94A250AA69DCE863F90B87F20A0 * get_address_of_U3CU3Eu__3_9() { return &___U3CU3Eu__3_9; }
+	inline void set_U3CU3Eu__3_9(TaskAwaiter_1_t7DA40DAC5737C94A250AA69DCE863F90B87F20A0  value)
 	{
 		___U3CU3Eu__3_9 = value;
 		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__3_9))->___m_task_0), (void*)NULL);

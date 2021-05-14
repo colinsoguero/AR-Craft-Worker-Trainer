@@ -717,12 +717,12 @@ IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_Value_m2FF1A8A834E0AE0F13939
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_Value_m59310BC9FCEE79F371FF375D192DCCF0E27BDCB9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_Value_m5A77DCDC8F2AB95782B371C30B7BE64626ECC3AE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_Value_m6D0534A6E03F4A602486A21E2BD46473E0AA984F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_Value_m757DBFF4FC041A4C96DBD62DF8807E5D1DF22DCD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_Value_m7C9CFCE6186F3CD55B4D63BB50E6D3D48A78583A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_Value_m8C18577D5CFAED153CBAC76830E294D2670FA8A8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_Value_m9412E5B49A0FFC6C10C293C29DF5EAF3DD759594_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_Value_mA8BB683CA6A8C5BF448A737FB5A2AF63C730B3E5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_Value_mADAB43BE80D56C1DB0EF09389A68DFFF8FF9A9E2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_Value_mAE940083440F40B44CBAABD84CD81699B0978389_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_Value_mBDC95B4EEDDE961381C4BC8ADE6239A8DB967948_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_Value_mC3560E06CEEA6DDCBD563A9042F6EAB557F907E6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_Value_mC8C36E4AADCE4ABB6084879B229E63A74B1491BB_RuntimeMethod_var;
@@ -806,12 +806,12 @@ IL2CPP_EXTERN_C const uint32_t Nullable_1_get_Value_m2FF1A8A834E0AE0F139395B39F0
 IL2CPP_EXTERN_C const uint32_t Nullable_1_get_Value_m59310BC9FCEE79F371FF375D192DCCF0E27BDCB9_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Nullable_1_get_Value_m5A77DCDC8F2AB95782B371C30B7BE64626ECC3AE_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Nullable_1_get_Value_m6D0534A6E03F4A602486A21E2BD46473E0AA984F_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t Nullable_1_get_Value_m757DBFF4FC041A4C96DBD62DF8807E5D1DF22DCD_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Nullable_1_get_Value_m7C9CFCE6186F3CD55B4D63BB50E6D3D48A78583A_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Nullable_1_get_Value_m8C18577D5CFAED153CBAC76830E294D2670FA8A8_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Nullable_1_get_Value_m9412E5B49A0FFC6C10C293C29DF5EAF3DD759594_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Nullable_1_get_Value_mA8BB683CA6A8C5BF448A737FB5A2AF63C730B3E5_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Nullable_1_get_Value_mADAB43BE80D56C1DB0EF09389A68DFFF8FF9A9E2_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t Nullable_1_get_Value_mAE940083440F40B44CBAABD84CD81699B0978389_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Nullable_1_get_Value_mBDC95B4EEDDE961381C4BC8ADE6239A8DB967948_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Nullable_1_get_Value_mC3560E06CEEA6DDCBD563A9042F6EAB557F907E6_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Nullable_1_get_Value_mC8C36E4AADCE4ABB6084879B229E63A74B1491BB_MetadataUsageId;
@@ -9260,7 +9260,7 @@ public:
 
 
 // System.Nullable`1<Windows.Perception.Spatial.SpatialRay>
-struct  Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 
+struct  Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B 
 {
 public:
 	// T System.Nullable`1::value
@@ -9269,7 +9269,7 @@ public:
 	bool ___has_value_1;
 
 public:
-	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5, ___value_0)); }
+	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B, ___value_0)); }
 	inline SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  get_value_0() const { return ___value_0; }
 	inline SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B * get_address_of_value_0() { return &___value_0; }
 	inline void set_value_0(SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  value)
@@ -9277,7 +9277,7 @@ public:
 		___value_0 = value;
 	}
 
-	inline static int32_t get_offset_of_has_value_1() { return static_cast<int32_t>(offsetof(Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5, ___has_value_1)); }
+	inline static int32_t get_offset_of_has_value_1() { return static_cast<int32_t>(offsetof(Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B, ___has_value_1)); }
 	inline bool get_has_value_1() const { return ___has_value_1; }
 	inline bool* get_address_of_has_value_1() { return &___has_value_1; }
 	inline void set_has_value_1(bool value)
@@ -12020,21 +12020,21 @@ IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR InteractionSource_t21335CC7BE7B9164D14
 // System.String System.Nullable`1<UnityEngine.XR.WSA.Input.InteractionSource>::ToString()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Nullable_1_ToString_m34BB02C730EB43EAD160E612BF666A0CB050B1AC_gshared (Nullable_1_t2BAE7F2F24CA3009C8A4626DF50D64CBD4A00FBE * __this, const RuntimeMethod* method);
 // System.Void System.Nullable`1<Windows.Perception.Spatial.SpatialRay>::.ctor(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1__ctor_m68D9B5C6F6B4081BC8F57E2506DABDB8508EE18F_gshared (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 * __this, SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  ___value0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1__ctor_m68D9B5C6F6B4081BC8F57E2506DABDB8508EE18F_gshared (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B * __this, SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  ___value0, const RuntimeMethod* method);
 // System.Boolean System.Nullable`1<Windows.Perception.Spatial.SpatialRay>::get_HasValue()
-IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_m930DD8A0A47CC88D01521CB9B17D73B9C67B2A97_gshared_inline (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_mCB73A6C23F561C52147A88DACC57913D7AF527A3_gshared_inline (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B * __this, const RuntimeMethod* method);
 // T System.Nullable`1<Windows.Perception.Spatial.SpatialRay>::get_Value()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  Nullable_1_get_Value_mAE940083440F40B44CBAABD84CD81699B0978389_gshared (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  Nullable_1_get_Value_m757DBFF4FC041A4C96DBD62DF8807E5D1DF22DCD_gshared (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B * __this, const RuntimeMethod* method);
 // System.Boolean System.Nullable`1<Windows.Perception.Spatial.SpatialRay>::Equals(System.Nullable`1<T>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Nullable_1_Equals_mC06D5D11DA5E9AAA6E286AE4DE7C5C842D4D32D3_gshared (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 * __this, Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5  ___other0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Nullable_1_Equals_mC06D5D11DA5E9AAA6E286AE4DE7C5C842D4D32D3_gshared (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B * __this, Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B  ___other0, const RuntimeMethod* method);
 // System.Boolean System.Nullable`1<Windows.Perception.Spatial.SpatialRay>::Equals(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Nullable_1_Equals_m16E4809500646426025129155E2E50CF0A733A6E_gshared (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 * __this, RuntimeObject * ___other0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Nullable_1_Equals_m16E4809500646426025129155E2E50CF0A733A6E_gshared (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B * __this, RuntimeObject * ___other0, const RuntimeMethod* method);
 // System.Int32 System.Nullable`1<Windows.Perception.Spatial.SpatialRay>::GetHashCode()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Nullable_1_GetHashCode_m98F565DA026F575EB2C26D15D0F3F36116C60C55_gshared (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Nullable_1_GetHashCode_m98F565DA026F575EB2C26D15D0F3F36116C60C55_gshared (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B * __this, const RuntimeMethod* method);
 // T System.Nullable`1<Windows.Perception.Spatial.SpatialRay>::GetValueOrDefault()
-IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  Nullable_1_GetValueOrDefault_mC26F437B6F75464B478C2034F017313FE56AC1A5_gshared_inline (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  Nullable_1_GetValueOrDefault_mC26F437B6F75464B478C2034F017313FE56AC1A5_gshared_inline (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B * __this, const RuntimeMethod* method);
 // System.String System.Nullable`1<Windows.Perception.Spatial.SpatialRay>::ToString()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Nullable_1_ToString_mE7DF5CCE944029B7E78011C182B01D9D32893459_gshared (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Nullable_1_ToString_mE7DF5CCE944029B7E78011C182B01D9D32893459_gshared (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B * __this, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Microsoft.MixedReality.Toolkit.Utilities.Response>::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_SetStateMachine_m0A30A8BCB4A82C172DC0EBC54AFB3F089005B93A_gshared (AsyncTaskMethodBuilder_1_t824ECDBFB92240591FD44866AF72EB01212769BF * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method);
 // System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Microsoft.MixedReality.Toolkit.Utilities.Response>::get_Task()
@@ -12875,44 +12875,44 @@ inline String_t* Nullable_1_ToString_m34BB02C730EB43EAD160E612BF666A0CB050B1AC (
 	return ((  String_t* (*) (Nullable_1_t2BAE7F2F24CA3009C8A4626DF50D64CBD4A00FBE *, const RuntimeMethod*))Nullable_1_ToString_m34BB02C730EB43EAD160E612BF666A0CB050B1AC_gshared)(__this, method);
 }
 // System.Void System.Nullable`1<Windows.Perception.Spatial.SpatialRay>::.ctor(T)
-inline void Nullable_1__ctor_m68D9B5C6F6B4081BC8F57E2506DABDB8508EE18F (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 * __this, SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  ___value0, const RuntimeMethod* method)
+inline void Nullable_1__ctor_m68D9B5C6F6B4081BC8F57E2506DABDB8508EE18F (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B * __this, SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  ___value0, const RuntimeMethod* method)
 {
-	((  void (*) (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 *, SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B , const RuntimeMethod*))Nullable_1__ctor_m68D9B5C6F6B4081BC8F57E2506DABDB8508EE18F_gshared)(__this, ___value0, method);
+	((  void (*) (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B *, SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B , const RuntimeMethod*))Nullable_1__ctor_m68D9B5C6F6B4081BC8F57E2506DABDB8508EE18F_gshared)(__this, ___value0, method);
 }
 // System.Boolean System.Nullable`1<Windows.Perception.Spatial.SpatialRay>::get_HasValue()
-inline bool Nullable_1_get_HasValue_m930DD8A0A47CC88D01521CB9B17D73B9C67B2A97_inline (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 * __this, const RuntimeMethod* method)
+inline bool Nullable_1_get_HasValue_mCB73A6C23F561C52147A88DACC57913D7AF527A3_inline (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B * __this, const RuntimeMethod* method)
 {
-	return ((  bool (*) (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 *, const RuntimeMethod*))Nullable_1_get_HasValue_m930DD8A0A47CC88D01521CB9B17D73B9C67B2A97_gshared_inline)(__this, method);
+	return ((  bool (*) (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B *, const RuntimeMethod*))Nullable_1_get_HasValue_mCB73A6C23F561C52147A88DACC57913D7AF527A3_gshared_inline)(__this, method);
 }
 // T System.Nullable`1<Windows.Perception.Spatial.SpatialRay>::get_Value()
-inline SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  Nullable_1_get_Value_mAE940083440F40B44CBAABD84CD81699B0978389 (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 * __this, const RuntimeMethod* method)
+inline SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  Nullable_1_get_Value_m757DBFF4FC041A4C96DBD62DF8807E5D1DF22DCD (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B * __this, const RuntimeMethod* method)
 {
-	return ((  SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  (*) (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 *, const RuntimeMethod*))Nullable_1_get_Value_mAE940083440F40B44CBAABD84CD81699B0978389_gshared)(__this, method);
+	return ((  SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  (*) (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B *, const RuntimeMethod*))Nullable_1_get_Value_m757DBFF4FC041A4C96DBD62DF8807E5D1DF22DCD_gshared)(__this, method);
 }
 // System.Boolean System.Nullable`1<Windows.Perception.Spatial.SpatialRay>::Equals(System.Nullable`1<T>)
-inline bool Nullable_1_Equals_mC06D5D11DA5E9AAA6E286AE4DE7C5C842D4D32D3 (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 * __this, Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5  ___other0, const RuntimeMethod* method)
+inline bool Nullable_1_Equals_mC06D5D11DA5E9AAA6E286AE4DE7C5C842D4D32D3 (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B * __this, Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B  ___other0, const RuntimeMethod* method)
 {
-	return ((  bool (*) (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 *, Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 , const RuntimeMethod*))Nullable_1_Equals_mC06D5D11DA5E9AAA6E286AE4DE7C5C842D4D32D3_gshared)(__this, ___other0, method);
+	return ((  bool (*) (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B *, Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B , const RuntimeMethod*))Nullable_1_Equals_mC06D5D11DA5E9AAA6E286AE4DE7C5C842D4D32D3_gshared)(__this, ___other0, method);
 }
 // System.Boolean System.Nullable`1<Windows.Perception.Spatial.SpatialRay>::Equals(System.Object)
-inline bool Nullable_1_Equals_m16E4809500646426025129155E2E50CF0A733A6E (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 * __this, RuntimeObject * ___other0, const RuntimeMethod* method)
+inline bool Nullable_1_Equals_m16E4809500646426025129155E2E50CF0A733A6E (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B * __this, RuntimeObject * ___other0, const RuntimeMethod* method)
 {
-	return ((  bool (*) (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 *, RuntimeObject *, const RuntimeMethod*))Nullable_1_Equals_m16E4809500646426025129155E2E50CF0A733A6E_gshared)(__this, ___other0, method);
+	return ((  bool (*) (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B *, RuntimeObject *, const RuntimeMethod*))Nullable_1_Equals_m16E4809500646426025129155E2E50CF0A733A6E_gshared)(__this, ___other0, method);
 }
 // System.Int32 System.Nullable`1<Windows.Perception.Spatial.SpatialRay>::GetHashCode()
-inline int32_t Nullable_1_GetHashCode_m98F565DA026F575EB2C26D15D0F3F36116C60C55 (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 * __this, const RuntimeMethod* method)
+inline int32_t Nullable_1_GetHashCode_m98F565DA026F575EB2C26D15D0F3F36116C60C55 (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B * __this, const RuntimeMethod* method)
 {
-	return ((  int32_t (*) (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 *, const RuntimeMethod*))Nullable_1_GetHashCode_m98F565DA026F575EB2C26D15D0F3F36116C60C55_gshared)(__this, method);
+	return ((  int32_t (*) (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B *, const RuntimeMethod*))Nullable_1_GetHashCode_m98F565DA026F575EB2C26D15D0F3F36116C60C55_gshared)(__this, method);
 }
 // T System.Nullable`1<Windows.Perception.Spatial.SpatialRay>::GetValueOrDefault()
-inline SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  Nullable_1_GetValueOrDefault_mC26F437B6F75464B478C2034F017313FE56AC1A5_inline (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 * __this, const RuntimeMethod* method)
+inline SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  Nullable_1_GetValueOrDefault_mC26F437B6F75464B478C2034F017313FE56AC1A5_inline (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B * __this, const RuntimeMethod* method)
 {
-	return ((  SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  (*) (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 *, const RuntimeMethod*))Nullable_1_GetValueOrDefault_mC26F437B6F75464B478C2034F017313FE56AC1A5_gshared_inline)(__this, method);
+	return ((  SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  (*) (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B *, const RuntimeMethod*))Nullable_1_GetValueOrDefault_mC26F437B6F75464B478C2034F017313FE56AC1A5_gshared_inline)(__this, method);
 }
 // System.String System.Nullable`1<Windows.Perception.Spatial.SpatialRay>::ToString()
-inline String_t* Nullable_1_ToString_mE7DF5CCE944029B7E78011C182B01D9D32893459 (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 * __this, const RuntimeMethod* method)
+inline String_t* Nullable_1_ToString_mE7DF5CCE944029B7E78011C182B01D9D32893459 (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B * __this, const RuntimeMethod* method)
 {
-	return ((  String_t* (*) (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 *, const RuntimeMethod*))Nullable_1_ToString_mE7DF5CCE944029B7E78011C182B01D9D32893459_gshared)(__this, method);
+	return ((  String_t* (*) (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B *, const RuntimeMethod*))Nullable_1_ToString_mE7DF5CCE944029B7E78011C182B01D9D32893459_gshared)(__this, method);
 }
 // System.Void System.Runtime.CompilerServices.AsyncMethodBuilderCore::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncMethodBuilderCore_SetStateMachine_m92D9A4AB24A2502F03512F543EA5F7C39A5336B6 (AsyncMethodBuilderCore_t4CE6C1E4B0621A6EC45CF6E0E8F1F633FFF9FF01 * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method);
@@ -26938,7 +26938,7 @@ IL_000d:
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void System.Nullable`1<Windows.Perception.Spatial.SpatialRay>::.ctor(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1__ctor_m68D9B5C6F6B4081BC8F57E2506DABDB8508EE18F_gshared (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 * __this, SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  ___value0, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1__ctor_m68D9B5C6F6B4081BC8F57E2506DABDB8508EE18F_gshared (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B * __this, SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  ___value0, const RuntimeMethod* method)
 {
 	{
 		__this->set_has_value_1((bool)1);
@@ -26949,7 +26949,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1__ctor_m68D9B5C6F6B4081BC8F57E
 }
 IL2CPP_EXTERN_C  void Nullable_1__ctor_m68D9B5C6F6B4081BC8F57E2506DABDB8508EE18F_AdjustorThunk (RuntimeObject * __this, SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  ___value0, const RuntimeMethod* method)
 {
-	Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5  _thisAdjusted;
+	Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B  _thisAdjusted;
 	if (!il2cpp_codegen_is_fake_boxed_object(__this))
 	{
 		_thisAdjusted.set_value_0(*reinterpret_cast<SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B *>(__this + 1));
@@ -26957,23 +26957,23 @@ IL2CPP_EXTERN_C  void Nullable_1__ctor_m68D9B5C6F6B4081BC8F57E2506DABDB8508EE18F
 	}
 	else
 	{
-		_thisAdjusted.set_value_0(((Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 *)(__this + 1))->get_value_0());
-		_thisAdjusted.set_has_value_1(((Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 *)(__this + 1))->get_has_value_1());
+		_thisAdjusted.set_value_0(((Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B *)(__this + 1))->get_value_0());
+		_thisAdjusted.set_has_value_1(((Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B *)(__this + 1))->get_has_value_1());
 	}
 	Nullable_1__ctor_m68D9B5C6F6B4081BC8F57E2506DABDB8508EE18F(&_thisAdjusted, ___value0, method);
 	*reinterpret_cast<SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B *>(__this + 1) = _thisAdjusted.get_value_0();
 }
 // System.Boolean System.Nullable`1<Windows.Perception.Spatial.SpatialRay>::get_HasValue()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_m930DD8A0A47CC88D01521CB9B17D73B9C67B2A97_gshared (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 * __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_mCB73A6C23F561C52147A88DACC57913D7AF527A3_gshared (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B * __this, const RuntimeMethod* method)
 {
 	{
 		bool L_0 = (bool)__this->get_has_value_1();
 		return L_0;
 	}
 }
-IL2CPP_EXTERN_C  bool Nullable_1_get_HasValue_m930DD8A0A47CC88D01521CB9B17D73B9C67B2A97_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  bool Nullable_1_get_HasValue_mCB73A6C23F561C52147A88DACC57913D7AF527A3_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
-	Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5  _thisAdjusted;
+	Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B  _thisAdjusted;
 	if (!il2cpp_codegen_is_fake_boxed_object(__this))
 	{
 		_thisAdjusted.set_value_0(*reinterpret_cast<SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B *>(__this + 1));
@@ -26981,20 +26981,20 @@ IL2CPP_EXTERN_C  bool Nullable_1_get_HasValue_m930DD8A0A47CC88D01521CB9B17D73B9C
 	}
 	else
 	{
-		_thisAdjusted.set_value_0(((Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 *)(__this + 1))->get_value_0());
-		_thisAdjusted.set_has_value_1(((Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 *)(__this + 1))->get_has_value_1());
+		_thisAdjusted.set_value_0(((Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B *)(__this + 1))->get_value_0());
+		_thisAdjusted.set_has_value_1(((Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B *)(__this + 1))->get_has_value_1());
 	}
-	bool _returnValue = Nullable_1_get_HasValue_m930DD8A0A47CC88D01521CB9B17D73B9C67B2A97_inline(&_thisAdjusted, method);
+	bool _returnValue = Nullable_1_get_HasValue_mCB73A6C23F561C52147A88DACC57913D7AF527A3_inline(&_thisAdjusted, method);
 	*reinterpret_cast<SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B *>(__this + 1) = _thisAdjusted.get_value_0();
 	return _returnValue;
 }
 // T System.Nullable`1<Windows.Perception.Spatial.SpatialRay>::get_Value()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  Nullable_1_get_Value_mAE940083440F40B44CBAABD84CD81699B0978389_gshared (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 * __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  Nullable_1_get_Value_m757DBFF4FC041A4C96DBD62DF8807E5D1DF22DCD_gshared (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Nullable_1_get_Value_mAE940083440F40B44CBAABD84CD81699B0978389_MetadataUsageId);
+		il2cpp_codegen_initialize_method (Nullable_1_get_Value_m757DBFF4FC041A4C96DBD62DF8807E5D1DF22DCD_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -27007,7 +27007,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965
 	{
 		InvalidOperationException_t0530E734D823F78310CAFAFA424CA5164D93A1F1 * L_1 = (InvalidOperationException_t0530E734D823F78310CAFAFA424CA5164D93A1F1 *)il2cpp_codegen_object_new(InvalidOperationException_t0530E734D823F78310CAFAFA424CA5164D93A1F1_il2cpp_TypeInfo_var);
 		InvalidOperationException__ctor_m72027D5F1D513C25C05137E203EEED8FD8297706(L_1, (String_t*)_stringLiteralF7F24D49529641003F57A1A7C43CFCCA3D29BD73, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, Nullable_1_get_Value_mAE940083440F40B44CBAABD84CD81699B0978389_RuntimeMethod_var);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, Nullable_1_get_Value_m757DBFF4FC041A4C96DBD62DF8807E5D1DF22DCD_RuntimeMethod_var);
 	}
 
 IL_0013:
@@ -27016,9 +27016,9 @@ IL_0013:
 		return L_2;
 	}
 }
-IL2CPP_EXTERN_C  SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  Nullable_1_get_Value_mAE940083440F40B44CBAABD84CD81699B0978389_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  Nullable_1_get_Value_m757DBFF4FC041A4C96DBD62DF8807E5D1DF22DCD_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
-	Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5  _thisAdjusted;
+	Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B  _thisAdjusted;
 	if (!il2cpp_codegen_is_fake_boxed_object(__this))
 	{
 		_thisAdjusted.set_value_0(*reinterpret_cast<SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B *>(__this + 1));
@@ -27026,15 +27026,15 @@ IL2CPP_EXTERN_C  SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  Nullable_
 	}
 	else
 	{
-		_thisAdjusted.set_value_0(((Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 *)(__this + 1))->get_value_0());
-		_thisAdjusted.set_has_value_1(((Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 *)(__this + 1))->get_has_value_1());
+		_thisAdjusted.set_value_0(((Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B *)(__this + 1))->get_value_0());
+		_thisAdjusted.set_has_value_1(((Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B *)(__this + 1))->get_has_value_1());
 	}
-	SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  _returnValue = Nullable_1_get_Value_mAE940083440F40B44CBAABD84CD81699B0978389(&_thisAdjusted, method);
+	SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  _returnValue = Nullable_1_get_Value_m757DBFF4FC041A4C96DBD62DF8807E5D1DF22DCD(&_thisAdjusted, method);
 	*reinterpret_cast<SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B *>(__this + 1) = _thisAdjusted.get_value_0();
 	return _returnValue;
 }
 // System.Boolean System.Nullable`1<Windows.Perception.Spatial.SpatialRay>::Equals(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Nullable_1_Equals_m16E4809500646426025129155E2E50CF0A733A6E_gshared (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 * __this, RuntimeObject * ___other0, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Nullable_1_Equals_m16E4809500646426025129155E2E50CF0A733A6E_gshared (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B * __this, RuntimeObject * ___other0, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -27069,15 +27069,15 @@ IL_000d:
 IL_0017:
 	{
 		RuntimeObject * L_3 = ___other0;
-		void* L_4 = alloca(sizeof(Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 ));
+		void* L_4 = alloca(sizeof(Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B ));
 		UnBoxNullable(L_3, SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B_il2cpp_TypeInfo_var, L_4);
-		bool L_5 = Nullable_1_Equals_mC06D5D11DA5E9AAA6E286AE4DE7C5C842D4D32D3((Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 *)(Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 *)__this, (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 )((*(Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 *)((Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 *)L_4))), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 2));
+		bool L_5 = Nullable_1_Equals_mC06D5D11DA5E9AAA6E286AE4DE7C5C842D4D32D3((Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B *)(Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B *)__this, (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B )((*(Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B *)((Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B *)L_4))), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		return L_5;
 	}
 }
 IL2CPP_EXTERN_C  bool Nullable_1_Equals_m16E4809500646426025129155E2E50CF0A733A6E_AdjustorThunk (RuntimeObject * __this, RuntimeObject * ___other0, const RuntimeMethod* method)
 {
-	Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5  _thisAdjusted;
+	Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B  _thisAdjusted;
 	if (!il2cpp_codegen_is_fake_boxed_object(__this))
 	{
 		_thisAdjusted.set_value_0(*reinterpret_cast<SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B *>(__this + 1));
@@ -27085,18 +27085,18 @@ IL2CPP_EXTERN_C  bool Nullable_1_Equals_m16E4809500646426025129155E2E50CF0A733A6
 	}
 	else
 	{
-		_thisAdjusted.set_value_0(((Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 *)(__this + 1))->get_value_0());
-		_thisAdjusted.set_has_value_1(((Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 *)(__this + 1))->get_has_value_1());
+		_thisAdjusted.set_value_0(((Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B *)(__this + 1))->get_value_0());
+		_thisAdjusted.set_has_value_1(((Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B *)(__this + 1))->get_has_value_1());
 	}
 	bool _returnValue = Nullable_1_Equals_m16E4809500646426025129155E2E50CF0A733A6E(&_thisAdjusted, ___other0, method);
 	*reinterpret_cast<SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B *>(__this + 1) = _thisAdjusted.get_value_0();
 	return _returnValue;
 }
 // System.Boolean System.Nullable`1<Windows.Perception.Spatial.SpatialRay>::Equals(System.Nullable`1<T>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Nullable_1_Equals_mC06D5D11DA5E9AAA6E286AE4DE7C5C842D4D32D3_gshared (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 * __this, Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5  ___other0, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Nullable_1_Equals_mC06D5D11DA5E9AAA6E286AE4DE7C5C842D4D32D3_gshared (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B * __this, Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B  ___other0, const RuntimeMethod* method)
 {
 	{
-		Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5  L_0 = ___other0;
+		Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B  L_0 = ___other0;
 		bool L_1 = (bool)L_0.get_has_value_1();
 		bool L_2 = (bool)__this->get_has_value_1();
 		if ((((int32_t)L_1) == ((int32_t)L_2)))
@@ -27133,9 +27133,9 @@ IL_001a:
 		return L_9;
 	}
 }
-IL2CPP_EXTERN_C  bool Nullable_1_Equals_mC06D5D11DA5E9AAA6E286AE4DE7C5C842D4D32D3_AdjustorThunk (RuntimeObject * __this, Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5  ___other0, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  bool Nullable_1_Equals_mC06D5D11DA5E9AAA6E286AE4DE7C5C842D4D32D3_AdjustorThunk (RuntimeObject * __this, Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B  ___other0, const RuntimeMethod* method)
 {
-	Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5  _thisAdjusted;
+	Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B  _thisAdjusted;
 	if (!il2cpp_codegen_is_fake_boxed_object(__this))
 	{
 		_thisAdjusted.set_value_0(*reinterpret_cast<SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B *>(__this + 1));
@@ -27143,15 +27143,15 @@ IL2CPP_EXTERN_C  bool Nullable_1_Equals_mC06D5D11DA5E9AAA6E286AE4DE7C5C842D4D32D
 	}
 	else
 	{
-		_thisAdjusted.set_value_0(((Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 *)(__this + 1))->get_value_0());
-		_thisAdjusted.set_has_value_1(((Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 *)(__this + 1))->get_has_value_1());
+		_thisAdjusted.set_value_0(((Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B *)(__this + 1))->get_value_0());
+		_thisAdjusted.set_has_value_1(((Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B *)(__this + 1))->get_has_value_1());
 	}
 	bool _returnValue = Nullable_1_Equals_mC06D5D11DA5E9AAA6E286AE4DE7C5C842D4D32D3(&_thisAdjusted, ___other0, method);
 	*reinterpret_cast<SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B *>(__this + 1) = _thisAdjusted.get_value_0();
 	return _returnValue;
 }
 // System.Int32 System.Nullable`1<Windows.Perception.Spatial.SpatialRay>::GetHashCode()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Nullable_1_GetHashCode_m98F565DA026F575EB2C26D15D0F3F36116C60C55_gshared (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 * __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Nullable_1_GetHashCode_m98F565DA026F575EB2C26D15D0F3F36116C60C55_gshared (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B * __this, const RuntimeMethod* method)
 {
 	{
 		bool L_0 = (bool)__this->get_has_value_1();
@@ -27176,7 +27176,7 @@ IL_000a:
 }
 IL2CPP_EXTERN_C  int32_t Nullable_1_GetHashCode_m98F565DA026F575EB2C26D15D0F3F36116C60C55_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
-	Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5  _thisAdjusted;
+	Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B  _thisAdjusted;
 	if (!il2cpp_codegen_is_fake_boxed_object(__this))
 	{
 		_thisAdjusted.set_value_0(*reinterpret_cast<SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B *>(__this + 1));
@@ -27184,15 +27184,15 @@ IL2CPP_EXTERN_C  int32_t Nullable_1_GetHashCode_m98F565DA026F575EB2C26D15D0F3F36
 	}
 	else
 	{
-		_thisAdjusted.set_value_0(((Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 *)(__this + 1))->get_value_0());
-		_thisAdjusted.set_has_value_1(((Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 *)(__this + 1))->get_has_value_1());
+		_thisAdjusted.set_value_0(((Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B *)(__this + 1))->get_value_0());
+		_thisAdjusted.set_has_value_1(((Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B *)(__this + 1))->get_has_value_1());
 	}
 	int32_t _returnValue = Nullable_1_GetHashCode_m98F565DA026F575EB2C26D15D0F3F36116C60C55(&_thisAdjusted, method);
 	*reinterpret_cast<SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B *>(__this + 1) = _thisAdjusted.get_value_0();
 	return _returnValue;
 }
 // T System.Nullable`1<Windows.Perception.Spatial.SpatialRay>::GetValueOrDefault()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  Nullable_1_GetValueOrDefault_mC26F437B6F75464B478C2034F017313FE56AC1A5_gshared (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 * __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  Nullable_1_GetValueOrDefault_mC26F437B6F75464B478C2034F017313FE56AC1A5_gshared (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B * __this, const RuntimeMethod* method)
 {
 	{
 		SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  L_0 = (SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B )__this->get_value_0();
@@ -27201,7 +27201,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965
 }
 IL2CPP_EXTERN_C  SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  Nullable_1_GetValueOrDefault_mC26F437B6F75464B478C2034F017313FE56AC1A5_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
-	Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5  _thisAdjusted;
+	Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B  _thisAdjusted;
 	if (!il2cpp_codegen_is_fake_boxed_object(__this))
 	{
 		_thisAdjusted.set_value_0(*reinterpret_cast<SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B *>(__this + 1));
@@ -27209,15 +27209,15 @@ IL2CPP_EXTERN_C  SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  Nullable_
 	}
 	else
 	{
-		_thisAdjusted.set_value_0(((Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 *)(__this + 1))->get_value_0());
-		_thisAdjusted.set_has_value_1(((Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 *)(__this + 1))->get_has_value_1());
+		_thisAdjusted.set_value_0(((Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B *)(__this + 1))->get_value_0());
+		_thisAdjusted.set_has_value_1(((Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B *)(__this + 1))->get_has_value_1());
 	}
 	SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  _returnValue = Nullable_1_GetValueOrDefault_mC26F437B6F75464B478C2034F017313FE56AC1A5_inline(&_thisAdjusted, method);
 	*reinterpret_cast<SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B *>(__this + 1) = _thisAdjusted.get_value_0();
 	return _returnValue;
 }
 // System.String System.Nullable`1<Windows.Perception.Spatial.SpatialRay>::ToString()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Nullable_1_ToString_mE7DF5CCE944029B7E78011C182B01D9D32893459_gshared (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 * __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Nullable_1_ToString_mE7DF5CCE944029B7E78011C182B01D9D32893459_gshared (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -27249,7 +27249,7 @@ IL_001a:
 }
 IL2CPP_EXTERN_C  String_t* Nullable_1_ToString_mE7DF5CCE944029B7E78011C182B01D9D32893459_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
-	Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5  _thisAdjusted;
+	Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B  _thisAdjusted;
 	if (!il2cpp_codegen_is_fake_boxed_object(__this))
 	{
 		_thisAdjusted.set_value_0(*reinterpret_cast<SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B *>(__this + 1));
@@ -27257,18 +27257,18 @@ IL2CPP_EXTERN_C  String_t* Nullable_1_ToString_mE7DF5CCE944029B7E78011C182B01D9D
 	}
 	else
 	{
-		_thisAdjusted.set_value_0(((Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 *)(__this + 1))->get_value_0());
-		_thisAdjusted.set_has_value_1(((Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 *)(__this + 1))->get_has_value_1());
+		_thisAdjusted.set_value_0(((Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B *)(__this + 1))->get_value_0());
+		_thisAdjusted.set_has_value_1(((Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B *)(__this + 1))->get_has_value_1());
 	}
 	String_t* _returnValue = Nullable_1_ToString_mE7DF5CCE944029B7E78011C182B01D9D32893459(&_thisAdjusted, method);
 	*reinterpret_cast<SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B *>(__this + 1) = _thisAdjusted.get_value_0();
 	return _returnValue;
 }
 // System.Object System.Nullable`1<Windows.Perception.Spatial.SpatialRay>::Box(System.Nullable`1<T>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Nullable_1_Box_m94FA51B65BCDEF84130E14B9C01F03B43258C2E3_gshared (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5  ___o0, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Nullable_1_Box_m94FA51B65BCDEF84130E14B9C01F03B43258C2E3_gshared (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B  ___o0, const RuntimeMethod* method)
 {
 	{
-		Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5  L_0 = ___o0;
+		Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B  L_0 = ___o0;
 		bool L_1 = (bool)L_0.get_has_value_1();
 		if (L_1)
 		{
@@ -27281,7 +27281,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Nullable_1_Box_m94FA51B65BCDE
 
 IL_000a:
 	{
-		Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5  L_2 = ___o0;
+		Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B  L_2 = ___o0;
 		SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  L_3 = (SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B )L_2.get_value_0();
 		SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  L_4 = L_3;
 		RuntimeObject * L_5 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 1), &L_4);
@@ -27289,9 +27289,9 @@ IL_000a:
 	}
 }
 // System.Nullable`1<T> System.Nullable`1<Windows.Perception.Spatial.SpatialRay>::Unbox(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5  Nullable_1_Unbox_m5DEE1BD6F646B23F6BDA315D289767FDD98F185F_gshared (RuntimeObject * ___o0, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B  Nullable_1_Unbox_m5DEE1BD6F646B23F6BDA315D289767FDD98F185F_gshared (RuntimeObject * ___o0, const RuntimeMethod* method)
 {
-	Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5  V_0;
+	Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B  V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		RuntimeObject * L_0 = ___o0;
@@ -27301,15 +27301,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC5
 		}
 	}
 	{
-		il2cpp_codegen_initobj((&V_0), sizeof(Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 ));
-		Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5  L_1 = V_0;
+		il2cpp_codegen_initobj((&V_0), sizeof(Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B ));
+		Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B  L_1 = V_0;
 		return L_1;
 	}
 
 IL_000d:
 	{
 		RuntimeObject * L_2 = ___o0;
-		Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5  L_3;
+		Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B  L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		Nullable_1__ctor_m68D9B5C6F6B4081BC8F57E2506DABDB8508EE18F((&L_3), (SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B )((*(SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B *)((SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B *)UnBox(L_2, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 1))))), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		return L_3;
@@ -34353,14 +34353,14 @@ IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR InteractionSource_t21335CC7BE7B9164D14
 		return L_0;
 	}
 }
-IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_m930DD8A0A47CC88D01521CB9B17D73B9C67B2A97_gshared_inline (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 * __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_mCB73A6C23F561C52147A88DACC57913D7AF527A3_gshared_inline (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B * __this, const RuntimeMethod* method)
 {
 	{
 		bool L_0 = (bool)__this->get_has_value_1();
 		return L_0;
 	}
 }
-IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  Nullable_1_GetValueOrDefault_mC26F437B6F75464B478C2034F017313FE56AC1A5_gshared_inline (Nullable_1_t2A4C8E57F35E9EFE980B855AC02D8CCC50BE0FB5 * __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  Nullable_1_GetValueOrDefault_mC26F437B6F75464B478C2034F017313FE56AC1A5_gshared_inline (Nullable_1_t2D7C29286D85F68B3B2285BCE6A7B5B8014A474B * __this, const RuntimeMethod* method)
 {
 	{
 		SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B  L_0 = (SpatialRay_t3D16C2F3DEA64DE3AD8ECA0587068A965A552C2B )__this->get_value_0();

@@ -1,0 +1,1 @@
+C:\Users\colin\Documents\GitHub\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\Hololens Pipe Model\Hololens Pipe Model.vcxproj;arm64

@@ -829,7 +829,7 @@ struct VisualElement_t0EB50F3AD9103B6EEB58682651950BE7C7A4AD57;
 // UnityEngine.Vector2[]
 struct Vector2U5BU5D_tA065A07DFC060C1B8786BBAA5F3A6577CCEB27D6;
 // Windows.UI.ViewManagement.InputPane
-struct InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7;
+struct InputPane_tF641607371837413F8F3D16C71A021541F5E107C;
 
 IL2CPP_EXTERN_C RuntimeClass* AsyncCoroutineRunner_t415D59187B8E27B272A3C8E64621B1D347A9B725_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* AsyncLocalValueChangedArgs_1_t64BF6800935406CA808E9821DF12DBB72A71640D_il2cpp_TypeInfo_var;
@@ -13565,7 +13565,7 @@ public:
 	// Microsoft.MixedReality.Toolkit.Experimental.UI.MixedRealityKeyboardBase_KeyboardState Microsoft.MixedReality.Toolkit.Experimental.UI.MixedRealityKeyboardBase::state
 	int32_t ___state_8;
 	// Windows.UI.ViewManagement.InputPane Microsoft.MixedReality.Toolkit.Experimental.UI.MixedRealityKeyboardBase::inputPane
-	InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * ___inputPane_9;
+	InputPane_tF641607371837413F8F3D16C71A021541F5E107C * ___inputPane_9;
 	// UnityEngine.TouchScreenKeyboard Microsoft.MixedReality.Toolkit.Experimental.UI.MixedRealityKeyboardBase::keyboard
 	TouchScreenKeyboard_t2A69F85698E9780470181532D3F2BC903623FD90 * ___keyboard_10;
 	// UnityEngine.Coroutine Microsoft.MixedReality.Toolkit.Experimental.UI.MixedRealityKeyboardBase::stateUpdate
@@ -13618,9 +13618,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_inputPane_9() { return static_cast<int32_t>(offsetof(MixedRealityKeyboardBase_tDE0AB2B8EC8A0F280215BB0CC270A3FEE13349EF, ___inputPane_9)); }
-	inline InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * get_inputPane_9() const { return ___inputPane_9; }
-	inline InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 ** get_address_of_inputPane_9() { return &___inputPane_9; }
-	inline void set_inputPane_9(InputPane_tC0F0AC015D56AC417D06D8DC3E107C3A87D508F7 * value)
+	inline InputPane_tF641607371837413F8F3D16C71A021541F5E107C * get_inputPane_9() const { return ___inputPane_9; }
+	inline InputPane_tF641607371837413F8F3D16C71A021541F5E107C ** get_address_of_inputPane_9() { return &___inputPane_9; }
+	inline void set_inputPane_9(InputPane_tF641607371837413F8F3D16C71A021541F5E107C * value)
 	{
 		___inputPane_9 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___inputPane_9), (void*)value);

@@ -395,9 +395,9 @@ struct TimeSpanU5BU5D_tACF30B716D863271CE7340AFE41B366570EF6A45;
 // Windows.Foundation.UniversalApiContract[]
 struct UniversalApiContractU5BU5D_t34EEF3C7CA08DBC70ACA767782DD83D7D711FF0F;
 // Windows.Perception.People.HandMeshVertex[]
-struct HandMeshVertexU5BU5D_tDB45C4032E93E7E4151597D02CE340FFAAC2F7AE;
+struct HandMeshVertexU5BU5D_tA8168A3DA6AB631C7BADDBB4D2337087B5BA21B4;
 // Windows.Perception.People.JointPose[]
-struct JointPoseU5BU5D_t7713B8A8B98C45B4BB09A931B34269BA70B5D154;
+struct JointPoseU5BU5D_tA15F154882AA71C24E348C7FB1FB48FD5BCA550F;
 // Windows.Perception.Spatial.SpatialRay[]
 struct SpatialRayU5BU5D_t3ED9805E9E9C01F707021F094D930715F8A3E972;
 // Windows.UI.Xaml.Interop.TypeName[]
@@ -641,8 +641,8 @@ struct SizeU5BU5D_t9B66FD0DE66BE54A0260714C9F6BBD896A4FDD0B;
 struct SizeU5BU5D_t039A7BC3968859A1AC03A46860F6108D053B9D58;
 struct TimeSpanU5BU5D_tACF30B716D863271CE7340AFE41B366570EF6A45;
 struct UniversalApiContractU5BU5D_t34EEF3C7CA08DBC70ACA767782DD83D7D711FF0F;
-struct HandMeshVertexU5BU5D_tDB45C4032E93E7E4151597D02CE340FFAAC2F7AE;
-struct JointPoseU5BU5D_t7713B8A8B98C45B4BB09A931B34269BA70B5D154;
+struct HandMeshVertexU5BU5D_tA8168A3DA6AB631C7BADDBB4D2337087B5BA21B4;
+struct JointPoseU5BU5D_tA15F154882AA71C24E348C7FB1FB48FD5BCA550F;
 struct SpatialRayU5BU5D_t3ED9805E9E9C01F707021F094D930715F8A3E972;
 struct TypeNameU5BU5D_t5639A6C63B43E5933AD3498000C56530312BF3D0;
 
@@ -5042,7 +5042,7 @@ public:
 	}
 };
 // Windows.Perception.People.HandMeshVertex[]
-struct HandMeshVertexU5BU5D_tDB45C4032E93E7E4151597D02CE340FFAAC2F7AE  : public RuntimeArray
+struct HandMeshVertexU5BU5D_tA8168A3DA6AB631C7BADDBB4D2337087B5BA21B4  : public RuntimeArray
 {
 public:
 	ALIGN_FIELD (8) HandMeshVertex_t97CBC783B105CAF080C98A2E7D750023040B41C3  m_Items[1];
@@ -5077,7 +5077,7 @@ public:
 	}
 };
 // Windows.Perception.People.JointPose[]
-struct JointPoseU5BU5D_t7713B8A8B98C45B4BB09A931B34269BA70B5D154  : public RuntimeArray
+struct JointPoseU5BU5D_tA15F154882AA71C24E348C7FB1FB48FD5BCA550F  : public RuntimeArray
 {
 public:
 	ALIGN_FIELD (8) JointPose_tFD55E748576AC22B47EB160A821FCEAD75C509CE  m_Items[1];
@@ -13383,14 +13383,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ReadOnlyCollection_1_Contains_m5720AAED5
 	}
 }
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<Windows.Perception.People.HandMeshVertex>::CopyTo(T[],System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadOnlyCollection_1_CopyTo_m2C350C48CCA923852AEBB4A6F4BB0B940CC22ABD_gshared (ReadOnlyCollection_1_t3F83DAC33ADC3B7A684FDD00CB4FDE19F4F6A4ED * __this, HandMeshVertexU5BU5D_tDB45C4032E93E7E4151597D02CE340FFAAC2F7AE* ___array0, int32_t ___index1, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadOnlyCollection_1_CopyTo_m2C350C48CCA923852AEBB4A6F4BB0B940CC22ABD_gshared (ReadOnlyCollection_1_t3F83DAC33ADC3B7A684FDD00CB4FDE19F4F6A4ED * __this, HandMeshVertexU5BU5D_tA8168A3DA6AB631C7BADDBB4D2337087B5BA21B4* ___array0, int32_t ___index1, const RuntimeMethod* method)
 {
 	{
 		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		HandMeshVertexU5BU5D_tDB45C4032E93E7E4151597D02CE340FFAAC2F7AE* L_1 = ___array0;
+		HandMeshVertexU5BU5D_tA8168A3DA6AB631C7BADDBB4D2337087B5BA21B4* L_1 = ___array0;
 		int32_t L_2 = ___index1;
 		NullCheck((RuntimeObject*)L_0);
-		InterfaceActionInvoker2< HandMeshVertexU5BU5D_tDB45C4032E93E7E4151597D02CE340FFAAC2F7AE*, int32_t >::Invoke(5 /* System.Void System.Collections.Generic.ICollection`1<Windows.Perception.People.HandMeshVertex>::CopyTo(T[],System.Int32) */, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 0), (RuntimeObject*)L_0, (HandMeshVertexU5BU5D_tDB45C4032E93E7E4151597D02CE340FFAAC2F7AE*)L_1, (int32_t)L_2);
+		InterfaceActionInvoker2< HandMeshVertexU5BU5D_tA8168A3DA6AB631C7BADDBB4D2337087B5BA21B4*, int32_t >::Invoke(5 /* System.Void System.Collections.Generic.ICollection`1<Windows.Perception.People.HandMeshVertex>::CopyTo(T[],System.Int32) */, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 0), (RuntimeObject*)L_0, (HandMeshVertexU5BU5D_tA8168A3DA6AB631C7BADDBB4D2337087B5BA21B4*)L_1, (int32_t)L_2);
 		return;
 	}
 }
@@ -13561,7 +13561,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadOnlyCollection_1_System_Collections_
 		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m67D6239F7C7E15E0E0077F03C9B2810E9F0D8FFC_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	HandMeshVertexU5BU5D_tDB45C4032E93E7E4151597D02CE340FFAAC2F7AE* V_0 = NULL;
+	HandMeshVertexU5BU5D_tA8168A3DA6AB631C7BADDBB4D2337087B5BA21B4* V_0 = NULL;
 	Type_t * V_1 = NULL;
 	Type_t * V_2 = NULL;
 	ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* V_3 = NULL;
@@ -13645,8 +13645,8 @@ IL_0033:
 IL_0049:
 	{
 		RuntimeArray * L_10 = ___array0;
-		V_0 = (HandMeshVertexU5BU5D_tDB45C4032E93E7E4151597D02CE340FFAAC2F7AE*)((HandMeshVertexU5BU5D_tDB45C4032E93E7E4151597D02CE340FFAAC2F7AE*)IsInst((RuntimeObject*)L_10, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 4)));
-		HandMeshVertexU5BU5D_tDB45C4032E93E7E4151597D02CE340FFAAC2F7AE* L_11 = V_0;
+		V_0 = (HandMeshVertexU5BU5D_tA8168A3DA6AB631C7BADDBB4D2337087B5BA21B4*)((HandMeshVertexU5BU5D_tA8168A3DA6AB631C7BADDBB4D2337087B5BA21B4*)IsInst((RuntimeObject*)L_10, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 4)));
+		HandMeshVertexU5BU5D_tA8168A3DA6AB631C7BADDBB4D2337087B5BA21B4* L_11 = V_0;
 		if (!L_11)
 		{
 			goto IL_0061;
@@ -13654,10 +13654,10 @@ IL_0049:
 	}
 	{
 		RuntimeObject* L_12 = (RuntimeObject*)__this->get_list_0();
-		HandMeshVertexU5BU5D_tDB45C4032E93E7E4151597D02CE340FFAAC2F7AE* L_13 = V_0;
+		HandMeshVertexU5BU5D_tA8168A3DA6AB631C7BADDBB4D2337087B5BA21B4* L_13 = V_0;
 		int32_t L_14 = ___index1;
 		NullCheck((RuntimeObject*)L_12);
-		InterfaceActionInvoker2< HandMeshVertexU5BU5D_tDB45C4032E93E7E4151597D02CE340FFAAC2F7AE*, int32_t >::Invoke(5 /* System.Void System.Collections.Generic.ICollection`1<Windows.Perception.People.HandMeshVertex>::CopyTo(T[],System.Int32) */, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 0), (RuntimeObject*)L_12, (HandMeshVertexU5BU5D_tDB45C4032E93E7E4151597D02CE340FFAAC2F7AE*)L_13, (int32_t)L_14);
+		InterfaceActionInvoker2< HandMeshVertexU5BU5D_tA8168A3DA6AB631C7BADDBB4D2337087B5BA21B4*, int32_t >::Invoke(5 /* System.Void System.Collections.Generic.ICollection`1<Windows.Perception.People.HandMeshVertex>::CopyTo(T[],System.Int32) */, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 0), (RuntimeObject*)L_12, (HandMeshVertexU5BU5D_tA8168A3DA6AB631C7BADDBB4D2337087B5BA21B4*)L_13, (int32_t)L_14);
 		return;
 	}
 
@@ -14001,14 +14001,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ReadOnlyCollection_1_Contains_m8CFA8E4C9
 	}
 }
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<Windows.Perception.People.JointPose>::CopyTo(T[],System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadOnlyCollection_1_CopyTo_m6B4133AB14F2F0DD686B7C0CAE15CAF52C31569C_gshared (ReadOnlyCollection_1_tEA5033FBE6F6F4D5BA874835364BDEC112267AEC * __this, JointPoseU5BU5D_t7713B8A8B98C45B4BB09A931B34269BA70B5D154* ___array0, int32_t ___index1, const RuntimeMethod* method)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadOnlyCollection_1_CopyTo_m6B4133AB14F2F0DD686B7C0CAE15CAF52C31569C_gshared (ReadOnlyCollection_1_tEA5033FBE6F6F4D5BA874835364BDEC112267AEC * __this, JointPoseU5BU5D_tA15F154882AA71C24E348C7FB1FB48FD5BCA550F* ___array0, int32_t ___index1, const RuntimeMethod* method)
 {
 	{
 		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		JointPoseU5BU5D_t7713B8A8B98C45B4BB09A931B34269BA70B5D154* L_1 = ___array0;
+		JointPoseU5BU5D_tA15F154882AA71C24E348C7FB1FB48FD5BCA550F* L_1 = ___array0;
 		int32_t L_2 = ___index1;
 		NullCheck((RuntimeObject*)L_0);
-		InterfaceActionInvoker2< JointPoseU5BU5D_t7713B8A8B98C45B4BB09A931B34269BA70B5D154*, int32_t >::Invoke(5 /* System.Void System.Collections.Generic.ICollection`1<Windows.Perception.People.JointPose>::CopyTo(T[],System.Int32) */, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 0), (RuntimeObject*)L_0, (JointPoseU5BU5D_t7713B8A8B98C45B4BB09A931B34269BA70B5D154*)L_1, (int32_t)L_2);
+		InterfaceActionInvoker2< JointPoseU5BU5D_tA15F154882AA71C24E348C7FB1FB48FD5BCA550F*, int32_t >::Invoke(5 /* System.Void System.Collections.Generic.ICollection`1<Windows.Perception.People.JointPose>::CopyTo(T[],System.Int32) */, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 0), (RuntimeObject*)L_0, (JointPoseU5BU5D_tA15F154882AA71C24E348C7FB1FB48FD5BCA550F*)L_1, (int32_t)L_2);
 		return;
 	}
 }
@@ -14179,7 +14179,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadOnlyCollection_1_System_Collections_
 		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m86F08724D3111EE539B43A9493681F8F069FAE88_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	JointPoseU5BU5D_t7713B8A8B98C45B4BB09A931B34269BA70B5D154* V_0 = NULL;
+	JointPoseU5BU5D_tA15F154882AA71C24E348C7FB1FB48FD5BCA550F* V_0 = NULL;
 	Type_t * V_1 = NULL;
 	Type_t * V_2 = NULL;
 	ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* V_3 = NULL;
@@ -14263,8 +14263,8 @@ IL_0033:
 IL_0049:
 	{
 		RuntimeArray * L_10 = ___array0;
-		V_0 = (JointPoseU5BU5D_t7713B8A8B98C45B4BB09A931B34269BA70B5D154*)((JointPoseU5BU5D_t7713B8A8B98C45B4BB09A931B34269BA70B5D154*)IsInst((RuntimeObject*)L_10, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 4)));
-		JointPoseU5BU5D_t7713B8A8B98C45B4BB09A931B34269BA70B5D154* L_11 = V_0;
+		V_0 = (JointPoseU5BU5D_tA15F154882AA71C24E348C7FB1FB48FD5BCA550F*)((JointPoseU5BU5D_tA15F154882AA71C24E348C7FB1FB48FD5BCA550F*)IsInst((RuntimeObject*)L_10, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 4)));
+		JointPoseU5BU5D_tA15F154882AA71C24E348C7FB1FB48FD5BCA550F* L_11 = V_0;
 		if (!L_11)
 		{
 			goto IL_0061;
@@ -14272,10 +14272,10 @@ IL_0049:
 	}
 	{
 		RuntimeObject* L_12 = (RuntimeObject*)__this->get_list_0();
-		JointPoseU5BU5D_t7713B8A8B98C45B4BB09A931B34269BA70B5D154* L_13 = V_0;
+		JointPoseU5BU5D_tA15F154882AA71C24E348C7FB1FB48FD5BCA550F* L_13 = V_0;
 		int32_t L_14 = ___index1;
 		NullCheck((RuntimeObject*)L_12);
-		InterfaceActionInvoker2< JointPoseU5BU5D_t7713B8A8B98C45B4BB09A931B34269BA70B5D154*, int32_t >::Invoke(5 /* System.Void System.Collections.Generic.ICollection`1<Windows.Perception.People.JointPose>::CopyTo(T[],System.Int32) */, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 0), (RuntimeObject*)L_12, (JointPoseU5BU5D_t7713B8A8B98C45B4BB09A931B34269BA70B5D154*)L_13, (int32_t)L_14);
+		InterfaceActionInvoker2< JointPoseU5BU5D_tA15F154882AA71C24E348C7FB1FB48FD5BCA550F*, int32_t >::Invoke(5 /* System.Void System.Collections.Generic.ICollection`1<Windows.Perception.People.JointPose>::CopyTo(T[],System.Int32) */, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 0), (RuntimeObject*)L_12, (JointPoseU5BU5D_tA15F154882AA71C24E348C7FB1FB48FD5BCA550F*)L_13, (int32_t)L_14);
 		return;
 	}
 

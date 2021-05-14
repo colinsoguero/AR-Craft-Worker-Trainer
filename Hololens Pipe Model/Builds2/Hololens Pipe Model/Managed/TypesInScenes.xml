@@ -36,7 +36,6 @@
 		<type fullname="UnityEngine.CapsuleCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.BoxCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.SphereCollider" preserve="nothing"/>
-		<type fullname="UnityEngine.TextMesh" preserve="nothing"/>
 		<type fullname="UnityEngine.Canvas" preserve="nothing"/>
 		<type fullname="UnityEngine.RectTransform" preserve="nothing"/>
 		<type fullname="UnityEngine.Motion" preserve="nothing"/>
@@ -61,11 +60,11 @@
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="ButtonLogging" preserve="nothing"/>
+		<type fullname="ChangeTransparency" preserve="nothing"/>
 		<type fullname="CollisionDetection" preserve="nothing"/>
 		<type fullname="FileOutput" preserve="nothing"/>
-		<type fullname="InfoDisplay" preserve="nothing"/>
+		<type fullname="LOD" preserve="nothing"/>
 		<type fullname="Part" preserve="nothing"/>
-		<type fullname="StepThrough" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="CommonScripts">
 		<type fullname="MessageBox" preserve="nothing"/>
