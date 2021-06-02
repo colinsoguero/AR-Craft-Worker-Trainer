@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChangeTransparency : MonoBehaviour
+public class ChangeColor : MonoBehaviour
 {
     [Range(0.0f, 1.0f)]
     public float alphaVal;
@@ -11,7 +11,7 @@ public class ChangeTransparency : MonoBehaviour
     {
         foreach (MeshRenderer m in gameObject.GetComponentsInChildren<MeshRenderer>())
         {
-            //m.material.SetColor("_Color", Color.red);
+            m.material.SetColor("_Color", Color.red);
             Color color = m.material.color;
             m.material.shader = Shader.Find("Transparent/Diffuse");
             color.a = alphaVal;
