@@ -6,16 +6,40 @@ public class LOD : MonoBehaviour
 {
     public GameObject[] models;
 
-    public void Display300()
+    public void Display300Side1()
     {
         ResetModels();
         models[0].SetActive(true);
     }
 
-    public void Display400()
+    public void Display300Side2()
     {
         ResetModels();
         models[1].SetActive(true);
+    }
+
+    public void Display300Side3()
+    {
+        ResetModels();
+        models[2].SetActive(true);
+    }
+
+    public void Display400Side1()
+    {
+        ResetModels();
+        models[3].SetActive(true);
+    }
+
+    public void Display400Side2()
+    {
+        ResetModels();
+        models[4].SetActive(true);
+    }
+
+    public void Display400Side3()
+    {
+        ResetModels();
+        models[5].SetActive(true);
     }
 
     private void ResetModels()

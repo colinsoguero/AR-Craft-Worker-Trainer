@@ -7,73 +7,140 @@ public class ButtonLogging : MonoBehaviour
 {
     FileOutput file;
 
-    bool lengthActive = false;
-    bool partActive = false;
-    bool stepActive = false;
+    bool buttonOneActive = false;
+    bool buttonTwoActive = false;
+    bool buttonThreeActive = false;
+    bool buttonFourActive = false;
+    bool buttonFiveActive = false;
+    bool buttonSixActive = false;
+    
+    public static ButtonLogging instance;
 
     void Start()
     {
+        instance = this;
         file = GetComponent<FileOutput>();
     }
 
-    public void LengthPressed()
+    public void ButtonOnePressed()
     {
-        if(!lengthActive)
+        if(!buttonOneActive)
         {
-            lengthActive = true;
+            buttonOneActive = true;
             string time = System.DateTime.Now.ToString();
             string message = "1,activated," + time;
             file.AddToLog(message);
         }
         else
         {
-            lengthActive = false;
+            buttonOneActive = false;
             string time = System.DateTime.Now.ToString();
             string message = "1,deactivated," + time;
             file.AddToLog(message);
         }
     }
 
-    public void PartPressed()
+    public void ButtonTwoPressed()
     {
-        if(!partActive)
+        if(!buttonTwoActive)
         {
-            partActive = true;
+            buttonTwoActive = true;
             string time = System.DateTime.Now.ToString();
             string message = "2,activated," + time;
             file.AddToLog(message);
         }
         else
         {
-            partActive = false;
+            buttonTwoActive = false;
             string time = System.DateTime.Now.ToString();
             string message = "2,deactivated," + time;
             file.AddToLog(message);
         }
     }
     
-    public void StepPressed()
+    public void ButtonThreePressed()
     {
-        if(!stepActive)
+        if(!buttonThreeActive)
         {
-            stepActive = true;
+            buttonThreeActive = true;
             string time = System.DateTime.Now.ToString();
             string message = "3,activated," + time;
             file.AddToLog(message);
         }
         else
         {
-            stepActive = false;
+            buttonThreeActive = false;
             string time = System.DateTime.Now.ToString();
             string message = "3,deactivated," + time;
             file.AddToLog(message);     
         }
     }
 
-    public void ObjectLookedAt()
+    public void ButtonFourPressed()
+    {
+        if(!buttonFourActive)
+        {
+            buttonFourActive = true;
+            string time = System.DateTime.Now.ToString();
+            string message = "4,activated," + time;
+            file.AddToLog(message);
+        }
+        else
+        {
+            buttonFourActive = false;
+            string time = System.DateTime.Now.ToString();
+            string message = "4,deactivated," + time;
+            file.AddToLog(message);     
+        }
+    }
+
+    public void ButtonFivePressed()
+    {
+        if(!buttonFiveActive)
+        {
+            buttonFiveActive = true;
+            string time = System.DateTime.Now.ToString();
+            string message = "5,activated," + time;
+            file.AddToLog(message);
+        }
+        else
+        {
+            buttonFiveActive = false;
+            string time = System.DateTime.Now.ToString();
+            string message = "5,deactivated," + time;
+            file.AddToLog(message);     
+        }
+    }
+
+    public void ButtonSixPressed()
+    {
+        if(!buttonSixActive)
+        {
+            buttonSixActive = true;
+            string time = System.DateTime.Now.ToString();
+            string message = "6,activated," + time;
+            file.AddToLog(message);
+        }
+        else
+        {
+            buttonSixActive = false;
+            string time = System.DateTime.Now.ToString();
+            string message = "6,deactivated," + time;
+            file.AddToLog(message);     
+        }
+    }
+
+    public void ObjectLookedAt(GameObject go)
     {
         string time = System.DateTime.Now.ToString();
-        string message = "object looked at: " + time;
+        string message = go.name + " looked at: " + time;
+        file.AddToLog(message);
+    }
+
+    public void ObjectLookAway(GameObject go)
+    {
+        string time = System.DateTime.Now.ToString();
+        string message = go.name + " look away: " + time;
         file.AddToLog(message);
     }
 }
