@@ -1805,17 +1805,15 @@ static const Il2CppTokenRangePair s_rgctxIndices[12] =
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[26] = 
 {
-	{ (Il2CppRGCTXDataType)2, 51380 },
-	{ (Il2CppRGCTXDataType)3, 50045 },
-	{ (Il2CppRGCTXDataType)2, 48640 },
-	{ (Il2CppRGCTXDataType)3, 50046 },
-	{ (Il2CppRGCTXDataType)1, 51381 },
-	{ (Il2CppRGCTXDataType)1, 51382 },
-	{ (Il2CppRGCTXDataType)1, 48728 },
+	{ (Il2CppRGCTXDataType)2, 51393 },
 	{ (Il2CppRGCTXDataType)3, 50047 },
-	{ (Il2CppRGCTXDataType)1, 48729 },
+	{ (Il2CppRGCTXDataType)2, 48643 },
 	{ (Il2CppRGCTXDataType)3, 50048 },
+	{ (Il2CppRGCTXDataType)1, 51394 },
+	{ (Il2CppRGCTXDataType)1, 51395 },
+	{ (Il2CppRGCTXDataType)1, 48731 },
 	{ (Il2CppRGCTXDataType)3, 50049 },
+	{ (Il2CppRGCTXDataType)1, 48732 },
 	{ (Il2CppRGCTXDataType)3, 50050 },
 	{ (Il2CppRGCTXDataType)3, 50051 },
 	{ (Il2CppRGCTXDataType)3, 50052 },
@@ -1825,12 +1823,14 @@ static const Il2CppRGCTXDefinition s_rgctxValues[26] =
 	{ (Il2CppRGCTXDataType)3, 50056 },
 	{ (Il2CppRGCTXDataType)3, 50057 },
 	{ (Il2CppRGCTXDataType)3, 50058 },
-	{ (Il2CppRGCTXDataType)2, 48743 },
-	{ (Il2CppRGCTXDataType)2, 48745 },
 	{ (Il2CppRGCTXDataType)3, 50059 },
 	{ (Il2CppRGCTXDataType)3, 50060 },
-	{ (Il2CppRGCTXDataType)2, 48744 },
+	{ (Il2CppRGCTXDataType)2, 48746 },
+	{ (Il2CppRGCTXDataType)2, 48748 },
 	{ (Il2CppRGCTXDataType)3, 50061 },
+	{ (Il2CppRGCTXDataType)3, 50062 },
+	{ (Il2CppRGCTXDataType)2, 48747 },
+	{ (Il2CppRGCTXDataType)3, 50063 },
 };
 extern const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Services_InputSystemCodeGenModule;
 const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Services_InputSystemCodeGenModule = 

@@ -1,0 +1,10 @@
+﻿  pch.cpp
+  App.cpp
+  Main.cpp
+  UnityGenerated.cpp
+C:\Users\colin\Documents\GitHub\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\Hololens Pipe Model\App.cpp(26,1): warning C4973: 'Windows::UI::ViewManagement::IApplicationView2::SuppressSystemOverlays::set': marked as deprecated
+C:\Users\colin\Documents\GitHub\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\Hololens Pipe Model\App.cpp(26,1): message : Message: 'Use the TryEnterFullScreen method and IsFullScreenMode property instead of SuppressSystemOverlays. For more info, see MSDN.'
+  Generating code
+  Finished generating code
+  Hololens Pipe Model.vcxproj -> C:\Users\colin\Documents\GitHub\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\build\bin\ARM64\Release\Hololens Pipe Model.exe
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VisualStudio\v16.0\AppxPackage\Microsoft.AppXPackage.Targets(2717,5): warning APPX0108: The certificate specified has expired. For more information about renewing certificates, see http://go.microsoft.com/fwlink/?LinkID=241478.

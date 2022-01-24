@@ -1,0 +1,24 @@
+C:\Users\colin\Documents\GitHub\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\build\bin\ARM64\Release\resources.pri
+C:\Users\colin\Documents\GitHub\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\build\bin\ARM64\Release\AppxManifest.xml
+C:\Users\colin\Documents\GitHub\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\build\bin\ARM64\Release\Hololens Pipe Model.build.appxrecipe
+C:\Users\colin\Documents\GitHub\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\build\obj\Hololens Pipe Model\ARM64\Release\Hololens Pipe Model.vcxproj.AssemblyReference.cache
+C:\Users\colin\Documents\GitHub\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\build\obj\Hololens Pipe Model\ARM64\Release\Hololens Pipe Model.vcxproj.CopyComplete
+C:\Users\colin\Documents\GitHub\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\build\obj\Hololens Pipe Model\ARM64\Release\ResourceHandlingTask.state
+C:\Users\colin\Documents\GitHub\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\build\obj\Hololens Pipe Model\ARM64\Release\Hololens Pipe Model.vcxproj.GenerateResource.Cache
+C:\Users\colin\Documents\GitHub\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\build\obj\Hololens Pipe Model\ARM64\Release\priconfig.xml
+C:\Users\colin\Documents\GitHub\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\build\obj\Hololens Pipe Model\ARM64\Release\priconfig.xml.intermediate
+C:\Users\colin\Documents\GitHub\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\build\obj\Hololens Pipe Model\ARM64\Release\unfiltered.layout.resfiles
+C:\Users\colin\Documents\GitHub\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\build\obj\Hololens Pipe Model\ARM64\Release\unfiltered.layout.resfiles.intermediate
+C:\Users\colin\Documents\GitHub\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\build\obj\Hololens Pipe Model\ARM64\Release\filtered.layout.resfiles
+C:\Users\colin\Documents\GitHub\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\build\obj\Hololens Pipe Model\ARM64\Release\filtered.layout.resfiles.intermediate
+C:\Users\colin\Documents\GitHub\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\build\obj\Hololens Pipe Model\ARM64\Release\excluded.layout.resfiles
+C:\Users\colin\Documents\GitHub\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\build\obj\Hololens Pipe Model\ARM64\Release\excluded.layout.resfiles.intermediate
+C:\Users\colin\Documents\GitHub\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\build\obj\Hololens Pipe Model\ARM64\Release\resources.resfiles
+C:\Users\colin\Documents\GitHub\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\build\obj\Hololens Pipe Model\ARM64\Release\resources.resfiles.intermediate
+C:\Users\colin\Documents\GitHub\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\build\obj\Hololens Pipe Model\ARM64\Release\pri.resfiles
+C:\Users\colin\Documents\GitHub\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\build\obj\Hololens Pipe Model\ARM64\Release\pri.resfiles.intermediate
+C:\Users\colin\Documents\GitHub\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\build\obj\Hololens Pipe Model\ARM64\Release\qualifiers.txt
+C:\Users\colin\Documents\GitHub\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\build\obj\Hololens Pipe Model\ARM64\Release\qualifiers.txt.intermediate
+C:\Users\colin\Documents\GitHub\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\build\obj\Hololens Pipe Model\ARM64\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Users\colin\Documents\GitHub\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\build\obj\Hololens Pipe Model\ARM64\Release\ProjectArchitectures.txt
+C:\Users\colin\Documents\GitHub\AR-Craft-Worker-Trainer\Hololens Pipe Model\Builds2\build\obj\Hololens Pipe Model\ARM64\Release\.winmd_cache\$UnityPlayer.winmd_637167748020000000.json

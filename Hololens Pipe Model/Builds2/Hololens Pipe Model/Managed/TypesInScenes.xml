@@ -60,11 +60,12 @@
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="ButtonLogging" preserve="nothing"/>
+		<type fullname="ChangeColor" preserve="nothing"/>
 		<type fullname="ChangeTransparency" preserve="nothing"/>
 		<type fullname="CollisionDetection" preserve="nothing"/>
 		<type fullname="FileOutput" preserve="nothing"/>
 		<type fullname="LOD" preserve="nothing"/>
-		<type fullname="Part" preserve="nothing"/>
+		<type fullname="WebRequest" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="CommonScripts">
 		<type fullname="MessageBox" preserve="nothing"/>
@@ -78,6 +79,7 @@
 	</assembly>
 	<assembly fullname="Microsoft.MixedReality.Toolkit.SDK">
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.AnimatedCursor" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.Input.EyeTrackingTarget" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.FingerCursor" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.GGVPointer" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.MeshCursor" preserve="nothing"/>
