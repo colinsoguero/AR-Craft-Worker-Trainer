@@ -11,7 +11,6 @@ public class ChangeTransparency : MonoBehaviour
     {
         foreach (MeshRenderer m in gameObject.GetComponentsInChildren<MeshRenderer>())
         {
-            //m.material.SetColor("_Color", Color.red);
             Color color = m.material.color;
             m.material.shader = Shader.Find("Transparent/Diffuse");
             color.a = alphaVal;

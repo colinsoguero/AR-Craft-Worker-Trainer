@@ -1,23 +1,18 @@
 {
-  "scopedRegistries": [
-    {
-      "name": "Vuforia",
-      "url": "https://registry.packages.developer.vuforia.com/",
-      "scopes": [
-        "com.ptc.vuforia"
-      ]
-    }
-  ],
   "dependencies": {
-    "com.ptc.vuforia.engine": "9.1.7",
-    "com.unity.collab-proxy": "1.2.16",
-    "com.unity.ide.rider": "1.1.4",
-    "com.unity.ide.vscode": "1.1.4",
-    "com.unity.test-framework": "1.1.11",
-    "com.unity.textmeshpro": "2.0.1",
-    "com.unity.timeline": "1.2.10",
+    "com.ptc.vuforia.engine": "file:com.ptc.vuforia.engine-10.2.5.tgz",
+    "com.microsoft.mixedreality.openxr": "file:MixedReality/com.microsoft.mixedreality.openxr-1.1.1.tgz",
+    "com.microsoft.mixedreality.toolkit.foundation": "file:MixedReality/com.microsoft.mixedreality.toolkit.foundation-2.7.2.tgz",
+    "com.microsoft.mixedreality.toolkit.standardassets": "file:MixedReality/com.microsoft.mixedreality.toolkit.standardassets-2.7.2.tgz",
+    "com.unity.collab-proxy": "1.9.0",
+    "com.unity.ide.rider": "2.0.7",
+    "com.unity.ide.visualstudio": "2.0.11",
+    "com.unity.ide.vscode": "1.2.4",
+    "com.unity.test-framework": "1.1.29",
+    "com.unity.textmeshpro": "3.0.6",
+    "com.unity.timeline": "1.4.8",
     "com.unity.ugui": "1.0.0",
-    "com.unity.xr.windowsmr.metro": "4.2.3",
+    "com.unity.xr.openxr": "1.2.8",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
@@ -48,6 +43,8 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0"
+    "com.unity.modules.xr": "1.0.0",
+    "com.microsoft.mixedreality.toolkit.examples": "file:MixedReality/com.microsoft.mixedreality.toolkit.examples-2.7.2.tgz",
+    "com.microsoft.mixedreality.toolkit.extensions": "file:MixedReality/com.microsoft.mixedreality.toolkit.extensions-2.7.2.tgz"
   }
 }

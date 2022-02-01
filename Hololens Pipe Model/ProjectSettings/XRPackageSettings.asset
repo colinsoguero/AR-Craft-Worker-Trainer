@@ -1,7 +1,5 @@
 {
     "m_Settings": [
-        "RemoveLegacyInputHelpersForReload",
-        "ShouldQueryLegacyPackageRemoval",
-        "Windows MR Package Initialization"
+        "RemoveLegacyInputHelpersForReload"
     ]
 }

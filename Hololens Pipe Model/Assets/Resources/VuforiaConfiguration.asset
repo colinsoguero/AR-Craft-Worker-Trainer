@@ -9,34 +9,39 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2067402452, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Script: {fileID: -2067402452, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: AXslN5r/////AAABmaoNJUA2IEBzmkhAXpRFV5ouQU56SAkmQKRTBydcG2dhB85g3h1/9NF490fYdVUXsMEn69q2bONZ2lnS1VDNcylriwSr6Q7fCULJ3YPhtTLcKKqZCpToJlZ/6ZREwssYMtXI8Mbivq7GspJZSp71KEKiOZK7IIFO48Fnz7VrPk2ATpo1dDByeB+A4b1xLcpiIP8HdsRE8VWkFZuvNqmarXJhS3UMPzQdaP3vJ0WrnyCvW+11Hwcy4VlM2haD0cvoArFiGUFSiGGpjhAMuc3LoASupLXvcyqWWMByYzruuU9VnnXkd2pcdvn1FsJ++6d4qdMjT4Pl6NnWZ4RwFSw/sTPwu7MsCoFgt55QXGQBxmRa
-    ufoLicenseKey: QVV2QThEWC8vLy8vQUFBQUtLVk8vUm5IWmt6NHRkR2NoZUlMaU1CVWFRdXBTRk9renE5YUNaYjdaYnV6Y0JmdVlZSTQ2ZjFaV0ZTZ2h3NUxnNVY2SXdyOTNVQk16MEhtbW9Ob0pCZGc2NUQwMzNHOGljTkFURWlDSmNMM1FLaUlsdTZ6NSt1N3laR2VBNW5Ub0MyWENIT1Fqck1nbzdmQWhiSTVqSFJEUFoxeFlXS3ZUdXdJQ001aGVGdVJvTjJqV0d3ZXZ5c2FiaSs0Qm5Db1d0UjNrdWZ5d1Y0TVVwWUJCd2VBVEhKakhBSzg3NEVLeTVDekd2bldKbitIUDJER3BLN2xLZGU4NHI1SmF0a2JaSDNvVmQ5S2E0cmpDRnEyOVJNaUxJaG9qaW9XemlISlpPQzQxVytLOU9LZ0dzY041Q0toYWVHUnBlZUd3ZnJLNHc0QmNyMGdCZ3BoaVpoWG1qRUdlZ0lqQlcwNTZ6YzNpWUJZTkdtT0tWU2Y=
+    vuforiaLicenseKey: AVvdwxj/////AAABmd7innEoYU1Oj90CwibE/P6F8ZFHILBXqGANGWqjSQJBHrSVSlFkH9qFT+JAxzywf50uZDOpazP84WTK9xyBqWlZlHJLhqtYX4l6STwcc0QkgYvkcMUIYTHpJ6zGh6aPl9J2zxKLtDaAEtKqbJRWGeQ02qoKsYPM2UrSfXJHdGGUQjL03MX5v9CWaa6PMl6F+X3rblXzIYylxU38AIB/GoirpDcrqZ1UN1TXD1s6PLoOEqBXNdtJYmnZpbFSED0ZQ5eWQGkRr+TY5plQ1WE4vv1PJl/IDmBOguc5txGddoyjjAp6vCR86HHfj8VKwxrBCAB/0QfEsuM2cx0PYxgxWIno0/Z+rMNWOWD1B67RPcQm
+    ufoLicenseKey: QVhiM0Y1Ly8vLy8vQUFBQUtPbnFIeHJFSGs1N3VrMlg4U050eVBzK2pkOFZxMDhrazlwYjBsYS9aZUIxQlV1ckZWcWt0ZllSQWpnT2tIRlY2VzdOMDRTRjNYRUhmbTF5L1BnYlB4eWdHWEF6RUNheXowc3dyNVNYa2ozdERuRjhka1FpOHRscHdkMDcrcEJEY1FjTjNJcUM1bEgwOTYzQkdZdjRsQStRb0hSQU9nRGthelp5TlY0WHVwWU9EaE05NWw5bXAzbnBDMjM5MWZBWXBFdEdiL2loTDNab3N4b25ZblhjK1JtSS9wLzRoTDIwVGhmTXR6WFJNYkpUTXZLZzJoQ0N0TEJXNEptZ0pSOUtSdStzQWM3QjVNOWFFMGVHQ1dUT1VRSUUweEpiZC9ZL2cvS29iNDhBRXdQOGFwbWR5NmRWU0FHU2psVzRZY2FEU2Zud3J1ZHhucVNmSUZiajNTUnIzM0lKVlFIaW1rL0oyOGNFeDdyekcySXg=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 2
+    maxSimultaneousImageTargets: 1
     maxSimultaneousObjectTargets: 1
     virtualSceneScaleFactor: 1
     useDelayedLoadingObjectTargets: 0
-    modelTargetRecoWhileExtendedTracked: 1
-    version: 9.1.7
-    eulaAcceptedVersions: '{"Values":["","0.0","9.0","8.0","8.3","9.1","9.3","8.5","9.4","9.7","10.2"]}'
-    modelTargetMode: 0
+    modelTargetRecoWhileExtendedTracked: 0
+    shareRecordingsInITunes: 0
+    version: 10.2.5
+    eulaAcceptedVersions: '{"Values":["0.0","8.0","8.3","9.0","9.1","9.3","8.5","9.4","9.7","10.2"]}'
   database:
     disableModelExtraction: 0
+  shaders:
+    depthMaskShader: {fileID: 4800000, guid: 1ce7eb78425fb1540838bc9d5d95857a, type: 3}
   videoBackground:
     numDivisions: 2
-    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
-      type: 3}
-    videoBackgroundEnabled: 1
+    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a, type: 3}
+    unlitShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+    videoBackgroundEnabled: 0
   deviceTracker:
     autoStartTracker: 1
     arcoreRequirement: 0
     autoImportArcore: 0
   playmode:
+    mSequencePath: 
     playModeType: 0
   webcam:
     renderTextureLayer: 30
+  packageInformation:
+    ARFoundationVersion: 4.1.7
