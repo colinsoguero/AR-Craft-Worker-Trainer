@@ -89,6 +89,11 @@ public class WebRequest : MonoBehaviour
                                 GetComponent<LOD>().Display300Side3();
                             break;                    
                         }
+                        case 4:
+                        {
+                            GetComponent<LOD>().DisplayTestSide();   
+                            break;              
+                        }
                     }
                     prevInfo = info;
                     break;

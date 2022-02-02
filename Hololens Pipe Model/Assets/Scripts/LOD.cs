@@ -42,6 +42,12 @@ public class LOD : MonoBehaviour
         models[5].SetActive(true);
     }
 
+    public void DisplayTestSide()
+    {
+        ResetModels();
+        models[6].SetActive(true);
+    }
+
     private void ResetModels()
     {
         foreach(GameObject model in models)
